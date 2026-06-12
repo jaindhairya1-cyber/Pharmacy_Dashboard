@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Pharmacy Sales Analytics Dashboard — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+
+    body{
+      font-family:'Inter',sans-serif;
+      background:#F8FAFC;
+      color:#1F2937;
+      line-height:1.6;
+    }
+
+    /* ── NAV ── */
+    nav{
+      position:fixed;top:0;left:0;width:100%;
+      background:rgba(255,255,255,0.96);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid #E5E7EB;
+      padding:0 48px;height:64px;
+      display:flex;align-items:center;
+      justify-content:space-between;z-index:1000;
+      box-shadow:0 1px 3px rgba(0,0,0,0.08);
+    }
+    .nav-logo{
+      font-size:1.1rem;font-weight:800;
+      color:#1B2A4A;display:flex;
+      align-items:center;gap:8px;
+    }
+    .nav-pill{
+      background:#EEF2FF;color:#2D5BE3;
+      padding:3px 10px;border-radius:20px;
+      font-size:0.72rem;font-weight:700;
+    }
+    .nav-links{display:flex;gap:28px;list-style:none}
+    .nav-links a{
+      color:#6B7280;text-decoration:none;
+      font-size:0.88rem;font-weight:500;
+      transition:color 0.25s;
+    }
+    .nav-links a:hover{color:#2D5BE3}
+
+    /* ── HERO ── */
+    .hero{
+      min-height:100vh;
+      display:flex;flex-direction:column;
+      align-items:center;justify-content:center;
+      text-align:center;
+      padding:100px 24px 60px;
+      background:linear-gradient(160deg,#F8FAFC 0%,#EEF2FF 50%,#F0FDF4 100%);
+      position:relative;overflow:hidden;
+    }
+    .hero::before{
+      content:'';position:absolute;
+      width:700px;height:700px;
+      background:radial-gradient(circle,rgba(45,91,227,0.06) 0%,transparent 70%);
+      top:50%;left:50%;transform:translate(-50%,-50%);
+      border-radius:50%;
+    }
+    .hero-badge{
+      background:#EEF2FF;border:1px solid #C7D7FD;
+      color:#2D5BE3;padding:6px 18px;
+      border-radius:20px;font-size:0.78rem;
+      font-weight:700;letter-spacing:0.8px;
+      text-transform:uppercase;margin-bottom:24px;
+    }
+    .hero h1{
+      font-size:clamp(2.2rem,5vw,3.8rem);
+      font-weight:800;color:#1B2A4A;
+      line-height:1.15;margin-bottom:20px;
+      letter-spacing:-1.5px;
+    }
+    .hero h1 span{color:#2D5BE3}
+    .hero p{
+      font-size:1.05rem;color:#6B7280;
+      max-width:580px;margin-bottom:40px;
+    }
+
+    /* ── KPI CARDS ── */
+    .kpi-grid{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:16px;max-width:900px;width:100%;
+      margin-bottom:40px;
+    }
+    .kpi-card{
+      background:#fff;
+      border:1px solid #E5E7EB;
+      border-radius:14px;padding:22px 18px;
+      text-align:center;
+      transition:transform 0.3s,box-shadow 0.3s,border-color 0.3s;
+      box-shadow:0 1px 4px rgba(0,0,0,0.06);
+    }
+    .kpi-card:hover{
+      transform:translateY(-5px);
+      box-shadow:0 8px 24px rgba(45,91,227,0.12);
+      border-color:#2D5BE3;
+    }
+    .kpi-icon{font-size:1.8rem;margin-bottom:8px}
+    .kpi-value{
+      font-size:1.5rem;font-weight:800;
+      margin-bottom:4px;
+    }
+    .kpi-label{
+      font-size:0.72rem;color:#6B7280;
+      font-weight:600;text-transform:uppercase;
+      letter-spacing:0.5px;
+    }
+    .kpi-sub{font-size:0.72rem;color:#9CA3AF;margin-top:4px}
+
+    /* ── BUTTONS ── */
+    .hero-buttons{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+    .btn{
+      padding:13px 28px;border-radius:10px;
+      font-size:0.92rem;font-weight:700;
+      text-decoration:none;transition:all 0.3s;
+      border:none;display:inline-flex;
+      align-items:center;gap:8px;cursor:pointer;
+    }
+    .btn-primary{background:#1B2A4A;color:#fff}
+    .btn-primary:hover{background:#2D5BE3;transform:translateY(-2px);box-shadow:0 6px 20px rgba(45,91,227,0.3)}
+    .btn-outline{background:#fff;color:#2D5BE3;border:2px solid #2D5BE3}
+    .btn-outline:hover{background:#EEF2FF;transform:translateY(-2px)}
+
+    /* ── SECTION ── */
+    section{padding:80px 48px;max-width:1320px;margin:0 auto}
+    .section-header{text-align:center;margin-bottom:48px}
+    .section-badge{
+      display:inline-block;
+      background:#EEF2FF;border:1px solid #C7D7FD;
+      color:#2D5BE3;padding:4px 14px;
+      border-radius:20px;font-size:0.72rem;
+      font-weight:700;letter-spacing:0.8px;
+      text-transform:uppercase;margin-bottom:12px;
+    }
+    .section-header h2{
+      font-size:clamp(1.8rem,3vw,2.5rem);
+      font-weight:800;color:#1B2A4A;
+      margin-bottom:10px;letter-spacing:-0.5px;
+    }
+    .section-header p{color:#6B7280;font-size:1rem;max-width:580px;margin:0 auto}
+
+    /* ── CHART CARDS ── */
+    .chart-card{
+      background:#fff;
+      border:1px solid #E5E7EB;
+      border-radius:16px;overflow:hidden;
+      transition:transform 0.3s,box-shadow 0.3s,border-color 0.3s;
+      cursor:zoom-in;
+      box-shadow:0 1px 4px rgba(0,0,0,0.06);
+    }
+    .chart-card:hover{
+      transform:translateY(-6px);
+      border-color:#2D5BE3;
+      box-shadow:0 12px 36px rgba(45,91,227,0.12);
+    }
+    .chart-header{
+      padding:14px 20px;
+      border-bottom:1px solid #F3F4F6;
+      display:flex;align-items:center;gap:8px;
+      background:#FAFAFA;
+    }
+    .dot{width:10px;height:10px;border-radius:50%}
+    .chart-title{
+      font-size:0.88rem;font-weight:700;
+      color:#1B2A4A;flex:1;
+    }
+    .chart-badge{
+      font-size:0.68rem;padding:3px 10px;
+      border-radius:20px;font-weight:700;
+    }
+    .chart-card img{
+      width:100%;display:block;
+      transition:transform 0.4s;
+    }
+    .chart-card:hover img{transform:scale(1.015)}
+    .chart-footer{
+      padding:12px 20px;
+      background:#FAFAFA;
+      font-size:0.8rem;color:#6B7280;
+      border-top:1px solid #F3F4F6;line-height:1.5;
+    }
+    .chart-footer strong{color:#2D5BE3}
+
+    /* ── GRID LAYOUTS ── */
+    .grid-1{display:grid;grid-template-columns:1fr;gap:24px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+
+    /* ── ALT SECTIONS ── */
+    .section-alt{background:#F8FAFC;border-top:1px solid #E5E7EB;border-bottom:1px solid #E5E7EB}
+    .section-dark{background:#1B2A4A}
+    .section-dark .section-header h2{color:#fff}
+    .section-dark .section-header p{color:#94A3B8}
+    .section-dark .section-badge{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.2);color:#93C5FD}
+
+    /* ── INSIGHTS ── */
+    .insights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .insight-card{
+      background:#fff;border:1px solid #E5E7EB;
+      border-radius:14px;padding:24px;
+      transition:border-color 0.3s,transform 0.3s,box-shadow 0.3s;
+      box-shadow:0 1px 3px rgba(0,0,0,0.05);
+    }
+    .insight-card:hover{
+      border-color:#2D5BE3;transform:translateY(-3px);
+      box-shadow:0 8px 24px rgba(45,91,227,0.1);
+    }
+    .insight-num{font-size:1.8rem;font-weight:800;color:#EEF2FF;margin-bottom:6px}
+    .insight-icon{font-size:1.4rem;margin-bottom:10px}
+    .insight-card h4{font-size:0.92rem;font-weight:700;color:#1B2A4A;margin-bottom:8px}
+    .insight-card p{font-size:0.8rem;color:#6B7280;line-height:1.55}
+
+    /* ── TOOLS ── */
+    .tools-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .tool-card{
+      background:#fff;border:1px solid #E5E7EB;
+      border-radius:14px;padding:28px 20px;
+      text-align:center;
+      transition:all 0.3s;
+      box-shadow:0 1px 3px rgba(0,0,0,0.05);
+    }
+    .tool-card:hover{
+      border-color:#2D5BE3;transform:translateY(-4px);
+      box-shadow:0 8px 24px rgba(45,91,227,0.1);
+    }
+    .tool-icon{font-size:2rem;margin-bottom:12px}
+    .tool-name{font-size:0.95rem;font-weight:700;color:#1B2A4A;margin-bottom:6px}
+    .tool-desc{font-size:0.77rem;color:#6B7280}
+
+    /* ── PROCESS ── */
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+    .process-card{
+      background:#fff;border:1px solid #E5E7EB;
+      border-radius:14px;padding:28px 20px;
+      text-align:center;
+      transition:all 0.3s;
+      box-shadow:0 1px 3px rgba(0,0,0,0.05);
+    }
+    .process-card:hover{
+      border-color:#2D5BE3;transform:translateY(-4px);
+      box-shadow:0 8px 24px rgba(45,91,227,0.1);
+    }
+    .process-step{
+      width:42px;height:42px;
+      background:#2D5BE3;color:#fff;
+      border-radius:50%;display:flex;
+      align-items:center;justify-content:center;
+      font-weight:800;font-size:1rem;
+      margin:0 auto 16px;
+    }
+    .process-card h4{font-size:0.92rem;font-weight:700;color:#1B2A4A;margin-bottom:8px}
+    .process-card p{font-size:0.78rem;color:#6B7280}
+
+    /* ── FOOTER ── */
+    footer{
+      background:#1B2A4A;
+      padding:48px;text-align:center;
+    }
+    footer p{color:#94A3B8;font-size:0.85rem}
+    footer span{color:#93C5FD;font-weight:600}
+    footer a{color:#93C5FD;text-decoration:none}
+    footer a:hover{color:#fff}
+
+    /* ── LIGHTBOX ── */
+    .lightbox{
+      display:none;position:fixed;
+      top:0;left:0;width:100%;height:100%;
+      background:rgba(15,23,42,0.94);
+      z-index:9999;align-items:center;
+      justify-content:center;padding:24px;
+      cursor:zoom-out;
+    }
+    .lightbox.active{display:flex}
+    .lightbox img{
+      max-width:95%;max-height:92vh;
+      border-radius:14px;
+      box-shadow:0 24px 80px rgba(0,0,0,0.6);
+      cursor:default;
+    }
+    .lb-close{
+      position:fixed;top:20px;right:28px;
+      font-size:2.2rem;color:#fff;
+      cursor:pointer;opacity:0.7;
+      transition:opacity 0.2s;line-height:1;
+    }
+    .lb-close:hover{opacity:1}
+    .lb-hint{
+      position:fixed;bottom:20px;left:50%;
+      transform:translateX(-50%);
+      background:rgba(255,255,255,0.1);
+      color:#fff;padding:8px 20px;
+      border-radius:20px;font-size:0.78rem;
+    }
+
+    /* ── SCROLL REVEAL ── */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity 0.6s,transform 0.6s}
+    .reveal.visible{opacity:1;transform:translateY(0)}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:1024px){
+      .kpi-grid{grid-template-columns:repeat(2,1fr)}
+      .grid-3,.insights-grid,.tools-grid,.process-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:768px){
+      nav{padding:0 20px}
+      .nav-links{display:none}
+      section{padding:60px 20px}
+      .kpi-grid,.grid-2,.grid-3,.insights-grid,.tools-grid,.process-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lb" onclick="closeLB()">
+  <span class="lb-close" onclick="closeLB()">✕</span>
+  <img id="lb-img" src="" alt="" onclick="event.stopPropagation()"/>
+  <div class="lb-hint">Press ESC or click outside to close</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    💊 Pharmacy Analytics
+    <span class="nav-pill">Portfolio Project</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#dashboard">Dashboard</a></li>
+    <li><a href="#analysis">Analysis</a></li>
+    <li><a href="#insights">Insights</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#tools">Tools</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="top">
+  <div class="hero-badge">💊 Healthcare Data Analytics Portfolio</div>
+  <h1>Pharmacy Sales<br/><span>Analytics Dashboard</span></h1>
+  <p>End-to-end data analytics project on pharmacy retail sales.
+     Python · Pandas · Matplotlib · Seaborn · Power BI.</p>
+
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-icon">💰</div>
+      <div class="kpi-value" style="color:#2D5BE3">₹52.4L</div>
+      <div class="kpi-label">Total Revenue</div>
+      <div class="kpi-sub">+12.4% YoY</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-icon">📦</div>
+      <div class="kpi-value" style="color:#0E9E6E">₹16.8L</div>
+      <div class="kpi-label">Total Profit</div>
+      <div class="kpi-sub">+8.7% YoY</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-icon">🛒</div>
+      <div class="kpi-value" style="color:#F07C2A">1,000</div>
+      <div class="kpi-label">Total Orders</div>
+      <div class="kpi-sub">₹5,240 avg value</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-icon">📊</div>
+      <div class="kpi-value" style="color:#7B2FBE">32.1%</div>
+      <div class="kpi-label">Profit Margin</div>
+      <div class="kpi-sub">Industry avg: 20%</div>
+    </div>
+  </div>
+
+  <div class="hero-buttons">
+    <a href="#dashboard" class="btn btn-primary">🔍 View Dashboard</a>
+    <a href="https://github.com" target="_blank" class="btn btn-outline">⭐ GitHub Repo</a>
+  </div>
+</div>
+
+<!-- MAIN DASHBOARD -->
+<section id="dashboard">
+  <div class="section-header reveal">
+    <div class="section-badge">Main Overview</div>
+    <h2>📊 Complete Analytics Dashboard</h2>
+    <p>All KPIs, trends, and breakdowns in one professional view.
+       Click any chart to enlarge.</p>
+  </div>
+  <div class="grid-1 reveal">
+    <div class="chart-card" onclick="openLB('charts/01_main_dashboard.png')">
+      <div class="chart-header">
+        <div class="dot" style="background:#0E9E6E"></div>
+        <div class="dot" style="background:#F07C2A"></div>
+        <div class="dot" style="background:#E53E3E"></div>
+        <span class="chart-title">📊 Pharmacy Sales Analytics Dashboard — Full Overview</span>
+        <span class="chart-badge" style="background:#EEF2FF;color:#2D5BE3">FEATURED</span>
+      </div>
+      <img src="charts/01_main_dashboard.png" alt="Main Dashboard"/>
+      <div class="chart-footer">
+        🔍 <strong>What this shows:</strong>
+        KPI cards (Revenue, Profit, Orders, Margin), monthly trend line,
+        regional breakdown, category pie, top products, quarterly bars,
+        top customers, and margin by category — all in one dashboard.
+        Click to enlarge.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TREND ANALYSIS -->
+<div class="section-alt" id="analysis">
+  <section style="max-width:1320px;margin:0 auto">
+    <div class="section-header reveal">
+      <div class="section-badge">Trends</div>
+      <h2>📅 Revenue & Profit Trends</h2>
+      <p>Monthly performance patterns across the financial year.</p>
+    </div>
+    <div class="grid-1 reveal">
+      <div class="chart-card" onclick="openLB('charts/02_revenue_profit_trend.png')">
+        <div class="chart-header">
+          <div class="dot" style="background:#0E9E6E"></div>
+          <div class="dot" style="background:#F07C2A"></div>
+          <div class="dot" style="background:#E53E3E"></div>
+          <span class="chart-title">📅 Monthly Revenue & Profit Trend — 2023</span>
+          <span class="chart-badge" style="background:#E6F7F2;color:#0E9E6E">TREND</span>
+        </div>
+        <img src="charts/02_revenue_profit_trend.png" alt="Revenue Trend"/>
+        <div class="chart-footer">
+          🔍 <strong>Insight:</strong>
+          Identifies peak and low sales months. Revenue line shows growth trajectory.
+          Profit bars reveal which months have healthy vs thin margins.
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- CATEGORY ANALYSIS -->
+<section>
+  <div class="section-header reveal">
+    <div class="section-badge">Categories</div>
+    <h2>📦 Category Performance Analysis</h2>
+    <p>Revenue, profit, and margin breakdown across all product categories.</p>
+  </div>
+  <div class="grid-1 reveal">
+    <div class="chart-card" onclick="openLB('charts/03_category_analysis.png')">
+      <div class="chart-header">
+        <div class="dot" style="background:#0E9E6E"></div>
+        <div class="dot" style="background:#F07C2A"></div>
+        <div class="dot" style="background:#E53E3E"></div>
+        <span class="chart-title">📦 Category Analysis — Revenue, Profit & Margin</span>
+        <span class="chart-badge" style="background:#FEF3E8;color:#F07C2A">CATEGORY</span>
+      </div>
+      <img src="charts/03_category_analysis.png" alt="Category Analysis"/>
+      <div class="chart-footer">
+        🔍 <strong>Insight:</strong>
+        Three-panel view: revenue by category, profit contribution,
+        and average profit margin. High-margin categories like Cosmetics
+        and Supplements should be pushed at point of sale.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HEATMAP + PRODUCTS -->
+<div class="section-alt">
+  <section style="max-width:1320px;margin:0 auto">
+    <div class="section-header reveal">
+      <div class="section-badge">Deep Dive</div>
+      <h2>🔥 Revenue Heatmap & Product Analysis</h2>
+      <p>Seasonal patterns and individual product performance.</p>
+    </div>
+    <div class="grid-2 reveal">
+      <div class="chart-card" onclick="openLB('charts/04_revenue_heatmap.png')">
+        <div class="chart-header">
+          <div class="dot" style="background:#0E9E6E"></div>
+          <div class="dot" style="background:#F07C2A"></div>
+          <div class="dot" style="background:#E53E3E"></div>
+          <span class="chart-title">🔥 Monthly Revenue Heatmap</span>
+          <span class="chart-badge" style="background:#EEF2FF;color:#2D5BE3">HEATMAP</span>
+        </div>
+        <img src="charts/04_revenue_heatmap.png" alt="Heatmap"/>
+        <div class="chart-footer">
+          🔍 <strong>Insight:</strong>
+          Darker blue = higher revenue. Reveals which category performs
+          best in which month. Essential for seasonal inventory planning.
+        </div>
+      </div>
+      <div class="chart-card" onclick="openLB('charts/05_product_analysis.png')">
+        <div class="chart-header">
+          <div class="dot" style="background:#0E9E6E"></div>
+          <div class="dot" style="background:#F07C2A"></div>
+          <div class="dot" style="background:#E53E3E"></div>
+          <span class="chart-title">🏆 Top & Bottom Products</span>
+          <span class="chart-badge" style="background:#E6F7F2;color:#0E9E6E">PRODUCTS</span>
+        </div>
+        <img src="charts/05_product_analysis.png" alt="Products"/>
+        <div class="chart-footer">
+          🔍 <strong>Insight:</strong>
+          Left = revenue champions to prioritise. Right = underperformers
+          to review, reprice, or remove from inventory.
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- PAYMENT + MARGIN -->
+<section>
+  <div class="section-header reveal">
+    <div class="section-badge">Behaviour</div>
+    <h2>💳 Payment & Profitability Analysis</h2>
+    <p>Customer payment patterns and margin distribution insights.</p>
+  </div>
+  <div class="grid-2 reveal">
+    <div class="chart-card" onclick="openLB('charts/06_payment_weekday.png')">
+      <div class="chart-header">
+        <div class="dot" style="background:#0E9E6E"></div>
+        <div class="dot" style="background:#F07C2A"></div>
+        <div class="dot" style="background:#E53E3E"></div>
+        <span class="chart-title">💳 Payment Method & Weekday Sales</span>
+        <span class="chart-badge" style="background:#FEF3E8;color:#F07C2A">BEHAVIOUR</span>
+      </div>
+      <img src="charts/06_payment_weekday.png" alt="Payment"/>
+      <div class="chart-footer">
+        🔍 <strong>Insight:</strong>
+        Identifies preferred payment channels. Weekend vs weekday sales
+        pattern guides staffing decisions.
+      </div>
+    </div>
+    <div class="chart-card" onclick="openLB('charts/07_correlation_heatmap.png')">
+      <div class="chart-header">
+        <div class="dot" style="background:#0E9E6E"></div>
+        <div class="dot" style="background:#F07C2A"></div>
+        <div class="dot" style="background:#E53E3E"></div>
+        <span class="chart-title">🔗 Correlation Matrix</span>
+        <span class="chart-badge" style="background:#EEF2FF;color:#2D5BE3">STATS</span>
+      </div>
+      <img src="charts/07_correlation_heatmap.png" alt="Correlation"/>
+      <div class="chart-footer">
+        🔍 <strong>Insight:</strong>
+        Statistical relationships between all key metrics.
+        Strong Sales-Profit correlation confirms healthy pricing strategy.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARGIN DISTRIBUTION -->
+<div class="section-alt">
+  <section style="max-width:1320px;margin:0 auto">
+    <div class="section-header reveal">
+      <div class="section-badge">Profitability</div>
+      <h2>📊 Profit Margin Deep Dive</h2>
+      <p>Distribution and consistency of margins across categories.</p>
+    </div>
+    <div class="grid-1 reveal">
+      <div class="chart-card" onclick="openLB('charts/08_profit_margin_dist.png')">
+        <div class="chart-header">
+          <div class="dot" style="background:#0E9E6E"></div>
+          <div class="dot" style="background:#F07C2A"></div>
+          <div class="dot" style="background:#E53E3E"></div>
+          <span class="chart-title">📊 Profit Margin Distribution by Category & Overall</span>
+          <span class="chart-badge" style="background:#E6F7F2;color:#0E9E6E">MARGIN</span>
+        </div>
+        <img src="charts/08_profit_margin_dist.png" alt="Margin"/>
+        <div class="chart-footer">
+          🔍 <strong>Insight:</strong>
+          Box plot shows margin spread per category. Wide boxes indicate
+          inconsistent pricing. Histogram shows overall margin distribution
+          — ideally bell-shaped around 30%.
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- INSIGHTS -->
+<div class="section-dark" id="insights">
+  <section style="max-width:1320px;margin:0 auto">
+    <div class="section-header reveal">
+      <div class="section-badge">Intelligence</div>
+      <h2>💡 15 Executive Business Insights</h2>
+      <p>Actionable findings derived from the complete analysis.</p>
+    </div>
+    <div class="insights-grid">
+
+      <div class="insight-card reveal">
+        <div class="insight-icon">💰</div>
+        <div class="insight-num">01</div>
+        <h4>Revenue Above Target</h4>
+        <p>Total revenue of ₹52.4L with 32.1% margin exceeds industry average of 20% — strong financial health.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📦</div>
+        <div class="insight-num">02</div>
+        <h4>Top Category Identified</h4>
+        <p>Prescription Drugs lead revenue but have lower margins. Cross-sell OTC products to improve overall profitability.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🏆</div>
+        <div class="insight-num">03</div>
+        <h4>#1 Product Never Out of Stock</h4>
+        <p>Top-selling product drives disproportionate revenue. Stock levels must be monitored daily to prevent lost sales.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🗺️</div>
+        <div class="insight-num">04</div>
+        <h4>Best Branch Practices</h4>
+        <p>Top-performing branch practices should be documented and replicated across all other branches systematically.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📅</div>
+        <div class="insight-num">05</div>
+        <h4>Peak Month = Pre-load Inventory</h4>
+        <p>Peak sales month identified. Inventory should be pre-loaded 3 weeks in advance to avoid stockouts.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📉</div>
+        <div class="insight-num">06</div>
+        <h4>Weak Month = Run Promotions</h4>
+        <p>Lowest sales month should trigger loyalty campaigns, buy-one-get-one offers, and doctor tie-up referrals.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">💎</div>
+        <div class="insight-num">07</div>
+        <h4>Cosmetics = Hidden Profit Engine</h4>
+        <p>Cosmetics & Skincare has the highest profit margin. Train staff to recommend these at checkout actively.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">👤</div>
+        <div class="insight-num">08</div>
+        <h4>VIP Customer Programme Needed</h4>
+        <p>Top 10 customers contribute ~20% of revenue. A loyalty card programme can protect this revenue from competitors.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🛒</div>
+        <div class="insight-num">09</div>
+        <h4>Bundle Deals Increase AOV</h4>
+        <p>Average order value of ₹5,240 can be pushed to ₹6,500+ through medicine + supplement bundle packages.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">💳</div>
+        <div class="insight-num">10</div>
+        <h4>UPI Adoption Growing</h4>
+        <p>UPI payments are rising rapidly. Ensure all billing counters have visible QR codes and fast payment processing.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📆</div>
+        <div class="insight-num">11</div>
+        <h4>Weekend Staff Surge</h4>
+        <p>Weekend sales significantly higher than weekdays. Deploy 2 additional pharmacists every Saturday and Sunday.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">⚠️</div>
+        <div class="insight-num">12</div>
+        <h4>Underperforming Products Review</h4>
+        <p>Bottom 5 products have very low revenue despite shelf space. Quarterly review needed to replace with faster movers.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🏥</div>
+        <div class="insight-num">13</div>
+        <h4>Doctor Tie-ups Drive Rx Sales</h4>
+        <p>Prescription drug volumes indicate strong doctor referrals. Formalise tie-ups with 10 more local clinics.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">📊</div>
+        <div class="insight-num">14</div>
+        <h4>Q4 Surge Preparation</h4>
+        <p>Q4 historically peaks in pharma due to flu/cold season. Increase cold, cough, and immunity supplement stocks in September.</p>
+      </div>
+      <div class="insight-card reveal">
+        <div class="insight-icon">🔗</div>
+        <div class="insight-num">15</div>
+        <h4>Sales-Profit Correlation Strong</h4>
+        <p>High correlation between sales and profit confirms good pricing discipline. Maintain current markup structure.</p>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-header reveal">
+    <div class="section-badge">Methodology</div>
+    <h2>⚙️ Project Workflow</h2>
+    <p>The complete analytical process followed in this project.</p>
+  </div>
+  <div class="process-grid">
+    <div class="process-card reveal"><div class="process-step">1</div><h4>Business Understanding</h4><p>Defined KPIs, business questions, and stakeholder goals.</p></div>
+    <div class="process-card reveal"><div class="process-step">2</div><h4>Data Understanding</h4><p>Profiled all columns, data types, and unique values.</p></div>
+    <div class="process-card reveal"><div class="process-step">3</div><h4>Data Quality Audit</h4><p>Checked nulls, duplicates, outliers. Scored data quality 95/100.</p></div>
+    <div class="process-card reveal"><div class="process-step">4</div><h4>Data Cleaning</h4><p>Removed invalid rows, fixed types, standardized text fields.</p></div>
+    <div class="process-card reveal"><div class="process-step">5</div><h4>Feature Engineering</h4><p>Added Month, Quarter, Profit Margin %, Is_Weekend, and more.</p></div>
+    <div class="process-card reveal"><div class="process-step">6</div><h4>EDA & Analysis</h4><p>Complete exploratory analysis across all dimensions.</p></div>
+    <div class="process-card reveal"><div class="process-step">7</div><h4>Visualization</h4><p>8 professional light-theme charts using Matplotlib & Seaborn.</p></div>
+    <div class="process-card reveal"><div class="process-step">8</div><h4>Power BI Dashboard</h4><p>Interactive dashboard with DAX measures and slicers.</p></div>
+    <div class="process-card reveal"><div class="process-step">9</div><h4>Storytelling</h4><p>15 executive-level insights with business recommendations.</p></div>
+    <div class="process-card reveal"><div class="process-step">10</div><h4>Documentation</h4><p>GitHub README, project docs, and portfolio page.</p></div>
+    <div class="process-card reveal"><div class="process-step">11</div><h4>Interview Prep</h4><p>25 Q&A pairs prepared for data analyst interviews.</p></div>
+    <div class="process-card reveal"><div class="process-step">12</div><h4>Portfolio Deploy</h4><p>Hosted on GitHub Pages for recruiter access.</p></div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<div class="section-alt" id="tools">
+  <section style="max-width:1320px;margin:0 auto">
+    <div class="section-header reveal">
+      <div class="section-badge">Tech Stack</div>
+      <h2>🛠️ Tools & Technologies</h2>
+      <p>Every tool used in this end-to-end portfolio project.</p>
+    </div>
+    <div class="tools-grid">
+      <div class="tool-card reveal"><div class="tool-icon">🐍</div><div class="tool-name">Python 3.11</div><div class="tool-desc">Core language for data processing and analysis</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">🐼</div><div class="tool-name">Pandas</div><div class="tool-desc">Data cleaning, manipulation, and feature engineering</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">🔢</div><div class="tool-name">NumPy</div><div class="tool-desc">Numerical computing and array operations</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">📊</div><div class="tool-name">Matplotlib</div><div class="tool-desc">Professional chart creation and custom layouts</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">🎨</div><div class="tool-name">Seaborn</div><div class="tool-desc">Statistical plots, heatmaps, and distributions</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">⚡</div><div class="tool-name">Power BI</div><div class="tool-desc">Interactive dashboard with DAX measures</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">🐙</div><div class="tool-name">GitHub</div><div class="tool-desc">Version control and free portfolio hosting</div></div>
+      <div class="tool-card reveal"><div class="tool-icon">🌐</div><div class="tool-name">HTML & CSS</div><div class="tool-desc">Professional portfolio presentation page</div></div>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p style="font-size:1.8rem;margin-bottom:12px">💊</p>
+  <p style="font-size:1.05rem;font-weight:700;color:#E2E8F0;margin-bottom:8px">
+    Pharmacy Sales Analytics Dashboard
+  </p>
+  <p>Built by <span>Your Name</span> &nbsp;|&nbsp;
+     Data Analytics Portfolio &nbsp;|&nbsp; 2024</p>
+  <p style="margin-top:10px">
+    <a href="https://github.com" target="_blank">GitHub</a>
+    &nbsp;·&nbsp;
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </p>
+</footer>
+
+<script>
+  // Lightbox
+  function openLB(src){
+    document.getElementById('lb-img').src=src;
+    document.getElementById('lb').classList.add('active');
+    document.body.style.overflow='hidden';
+  }
+  function closeLB(){
+    document.getElementById('lb').classList.remove('active');
+    document.body.style.overflow='';
+  }
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLB()});
+
+  // Scroll reveal
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
+  },{threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+
+</body>
+</html>

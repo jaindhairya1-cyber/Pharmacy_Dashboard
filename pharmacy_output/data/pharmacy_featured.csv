@@ -1,0 +1,1001 @@
+Invoice_ID,Date,Customer_ID,Product_ID,Product_Name,Category,Quantity,Unit_Price,Sales,Cost,Profit,Region,Payment_Method,Year,Month,Month_Name,Month_Year,Quarter,Weekday,Week_Number,Profit_Margin_%,Revenue_Per_Unit,Is_Weekend,High_Value_Order
+INV00001,2023-01-21,CUST1075,Product6578,Neem Capsules,Herbal & Ayurvedic,5,175.39,876.95,526.76,350.19,South Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Saturday,3,39.93,175.39,True,False
+INV00002,2023-10-21,CUST1021,Product2184,Pulse Oximeter,Medical Devices,3,365.87,1097.61,720.05,377.56,South Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Saturday,42,34.4,365.87,True,False
+INV00003,2023-02-28,CUST1015,Product1189,Moisturizer Cream,Cosmetics & Skincare,6,55.3,331.8,230.35,101.45,South Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Tuesday,9,30.58,55.3,False,False
+INV00004,2023-11-16,CUST1051,Product9838,Maternity Pads,Baby & Mother Care,6,395.55,2373.3,1702.02,671.28,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Thursday,46,28.28,395.55,False,False
+INV00005,2023-01-14,CUST1009,Product8513,Digital Thermometer,Medical Devices,7,342.45,2397.15,1585.86,811.29,South Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Saturday,2,33.84,342.45,True,False
+INV00006,2023-09-21,CUST1050,Product4943,Bp Monitor,Medical Devices,4,1071.28,4285.12,3056.78,1228.34,East Branch,Cash,2023,9,Sep,Sep-2023,Q3,Thursday,38,28.67,1071.28,False,True
+INV00007,2023-11-06,CUST1044,Product1161,Moisturizer Cream,Cosmetics & Skincare,6,440.05,2640.3,1487.34,1152.96,Central Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Monday,45,43.67,440.05,False,False
+INV00008,2023-08-03,CUST1040,Product8892,Ors Sachets,Otc Medicines,4,217.31,869.24,535.13,334.11,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Thursday,31,38.44,217.31,False,False
+INV00009,2023-09-09,CUST1041,Product6276,Bp Monitor,Medical Devices,7,2951.96,20663.72,16089.79,4573.93,West Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Saturday,36,22.14,2951.96,True,True
+INV00010,2023-05-09,CUST1081,Product1391,Tulsi Drops,Herbal & Ayurvedic,1,88.13,88.13,60.16,27.97,West Branch,Debit Card,2023,5,May,May-2023,Q2,Tuesday,19,31.74,88.13,False,False
+INV00011,2023-02-10,CUST1072,Product4104,Calcium + D3,Supplements & Vitamins,1,786.26,786.26,407.62,378.64,West Branch,Cash,2023,2,Feb,Feb-2023,Q1,Friday,6,48.16,786.26,False,False
+INV00012,2023-12-26,CUST1101,Product9110,Turmeric Capsules,Herbal & Ayurvedic,6,249.1,1494.6,914.98,579.62,East Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Tuesday,52,38.78,249.1,False,False
+INV00013,2023-12-25,CUST1015,Product6977,Baby Powder,Baby & Mother Care,1,1115.99,1115.99,862.44,253.55,East Branch,Cash,2023,12,Dec,Dec-2023,Q4,Monday,52,22.72,1115.99,False,False
+INV00014,2023-08-29,CUST1096,Product7019,Antacid Syrup,Otc Medicines,5,86.57,432.85,268.73,164.12,West Branch,Upi,2023,8,Aug,Aug-2023,Q3,Tuesday,35,37.92,86.57,False,False
+INV00015,2023-01-29,CUST1071,Product4157,Baby Food 200G,Baby & Mother Care,7,954.1,6678.7,4755.45,1923.25,West Branch,Upi,2023,1,Jan,Jan-2023,Q1,Sunday,4,28.8,954.1,True,True
+INV00016,2023-05-14,CUST1108,Product4627,Moisturizer Cream,Cosmetics & Skincare,2,656.09,1312.18,710.74,601.44,West Branch,Insurance,2023,5,May,May-2023,Q2,Sunday,19,45.84,656.09,True,False
+INV00017,2023-12-14,CUST1129,Product2306,Aloe Vera Gel,Cosmetics & Skincare,6,454.51,2727.06,1358.46,1368.6,North Branch,Cash,2023,12,Dec,Dec-2023,Q4,Thursday,50,50.19,454.51,False,False
+INV00018,2023-07-17,CUST1062,Product4748,Baby Diaper Pack,Baby & Mother Care,4,606.55,2426.2,1841.59,584.61,East Branch,Cash,2023,7,Jul,Jul-2023,Q3,Monday,29,24.1,606.55,False,False
+INV00019,2023-06-09,CUST1113,Product2853,Atorvastatin 20Mg,Prescription Drugs,2,339.96,679.92,495.75,184.17,North Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Friday,23,27.09,339.96,False,False
+INV00020,2023-04-23,CUST1081,Product1698,Metformin 850Mg,Prescription Drugs,4,270.09,1080.36,830.36,250.0,Central Branch,Cash,2023,4,Apr,Apr-2023,Q2,Sunday,16,23.14,270.09,True,False
+INV00021,2023-08-12,CUST1147,Product6249,Metformin 850Mg,Prescription Drugs,2,396.5,793.0,693.65,99.35,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Saturday,32,12.53,396.5,True,False
+INV00022,2023-11-20,CUST1145,Product9958,Pulse Oximeter,Medical Devices,2,3454.08,6908.16,5537.5,1370.66,East Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Monday,47,19.84,3454.08,False,True
+INV00023,2023-08-28,CUST1124,Product5282,Baby Food 200G,Baby & Mother Care,4,1477.12,5908.48,4373.66,1534.82,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Monday,35,25.98,1477.12,False,True
+INV00024,2023-12-12,CUST1148,Product3911,Baby Food 200G,Baby & Mother Care,3,935.43,2806.29,1920.87,885.42,East Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Tuesday,50,31.55,935.43,False,False
+INV00025,2023-12-04,CUST1042,Product1262,Neem Capsules,Herbal & Ayurvedic,1,439.29,439.29,303.57,135.72,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Monday,49,30.9,439.29,False,False
+INV00026,2023-10-31,CUST1037,Product8158,Moisturizer Cream,Cosmetics & Skincare,1,437.48,437.48,277.71,159.77,West Branch,Upi,2023,10,Oct,Oct-2023,Q4,Tuesday,44,36.52,437.48,False,False
+INV00027,2023-06-01,CUST1075,Product2648,Amoxicillin 500Mg,Prescription Drugs,3,619.28,1857.84,1383.23,474.61,North Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Thursday,22,25.55,619.28,False,False
+INV00028,2023-04-09,CUST1146,Product5973,Aloe Vera Gel,Cosmetics & Skincare,4,485.51,1942.04,1178.68,763.36,North Branch,Upi,2023,4,Apr,Apr-2023,Q2,Sunday,14,39.31,485.51,True,False
+INV00029,2023-06-10,CUST1142,Product5911,Ibuprofen 400Mg,Otc Medicines,6,167.98,1007.88,605.85,402.03,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Saturday,23,39.89,167.98,True,False
+INV00030,2023-01-22,CUST1008,Product4354,Hair Oil,Cosmetics & Skincare,3,543.21,1629.63,909.21,720.42,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Sunday,3,44.21,543.21,True,False
+INV00031,2023-11-13,CUST1035,Product8679,Omega-3 Capsules,Supplements & Vitamins,5,677.77,3388.85,2052.88,1335.97,East Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Monday,46,39.42,677.77,False,True
+INV00032,2023-01-06,CUST1037,Product3327,Amlodipine 5Mg,Prescription Drugs,4,441.86,1767.44,1476.29,291.15,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Friday,1,16.47,441.86,False,False
+INV00033,2023-04-26,CUST1067,Product9319,Digital Thermometer,Medical Devices,6,3393.3,20359.8,13382.01,6977.79,Central Branch,Upi,2023,4,Apr,Apr-2023,Q2,Wednesday,17,34.27,3393.3,False,True
+INV00034,2023-12-26,CUST1127,Product1154,Paracetamol 500Mg,Otc Medicines,2,328.93,657.86,434.71,223.15,South Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Tuesday,52,33.92,328.93,False,False
+INV00035,2023-10-26,CUST1026,Product6986,Ibuprofen 400Mg,Otc Medicines,2,264.45,528.9,349.39,179.51,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Thursday,43,33.94,264.45,False,False
+INV00036,2023-02-05,CUST1065,Product7655,Paracetamol 500Mg,Otc Medicines,5,46.93,234.65,187.48,47.17,Central Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Sunday,5,20.1,46.93,True,False
+INV00037,2023-12-20,CUST1063,Product2148,Teething Gel,Baby & Mother Care,4,1343.53,5374.12,4377.1,997.02,South Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Wednesday,51,18.55,1343.53,False,True
+INV00038,2023-11-22,CUST1101,Product4124,Baby Lotion,Baby & Mother Care,2,162.09,324.18,263.41,60.77,East Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Wednesday,47,18.75,162.09,False,False
+INV00039,2023-12-31,CUST1055,Product8079,Hand Sanitizer,Cosmetics & Skincare,4,517.17,2068.68,1403.94,664.74,West Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,52,32.13,517.17,True,False
+INV00040,2023-05-25,CUST1058,Product9932,Antiseptic Cream,Cosmetics & Skincare,2,437.23,874.46,541.52,332.94,East Branch,Insurance,2023,5,May,May-2023,Q2,Thursday,21,38.07,437.23,False,False
+INV00041,2023-05-09,CUST1001,Product8805,Cough Syrup,Otc Medicines,6,295.87,1775.22,1173.07,602.15,South Branch,Credit Card,2023,5,May,May-2023,Q2,Tuesday,19,33.92,295.87,False,False
+INV00042,2023-07-11,CUST1076,Product5249,Baby Diaper Pack,Baby & Mother Care,5,506.31,2531.55,1592.41,939.14,Central Branch,Upi,2023,7,Jul,Jul-2023,Q3,Tuesday,28,37.1,506.31,False,False
+INV00043,2023-03-10,CUST1144,Product7617,Protein Powder,Supplements & Vitamins,6,165.11,990.66,714.25,276.41,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,10,27.9,165.11,False,False
+INV00044,2023-01-23,CUST1069,Product3849,Knee Support,Medical Devices,4,854.25,3417.0,2607.96,809.04,South Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Monday,4,23.68,854.25,False,True
+INV00045,2023-09-14,CUST1004,Product3839,Hair Oil,Cosmetics & Skincare,2,519.39,1038.78,596.48,442.3,Central Branch,Upi,2023,9,Sep,Sep-2023,Q3,Thursday,37,42.58,519.39,False,False
+INV00046,2023-12-06,CUST1124,Product5000,Triphala Churna,Herbal & Ayurvedic,1,530.94,530.94,336.42,194.52,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Wednesday,49,36.64,530.94,False,False
+INV00047,2023-06-17,CUST1044,Product5380,Glucometer,Medical Devices,3,3312.69,9938.07,7679.94,2258.13,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Saturday,24,22.72,3312.69,True,True
+INV00048,2023-08-30,CUST1090,Product9967,Pulse Oximeter,Medical Devices,7,1507.23,10550.61,8885.8,1664.81,East Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,35,15.78,1507.23,False,True
+INV00049,2023-04-15,CUST1114,Product1412,Bp Monitor,Medical Devices,2,374.47,748.94,514.6,234.34,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Saturday,15,31.29,374.47,True,False
+INV00050,2023-12-23,CUST1099,Product5079,Sunscreen Spf50,Cosmetics & Skincare,5,775.69,3878.45,2183.59,1694.86,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Saturday,51,43.7,775.69,True,True
+INV00051,2023-07-09,CUST1113,Product4766,Moisturizer Cream,Cosmetics & Skincare,1,632.31,632.31,388.74,243.57,Central Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Sunday,27,38.52,632.31,True,False
+INV00052,2023-03-03,CUST1086,Product5492,Knee Support,Medical Devices,1,1062.36,1062.36,822.75,239.61,West Branch,Cash,2023,3,Mar,Mar-2023,Q1,Friday,9,22.55,1062.36,False,False
+INV00053,2023-03-17,CUST1128,Product5946,Calcium + D3,Supplements & Vitamins,1,206.16,206.16,105.22,100.94,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,11,48.96,206.16,False,False
+INV00054,2023-02-22,CUST1042,Product6305,Vitamin C 500Mg,Otc Medicines,5,50.26,251.3,170.76,80.54,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Wednesday,8,32.05,50.26,False,False
+INV00055,2023-08-09,CUST1146,Product5846,Chyawanprash 500G,Herbal & Ayurvedic,7,109.05,763.35,466.01,297.34,East Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Wednesday,32,38.95,109.05,False,False
+INV00056,2023-08-18,CUST1137,Product7938,Sunscreen Spf50,Cosmetics & Skincare,2,677.72,1355.44,655.06,700.38,Central Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Friday,33,51.67,677.72,False,False
+INV00057,2023-05-16,CUST1086,Product9691,Ibuprofen 400Mg,Otc Medicines,5,189.4,947.0,713.43,233.57,Central Branch,Cash,2023,5,May,May-2023,Q2,Tuesday,20,24.66,189.4,False,False
+INV00058,2023-03-11,CUST1108,Product6301,Ciprofloxacin 500Mg,Prescription Drugs,7,839.22,5874.54,4461.48,1413.06,West Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Saturday,10,24.05,839.22,True,True
+INV00059,2023-06-22,CUST1126,Product7619,Giloy Juice,Herbal & Ayurvedic,2,551.3,1102.6,831.83,270.77,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Thursday,25,24.56,551.3,False,False
+INV00060,2023-12-14,CUST1113,Product8576,Knee Support,Medical Devices,1,2681.48,2681.48,1914.02,767.46,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Thursday,50,28.62,2681.48,False,False
+INV00061,2023-06-09,CUST1047,Product5175,Azithromycin 500Mg,Prescription Drugs,5,821.68,4108.4,3607.4,501.0,Central Branch,Upi,2023,6,Jun,Jun-2023,Q2,Friday,23,12.19,821.68,False,True
+INV00062,2023-05-27,CUST1146,Product7190,Baby Food 200G,Baby & Mother Care,3,1388.38,4165.14,3204.67,960.47,West Branch,Cash,2023,5,May,May-2023,Q2,Saturday,21,23.06,1388.38,True,True
+INV00063,2023-02-23,CUST1012,Product2353,Amoxicillin 500Mg,Prescription Drugs,6,306.76,1840.56,1326.43,514.13,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Thursday,8,27.93,306.76,False,False
+INV00064,2023-06-13,CUST1060,Product1539,Breast Pump,Baby & Mother Care,4,583.21,2332.84,1833.76,499.08,South Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,24,21.39,583.21,False,False
+INV00065,2023-05-25,CUST1141,Product2581,Antiseptic Cream,Cosmetics & Skincare,1,244.96,244.96,143.72,101.24,North Branch,Cash,2023,5,May,May-2023,Q2,Thursday,21,41.33,244.96,False,False
+INV00066,2023-10-30,CUST1010,Product3871,Protein Powder,Supplements & Vitamins,6,1147.29,6883.74,3913.89,2969.85,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,44,43.14,1147.29,False,True
+INV00067,2023-10-16,CUST1011,Product8449,Baby Lotion,Baby & Mother Care,3,182.4,547.2,445.82,101.38,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,42,18.53,182.4,False,False
+INV00068,2023-04-08,CUST1129,Product1404,Ashwagandha Tablets,Herbal & Ayurvedic,6,511.17,3067.02,1990.84,1076.18,North Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Saturday,14,35.09,511.17,True,False
+INV00069,2023-12-24,CUST1023,Product8140,Chyawanprash 500G,Herbal & Ayurvedic,4,502.71,2010.84,1106.09,904.75,East Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,51,44.99,502.71,True,False
+INV00070,2023-03-19,CUST1051,Product5780,Nebulizer,Medical Devices,2,3018.87,6037.74,4833.39,1204.35,North Branch,Cash,2023,3,Mar,Mar-2023,Q1,Sunday,11,19.95,3018.87,True,True
+INV00071,2023-02-03,CUST1118,Product1770,Pulse Oximeter,Medical Devices,6,3110.31,18661.86,13037.18,5624.68,West Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Friday,5,30.14,3110.31,False,True
+INV00072,2023-08-10,CUST1145,Product5719,Omega-3 Capsules,Supplements & Vitamins,4,1007.21,4028.84,2046.68,1982.16,East Branch,Cash,2023,8,Aug,Aug-2023,Q3,Thursday,32,49.2,1007.21,False,True
+INV00073,2023-03-07,CUST1103,Product7881,Turmeric Capsules,Herbal & Ayurvedic,7,472.67,3308.69,2108.72,1199.97,East Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Tuesday,10,36.27,472.67,False,True
+INV00074,2023-11-04,CUST1079,Product6115,Baby Lotion,Baby & Mother Care,2,998.57,1997.14,1416.05,581.09,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Saturday,44,29.1,998.57,True,False
+INV00075,2023-05-18,CUST1017,Product4579,Maternity Pads,Baby & Mother Care,2,1310.06,2620.12,1650.93,969.19,North Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,20,36.99,1310.06,False,False
+INV00076,2023-05-06,CUST1115,Product7254,Antiseptic Cream,Cosmetics & Skincare,2,515.6,1031.2,632.28,398.92,East Branch,Debit Card,2023,5,May,May-2023,Q2,Saturday,18,38.69,515.6,True,False
+INV00077,2023-01-08,CUST1025,Product2887,Ciprofloxacin 500Mg,Prescription Drugs,7,530.27,3711.89,3028.72,683.17,West Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Sunday,1,18.4,530.27,True,True
+INV00078,2023-02-20,CUST1005,Product6585,Calcium + D3,Supplements & Vitamins,5,1171.77,5858.85,3512.48,2346.37,East Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,8,40.05,1171.77,False,True
+INV00079,2023-05-13,CUST1090,Product3593,Moisturizer Cream,Cosmetics & Skincare,5,73.85,369.25,207.82,161.43,North Branch,Insurance,2023,5,May,May-2023,Q2,Saturday,19,43.72,73.85,True,False
+INV00080,2023-09-06,CUST1063,Product5143,Azithromycin 500Mg,Prescription Drugs,2,611.6,1223.2,1068.72,154.48,North Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Wednesday,36,12.63,611.6,False,False
+INV00081,2023-12-21,CUST1047,Product1638,Digital Thermometer,Medical Devices,2,3078.56,6157.12,5129.48,1027.64,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Thursday,51,16.69,3078.56,False,True
+INV00082,2023-12-31,CUST1056,Product6126,Teething Gel,Baby & Mother Care,2,1168.74,2337.48,1668.37,669.11,South Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,52,28.63,1168.74,True,False
+INV00083,2023-10-01,CUST1115,Product4086,Zinc Tablets,Supplements & Vitamins,7,687.26,4810.82,2968.14,1842.68,South Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Sunday,39,38.3,687.26,True,True
+INV00084,2023-09-30,CUST1025,Product7288,Ciprofloxacin 500Mg,Prescription Drugs,5,220.36,1101.8,870.16,231.64,South Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Saturday,39,21.02,220.36,True,False
+INV00085,2023-04-19,CUST1111,Product8943,Pulse Oximeter,Medical Devices,1,2473.13,2473.13,1711.82,761.31,South Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Wednesday,16,30.78,2473.13,False,False
+INV00086,2023-06-29,CUST1059,Product1876,Amlodipine 5Mg,Prescription Drugs,3,371.65,1114.95,920.96,193.99,South Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Thursday,26,17.4,371.65,False,False
+INV00087,2023-07-17,CUST1062,Product4735,Baby Food 200G,Baby & Mother Care,1,447.37,447.37,357.74,89.63,West Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Monday,29,20.03,447.37,False,False
+INV00088,2023-08-17,CUST1075,Product9195,Ashwagandha Tablets,Herbal & Ayurvedic,7,106.85,747.95,580.26,167.69,West Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Thursday,33,22.42,106.85,False,False
+INV00089,2023-03-03,CUST1079,Product7316,Chyawanprash 500G,Herbal & Ayurvedic,6,214.11,1284.66,951.54,333.12,North Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Friday,9,25.93,214.11,False,False
+INV00090,2023-07-31,CUST1113,Product7283,Antiseptic Cream,Cosmetics & Skincare,6,776.0,4656.0,2431.65,2224.35,North Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,31,47.77,776.0,False,True
+INV00091,2023-05-19,CUST1003,Product4744,Ashwagandha Tablets,Herbal & Ayurvedic,2,479.25,958.5,728.39,230.11,West Branch,Upi,2023,5,May,May-2023,Q2,Friday,20,24.01,479.25,False,False
+INV00092,2023-01-13,CUST1065,Product2342,Baby Lotion,Baby & Mother Care,2,877.07,1754.14,1245.82,508.32,South Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Friday,2,28.98,877.07,False,False
+INV00093,2023-02-07,CUST1069,Product1235,Digital Thermometer,Medical Devices,1,673.43,673.43,508.69,164.74,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,6,24.46,673.43,False,False
+INV00094,2023-03-17,CUST1001,Product6415,Ors Sachets,Otc Medicines,5,261.19,1305.95,799.67,506.28,East Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,11,38.77,261.19,False,False
+INV00095,2023-09-27,CUST1005,Product3898,Breast Pump,Baby & Mother Care,5,312.89,1564.45,1034.02,530.43,West Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Wednesday,39,33.91,312.89,False,False
+INV00096,2023-02-11,CUST1040,Product7943,B-Complex,Supplements & Vitamins,2,1103.26,2206.52,1480.47,726.05,North Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Saturday,6,32.9,1103.26,True,False
+INV00097,2023-06-02,CUST1053,Product4687,Protein Powder,Supplements & Vitamins,6,716.77,4300.62,2753.75,1546.87,North Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,22,35.97,716.77,False,True
+INV00098,2023-06-28,CUST1015,Product6742,Zinc Tablets,Supplements & Vitamins,3,603.1,1809.3,1206.43,602.87,South Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Wednesday,26,33.32,603.1,False,False
+INV00099,2023-06-06,CUST1033,Product6373,Digital Thermometer,Medical Devices,4,2672.67,10690.68,7861.6,2829.08,North Branch,Cash,2023,6,Jun,Jun-2023,Q2,Tuesday,23,26.46,2672.67,False,True
+INV00100,2023-12-19,CUST1109,Product7359,Aloe Vera Gel,Cosmetics & Skincare,2,621.84,1243.68,597.97,645.71,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Tuesday,51,51.92,621.84,False,False
+INV00101,2023-11-20,CUST1130,Product1094,Hair Oil,Cosmetics & Skincare,5,454.9,2274.5,1315.59,958.91,West Branch,Upi,2023,11,Nov,Nov-2023,Q4,Monday,47,42.16,454.9,False,False
+INV00102,2023-03-10,CUST1074,Product7166,Calcium + D3,Supplements & Vitamins,4,719.86,2879.44,1978.32,901.12,West Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,10,31.29,719.86,False,False
+INV00103,2023-04-14,CUST1111,Product1827,Triphala Churna,Herbal & Ayurvedic,6,399.77,2398.62,1367.87,1030.75,South Branch,Cash,2023,4,Apr,Apr-2023,Q2,Friday,15,42.97,399.77,False,False
+INV00104,2023-10-20,CUST1092,Product7024,Iron Supplement,Supplements & Vitamins,4,743.39,2973.56,1712.29,1261.27,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Friday,42,42.42,743.39,False,False
+INV00105,2023-09-24,CUST1149,Product4417,Baby Powder,Baby & Mother Care,5,263.86,1319.3,860.07,459.23,North Branch,Upi,2023,9,Sep,Sep-2023,Q3,Sunday,38,34.81,263.86,True,False
+INV00106,2023-02-24,CUST1053,Product9393,Breast Pump,Baby & Mother Care,6,1275.74,7654.44,5768.16,1886.28,East Branch,Upi,2023,2,Feb,Feb-2023,Q1,Friday,8,24.64,1275.74,False,True
+INV00107,2023-09-01,CUST1075,Product8973,Sunscreen Spf50,Cosmetics & Skincare,5,502.79,2513.95,1687.95,826.0,North Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Friday,35,32.86,502.79,False,False
+INV00108,2023-05-08,CUST1108,Product2205,Vitamin C 500Mg,Otc Medicines,2,178.68,357.36,220.24,137.12,East Branch,Debit Card,2023,5,May,May-2023,Q2,Monday,19,38.37,178.68,False,False
+INV00109,2023-06-26,CUST1150,Product3713,Ciprofloxacin 500Mg,Prescription Drugs,4,402.57,1610.28,1181.34,428.94,Central Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Monday,26,26.64,402.57,False,False
+INV00110,2023-12-27,CUST1118,Product9533,Moisturizer Cream,Cosmetics & Skincare,5,436.38,2181.9,995.2,1186.7,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Wednesday,52,54.39,436.38,False,False
+INV00111,2023-08-12,CUST1123,Product1951,Hair Oil,Cosmetics & Skincare,5,188.35,941.75,588.69,353.06,Central Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Saturday,32,37.49,188.35,True,False
+INV00112,2023-10-13,CUST1001,Product6490,B-Complex,Supplements & Vitamins,6,350.22,2101.32,1556.79,544.53,East Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Friday,41,25.91,350.22,False,False
+INV00113,2023-08-10,CUST1129,Product4335,Triphala Churna,Herbal & Ayurvedic,2,357.92,715.84,479.15,236.69,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Thursday,32,33.06,357.92,False,False
+INV00114,2023-06-11,CUST1087,Product1054,Knee Support,Medical Devices,7,2710.39,18972.73,15093.56,3879.17,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Sunday,23,20.45,2710.39,True,True
+INV00115,2023-09-04,CUST1072,Product8221,Moisturizer Cream,Cosmetics & Skincare,7,544.19,3809.33,2640.73,1168.6,East Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Monday,36,30.68,544.19,False,True
+INV00116,2023-09-21,CUST1096,Product6207,Ciprofloxacin 500Mg,Prescription Drugs,5,217.48,1087.4,843.34,244.06,South Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Thursday,38,22.44,217.48,False,False
+INV00117,2023-07-01,CUST1007,Product5425,Teething Gel,Baby & Mother Care,3,1448.46,4345.38,2742.45,1602.93,Central Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,26,36.89,1448.46,True,True
+INV00118,2023-02-05,CUST1082,Product9705,Ashwagandha Tablets,Herbal & Ayurvedic,7,521.03,3647.21,2741.83,905.38,Central Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Sunday,5,24.82,521.03,True,True
+INV00119,2023-07-14,CUST1005,Product1804,Ciprofloxacin 500Mg,Prescription Drugs,5,343.2,1716.0,1438.85,277.15,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Friday,28,16.15,343.2,False,False
+INV00120,2023-12-08,CUST1120,Product3106,Teething Gel,Baby & Mother Care,1,721.85,721.85,549.4,172.45,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Friday,49,23.89,721.85,False,False
+INV00121,2023-01-09,CUST1025,Product8368,Maternity Pads,Baby & Mother Care,1,788.99,788.99,566.11,222.88,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Monday,2,28.25,788.99,False,False
+INV00122,2023-01-29,CUST1037,Product1074,Teething Gel,Baby & Mother Care,3,701.95,2105.85,1671.09,434.76,Central Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Sunday,4,20.65,701.95,True,False
+INV00123,2023-02-03,CUST1122,Product2622,Baby Lotion,Baby & Mother Care,5,1244.78,6223.9,4483.58,1740.32,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Friday,5,27.96,1244.78,False,True
+INV00124,2023-05-14,CUST1012,Product7136,Bp Monitor,Medical Devices,6,738.03,4428.18,2966.86,1461.32,East Branch,Credit Card,2023,5,May,May-2023,Q2,Sunday,19,33.0,738.03,True,True
+INV00125,2023-07-09,CUST1054,Product2386,Knee Support,Medical Devices,2,3226.12,6452.24,4944.0,1508.24,South Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Sunday,27,23.38,3226.12,True,True
+INV00126,2023-05-29,CUST1113,Product9378,Atorvastatin 20Mg,Prescription Drugs,5,544.43,2722.15,2288.63,433.52,East Branch,Debit Card,2023,5,May,May-2023,Q2,Monday,22,15.93,544.43,False,False
+INV00127,2023-09-03,CUST1036,Product9942,Giloy Juice,Herbal & Ayurvedic,6,327.55,1965.3,1232.94,732.36,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Sunday,35,37.26,327.55,True,False
+INV00128,2023-12-31,CUST1073,Product3343,Lip Balm,Cosmetics & Skincare,3,681.15,2043.45,998.02,1045.43,East Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Sunday,52,51.16,681.15,True,False
+INV00129,2023-01-25,CUST1108,Product9363,Amoxicillin 500Mg,Prescription Drugs,1,622.79,622.79,488.44,134.35,East Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,4,21.57,622.79,False,False
+INV00130,2023-02-13,CUST1049,Product4004,B-Complex,Supplements & Vitamins,6,769.74,4618.44,3047.05,1571.39,East Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Monday,7,34.02,769.74,False,True
+INV00131,2023-11-14,CUST1081,Product2750,Metformin 850Mg,Prescription Drugs,1,423.42,423.42,360.07,63.35,East Branch,Upi,2023,11,Nov,Nov-2023,Q4,Tuesday,46,14.96,423.42,False,False
+INV00132,2023-09-25,CUST1109,Product9238,Heating Pad,Medical Devices,6,3437.85,20627.1,13806.28,6820.82,East Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Monday,39,33.07,3437.85,False,True
+INV00133,2023-09-07,CUST1115,Product9007,Vitamin C 500Mg,Otc Medicines,1,79.59,79.59,54.63,24.96,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Thursday,36,31.36,79.59,False,False
+INV00134,2023-04-13,CUST1108,Product8980,Cetirizine 10Mg,Otc Medicines,7,282.46,1977.22,1287.14,690.08,North Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Thursday,15,34.9,282.46,False,False
+INV00135,2023-12-30,CUST1093,Product1920,Cetirizine 10Mg,Otc Medicines,5,194.99,974.95,693.96,280.99,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Saturday,52,28.82,194.99,True,False
+INV00136,2023-11-07,CUST1034,Product5346,Bp Monitor,Medical Devices,1,3135.13,3135.13,2278.7,856.43,East Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Tuesday,45,27.32,3135.13,False,False
+INV00137,2023-02-08,CUST1062,Product9436,Tulsi Drops,Herbal & Ayurvedic,5,279.66,1398.3,790.74,607.56,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Wednesday,6,43.45,279.66,False,False
+INV00138,2023-12-25,CUST1065,Product4760,Sunscreen Spf50,Cosmetics & Skincare,4,788.06,3152.24,1601.12,1551.12,West Branch,Upi,2023,12,Dec,Dec-2023,Q4,Monday,52,49.21,788.06,False,False
+INV00139,2023-05-26,CUST1073,Product5494,Protein Powder,Supplements & Vitamins,6,461.85,2771.1,1487.51,1283.59,Central Branch,Cash,2023,5,May,May-2023,Q2,Friday,21,46.32,461.85,False,False
+INV00140,2023-03-02,CUST1124,Product5805,Amoxicillin 500Mg,Prescription Drugs,4,248.06,992.24,722.36,269.88,Central Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Thursday,9,27.2,248.06,False,False
+INV00141,2023-08-14,CUST1004,Product6690,Turmeric Capsules,Herbal & Ayurvedic,6,392.42,2354.52,1347.12,1007.4,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Monday,33,42.79,392.42,False,False
+INV00142,2023-11-26,CUST1057,Product3265,Antiseptic Cream,Cosmetics & Skincare,7,222.93,1560.51,768.3,792.21,East Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Sunday,47,50.77,222.93,True,False
+INV00143,2023-09-18,CUST1099,Product2913,Amoxicillin 500Mg,Prescription Drugs,2,680.28,1360.56,1121.07,239.49,North Branch,Cash,2023,9,Sep,Sep-2023,Q3,Monday,38,17.6,680.28,False,False
+INV00144,2023-03-03,CUST1013,Product8287,Omeprazole 20Mg,Prescription Drugs,3,385.11,1155.33,876.53,278.8,North Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,9,24.13,385.11,False,False
+INV00145,2023-04-08,CUST1067,Product2218,Knee Support,Medical Devices,1,2197.41,2197.41,1612.86,584.55,East Branch,Cash,2023,4,Apr,Apr-2023,Q2,Saturday,14,26.6,2197.41,True,False
+INV00146,2023-01-25,CUST1124,Product1974,Metformin 850Mg,Prescription Drugs,4,107.28,429.12,355.03,74.09,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,4,17.27,107.28,False,False
+INV00147,2023-02-06,CUST1028,Product5036,Baby Powder,Baby & Mother Care,5,187.32,936.6,668.24,268.36,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,6,28.65,187.32,False,False
+INV00148,2023-12-15,CUST1067,Product2591,Digital Thermometer,Medical Devices,2,1884.47,3768.94,2841.34,927.6,East Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Friday,50,24.61,1884.47,False,True
+INV00149,2023-05-27,CUST1059,Product2704,Cetirizine 10Mg,Otc Medicines,5,108.12,540.6,337.48,203.12,West Branch,Cash,2023,5,May,May-2023,Q2,Saturday,21,37.57,108.12,True,False
+INV00150,2023-07-10,CUST1007,Product1556,Glucometer,Medical Devices,5,2531.91,12659.55,9038.56,3620.99,East Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,28,28.6,2531.91,False,True
+INV00151,2023-06-09,CUST1039,Product4998,Paracetamol 500Mg,Otc Medicines,3,310.09,930.27,743.26,187.01,East Branch,Upi,2023,6,Jun,Jun-2023,Q2,Friday,23,20.1,310.09,False,False
+INV00152,2023-10-22,CUST1046,Product2136,Antacid Syrup,Otc Medicines,2,294.6,589.2,411.56,177.64,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Sunday,42,30.15,294.6,True,False
+INV00153,2023-12-31,CUST1074,Product6352,Amoxicillin 500Mg,Prescription Drugs,7,370.06,2590.42,2275.81,314.61,East Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,52,12.15,370.06,True,False
+INV00154,2023-10-05,CUST1096,Product2265,Vitamin C 500Mg,Otc Medicines,4,228.77,915.08,561.49,353.59,West Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Thursday,40,38.64,228.77,False,False
+INV00155,2023-07-12,CUST1050,Product8437,Lip Balm,Cosmetics & Skincare,1,628.24,628.24,328.48,299.76,South Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Wednesday,28,47.71,628.24,False,False
+INV00156,2023-01-07,CUST1033,Product8813,Tulsi Drops,Herbal & Ayurvedic,4,469.82,1879.28,1409.61,469.67,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Saturday,1,24.99,469.82,True,False
+INV00157,2023-08-14,CUST1099,Product7540,Turmeric Capsules,Herbal & Ayurvedic,3,211.3,633.9,494.29,139.61,Central Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Monday,33,22.02,211.3,False,False
+INV00158,2023-10-15,CUST1022,Product6658,Ciprofloxacin 500Mg,Prescription Drugs,7,692.0,4844.0,3725.09,1118.91,South Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,41,23.1,692.0,True,True
+INV00159,2023-01-21,CUST1084,Product2682,Multivitamin Tablets,Supplements & Vitamins,6,308.61,1851.66,1188.61,663.05,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Saturday,3,35.81,308.61,True,False
+INV00160,2023-01-15,CUST1064,Product4056,Omeprazole 20Mg,Prescription Drugs,3,320.2,960.6,796.03,164.57,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Sunday,2,17.13,320.2,True,False
+INV00161,2023-03-13,CUST1145,Product4676,Amlodipine 5Mg,Prescription Drugs,2,745.56,1491.12,1199.29,291.83,West Branch,Cash,2023,3,Mar,Mar-2023,Q1,Monday,11,19.57,745.56,False,False
+INV00162,2023-12-15,CUST1024,Product5473,Knee Support,Medical Devices,3,3003.31,9009.93,6287.09,2722.84,West Branch,Upi,2023,12,Dec,Dec-2023,Q4,Friday,50,30.22,3003.31,False,True
+INV00163,2023-09-30,CUST1009,Product6797,Iron Supplement,Supplements & Vitamins,6,635.2,3811.2,2857.23,953.97,West Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Saturday,39,25.03,635.2,True,True
+INV00164,2023-12-10,CUST1072,Product9465,Amlodipine 5Mg,Prescription Drugs,7,581.67,4071.69,3370.76,700.93,East Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,49,17.21,581.67,True,True
+INV00165,2023-01-11,CUST1033,Product3043,Baby Lotion,Baby & Mother Care,6,1465.09,8790.54,5939.09,2851.45,Central Branch,Cash,2023,1,Jan,Jan-2023,Q1,Wednesday,2,32.44,1465.09,False,True
+INV00166,2023-03-17,CUST1148,Product3720,Baby Diaper Pack,Baby & Mother Care,3,783.1,2349.3,1877.12,472.18,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,11,20.1,783.1,False,False
+INV00167,2023-08-21,CUST1077,Product8833,Ibuprofen 400Mg,Otc Medicines,4,43.9,175.6,121.72,53.88,Central Branch,Cash,2023,8,Aug,Aug-2023,Q3,Monday,34,30.68,43.9,False,False
+INV00168,2023-05-02,CUST1106,Product9619,Maternity Pads,Baby & Mother Care,2,1468.9,2937.8,2290.98,646.82,South Branch,Credit Card,2023,5,May,May-2023,Q2,Tuesday,18,22.02,1468.9,False,False
+INV00169,2023-09-19,CUST1114,Product9907,Atorvastatin 20Mg,Prescription Drugs,5,623.99,3119.95,2729.79,390.16,North Branch,Cash,2023,9,Sep,Sep-2023,Q3,Tuesday,38,12.51,623.99,False,False
+INV00170,2023-01-07,CUST1132,Product1021,Antacid Syrup,Otc Medicines,6,278.53,1671.18,1132.31,538.87,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Saturday,1,32.24,278.53,True,False
+INV00171,2023-01-14,CUST1012,Product2560,Vitamin C 500Mg,Otc Medicines,3,33.45,100.35,76.99,23.36,East Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Saturday,2,23.28,33.45,True,False
+INV00172,2023-06-22,CUST1032,Product1306,Glucometer,Medical Devices,2,1352.86,2705.72,2045.43,660.29,Central Branch,Upi,2023,6,Jun,Jun-2023,Q2,Thursday,25,24.4,1352.86,False,False
+INV00173,2023-12-18,CUST1131,Product9946,Moisturizer Cream,Cosmetics & Skincare,6,589.4,3536.4,2273.5,1262.9,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Monday,51,35.71,589.4,False,True
+INV00174,2023-11-28,CUST1024,Product9595,Protein Powder,Supplements & Vitamins,5,589.32,2946.6,2059.98,886.62,North Branch,Upi,2023,11,Nov,Nov-2023,Q4,Tuesday,48,30.09,589.32,False,False
+INV00175,2023-06-01,CUST1096,Product7563,Pulse Oximeter,Medical Devices,4,1487.32,5949.28,3881.73,2067.55,South Branch,Cash,2023,6,Jun,Jun-2023,Q2,Thursday,22,34.75,1487.32,False,True
+INV00176,2023-09-19,CUST1115,Product5732,Cough Syrup,Otc Medicines,2,180.6,361.2,225.86,135.34,South Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Tuesday,38,37.47,180.6,False,False
+INV00177,2023-08-13,CUST1008,Product7895,Lip Balm,Cosmetics & Skincare,5,399.36,1996.8,980.43,1016.37,East Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Sunday,32,50.9,399.36,True,False
+INV00178,2023-10-20,CUST1041,Product3365,Maternity Pads,Baby & Mother Care,2,447.81,895.62,560.41,335.21,Central Branch,Upi,2023,10,Oct,Oct-2023,Q4,Friday,42,37.43,447.81,False,False
+INV00179,2023-03-25,CUST1123,Product9219,Breast Pump,Baby & Mother Care,5,734.52,3672.6,2633.39,1039.21,South Branch,Cash,2023,3,Mar,Mar-2023,Q1,Saturday,12,28.3,734.52,True,True
+INV00180,2023-06-13,CUST1010,Product1629,Cetirizine 10Mg,Otc Medicines,5,22.98,114.9,78.4,36.5,Central Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,24,31.77,22.98,False,False
+INV00181,2023-09-14,CUST1008,Product8115,Baby Lotion,Baby & Mother Care,5,585.06,2925.3,1913.8,1011.5,Central Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Thursday,37,34.58,585.06,False,False
+INV00182,2023-06-24,CUST1049,Product4568,Amoxicillin 500Mg,Prescription Drugs,6,209.07,1254.42,1096.53,157.89,Central Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Saturday,25,12.59,209.07,True,False
+INV00183,2023-11-30,CUST1037,Product1281,Hand Sanitizer,Cosmetics & Skincare,7,701.2,4908.4,3183.29,1725.11,South Branch,Cash,2023,11,Nov,Nov-2023,Q4,Thursday,48,35.15,701.2,False,True
+INV00184,2023-02-28,CUST1012,Product5585,Digital Thermometer,Medical Devices,7,1019.04,7133.28,5806.48,1326.8,Central Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,9,18.6,1019.04,False,True
+INV00185,2023-08-05,CUST1039,Product6342,Antiseptic Cream,Cosmetics & Skincare,2,773.84,1547.68,1081.46,466.22,South Branch,Upi,2023,8,Aug,Aug-2023,Q3,Saturday,31,30.12,773.84,True,False
+INV00186,2023-05-31,CUST1080,Product2969,Giloy Juice,Herbal & Ayurvedic,2,258.18,516.36,339.55,176.81,Central Branch,Insurance,2023,5,May,May-2023,Q2,Wednesday,22,34.24,258.18,False,False
+INV00187,2023-09-21,CUST1086,Product2198,Antacid Syrup,Otc Medicines,7,73.59,515.13,392.7,122.43,Central Branch,Upi,2023,9,Sep,Sep-2023,Q3,Thursday,38,23.77,73.59,False,False
+INV00188,2023-04-24,CUST1026,Product4719,Paracetamol 500Mg,Otc Medicines,7,342.95,2400.65,1740.81,659.84,South Branch,Cash,2023,4,Apr,Apr-2023,Q2,Monday,17,27.49,342.95,False,False
+INV00189,2023-10-16,CUST1031,Product4124,Ashwagandha Tablets,Herbal & Ayurvedic,4,138.82,555.28,331.52,223.76,North Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Monday,42,40.3,138.82,False,False
+INV00190,2023-07-11,CUST1089,Product7924,Digital Thermometer,Medical Devices,2,1415.44,2830.88,2316.06,514.82,North Branch,Cash,2023,7,Jul,Jul-2023,Q3,Tuesday,28,18.19,1415.44,False,False
+INV00191,2023-04-08,CUST1102,Product5114,Omeprazole 20Mg,Prescription Drugs,5,302.29,1511.45,1303.69,207.76,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Saturday,14,13.75,302.29,True,False
+INV00192,2023-12-31,CUST1088,Product9189,Baby Lotion,Baby & Mother Care,2,1331.49,2662.98,2014.71,648.27,East Branch,Cash,2023,12,Dec,Dec-2023,Q4,Sunday,52,24.34,1331.49,True,False
+INV00193,2023-07-18,CUST1060,Product6592,Maternity Pads,Baby & Mother Care,1,573.17,573.17,397.76,175.41,Central Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Tuesday,29,30.6,573.17,False,False
+INV00194,2023-09-24,CUST1009,Product7228,Amoxicillin 500Mg,Prescription Drugs,1,422.2,422.2,370.55,51.65,East Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Sunday,38,12.23,422.2,True,False
+INV00195,2023-06-02,CUST1048,Product9234,Ibuprofen 400Mg,Otc Medicines,6,321.7,1930.2,1230.01,700.19,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Friday,22,36.28,321.7,False,False
+INV00196,2023-01-21,CUST1124,Product7542,Chyawanprash 500G,Herbal & Ayurvedic,6,453.42,2720.52,1524.12,1196.4,East Branch,Upi,2023,1,Jan,Jan-2023,Q1,Saturday,3,43.98,453.42,True,False
+INV00197,2023-05-21,CUST1078,Product7012,Amlodipine 5Mg,Prescription Drugs,3,372.66,1117.98,948.56,169.42,East Branch,Credit Card,2023,5,May,May-2023,Q2,Sunday,20,15.15,372.66,True,False
+INV00198,2023-06-05,CUST1146,Product7787,Antiseptic Cream,Cosmetics & Skincare,4,552.57,2210.28,1033.52,1176.76,East Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Monday,23,53.24,552.57,False,False
+INV00199,2023-03-15,CUST1042,Product6047,Paracetamol 500Mg,Otc Medicines,6,79.78,478.68,317.74,160.94,Central Branch,Cash,2023,3,Mar,Mar-2023,Q1,Wednesday,11,33.62,79.78,False,False
+INV00200,2023-06-21,CUST1047,Product7284,Hand Sanitizer,Cosmetics & Skincare,4,115.28,461.12,228.74,232.38,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,25,50.39,115.28,False,False
+INV00201,2023-01-26,CUST1122,Product6752,Chyawanprash 500G,Herbal & Ayurvedic,6,347.89,2087.34,1343.17,744.17,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Thursday,4,35.65,347.89,False,False
+INV00202,2023-02-19,CUST1060,Product4273,Bp Monitor,Medical Devices,1,1057.99,1057.99,734.13,323.86,East Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Sunday,7,30.61,1057.99,True,False
+INV00203,2023-08-30,CUST1108,Product2249,Metformin 850Mg,Prescription Drugs,3,560.37,1681.11,1357.86,323.25,Central Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,35,19.23,560.37,False,False
+INV00204,2023-05-23,CUST1011,Product9841,Ciprofloxacin 500Mg,Prescription Drugs,5,153.7,768.5,673.37,95.13,East Branch,Insurance,2023,5,May,May-2023,Q2,Tuesday,21,12.38,153.7,False,False
+INV00205,2023-09-15,CUST1146,Product7780,Azithromycin 500Mg,Prescription Drugs,5,537.75,2688.75,2152.39,536.36,East Branch,Upi,2023,9,Sep,Sep-2023,Q3,Friday,37,19.95,537.75,False,False
+INV00206,2023-10-29,CUST1102,Product7764,Ashwagandha Tablets,Herbal & Ayurvedic,1,88.23,88.23,61.9,26.33,East Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,43,29.84,88.23,True,False
+INV00207,2023-05-16,CUST1070,Product3472,Breast Pump,Baby & Mother Care,5,1353.98,6769.9,5291.53,1478.37,North Branch,Debit Card,2023,5,May,May-2023,Q2,Tuesday,20,21.84,1353.98,False,True
+INV00208,2023-01-05,CUST1149,Product8397,Neem Capsules,Herbal & Ayurvedic,5,349.91,1749.55,1337.44,412.11,West Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Thursday,1,23.56,349.91,False,False
+INV00209,2023-12-08,CUST1002,Product4874,Cetirizine 10Mg,Otc Medicines,6,96.17,577.02,408.89,168.13,South Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Friday,49,29.14,96.17,False,False
+INV00210,2023-02-05,CUST1031,Product4374,Vitamin C 500Mg,Otc Medicines,6,130.08,780.48,533.77,246.71,Central Branch,Upi,2023,2,Feb,Feb-2023,Q1,Sunday,5,31.61,130.08,True,False
+INV00211,2023-01-12,CUST1136,Product8123,Ciprofloxacin 500Mg,Prescription Drugs,2,154.44,308.88,249.56,59.32,North Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Thursday,2,19.2,154.44,False,False
+INV00212,2023-04-28,CUST1104,Product9555,B-Complex,Supplements & Vitamins,5,275.82,1379.1,698.46,680.64,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Friday,17,49.35,275.82,False,False
+INV00213,2023-08-19,CUST1016,Product3785,Amoxicillin 500Mg,Prescription Drugs,6,481.14,2886.84,2252.39,634.45,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Saturday,33,21.98,481.14,True,False
+INV00214,2023-03-07,CUST1002,Product3496,Heating Pad,Medical Devices,4,1270.01,5080.04,4050.71,1029.33,North Branch,Upi,2023,3,Mar,Mar-2023,Q1,Tuesday,10,20.26,1270.01,False,True
+INV00215,2023-11-07,CUST1143,Product5437,Calcium + D3,Supplements & Vitamins,4,443.69,1774.76,912.94,861.82,East Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Tuesday,45,48.56,443.69,False,False
+INV00216,2023-02-11,CUST1035,Product8629,Antiseptic Cream,Cosmetics & Skincare,4,206.38,825.52,385.81,439.71,South Branch,Upi,2023,2,Feb,Feb-2023,Q1,Saturday,6,53.26,206.38,True,False
+INV00217,2023-06-12,CUST1130,Product3978,Baby Powder,Baby & Mother Care,7,540.46,3783.22,3041.01,742.21,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Monday,24,19.62,540.46,False,True
+INV00218,2023-10-08,CUST1095,Product6901,Ors Sachets,Otc Medicines,4,209.1,836.4,513.09,323.31,Central Branch,Cash,2023,10,Oct,Oct-2023,Q4,Sunday,40,38.65,209.1,True,False
+INV00219,2023-01-25,CUST1136,Product3964,Azithromycin 500Mg,Prescription Drugs,6,718.59,4311.54,3575.11,736.43,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Wednesday,4,17.08,718.59,False,True
+INV00220,2023-01-12,CUST1031,Product1845,Antacid Syrup,Otc Medicines,1,96.74,96.74,75.84,20.9,West Branch,Upi,2023,1,Jan,Jan-2023,Q1,Thursday,2,21.6,96.74,False,False
+INV00221,2023-12-15,CUST1060,Product7610,Moisturizer Cream,Cosmetics & Skincare,5,129.25,646.25,348.84,297.41,East Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Friday,50,46.02,129.25,False,False
+INV00222,2023-05-10,CUST1056,Product9648,Giloy Juice,Herbal & Ayurvedic,5,486.0,2430.0,1638.42,791.58,East Branch,Credit Card,2023,5,May,May-2023,Q2,Wednesday,19,32.58,486.0,False,False
+INV00223,2023-07-09,CUST1097,Product2638,Giloy Juice,Herbal & Ayurvedic,1,153.97,153.97,115.8,38.17,East Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Sunday,27,24.79,153.97,True,False
+INV00224,2023-05-04,CUST1116,Product8870,Omeprazole 20Mg,Prescription Drugs,7,250.02,1750.14,1491.47,258.67,South Branch,Upi,2023,5,May,May-2023,Q2,Thursday,18,14.78,250.02,False,False
+INV00225,2023-01-14,CUST1086,Product4716,Baby Food 200G,Baby & Mother Care,3,627.51,1882.53,1387.75,494.78,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Saturday,2,26.28,627.51,True,False
+INV00226,2023-08-18,CUST1058,Product7007,Maternity Pads,Baby & Mother Care,2,304.65,609.3,448.62,160.68,Central Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Friday,33,26.37,304.65,False,False
+INV00227,2023-08-01,CUST1139,Product5798,Tulsi Drops,Herbal & Ayurvedic,1,248.22,248.22,145.98,102.24,Central Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Tuesday,31,41.19,248.22,False,False
+INV00228,2023-02-03,CUST1082,Product5839,Pulse Oximeter,Medical Devices,7,777.56,5442.92,4488.01,954.91,West Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Friday,5,17.54,777.56,False,True
+INV00229,2023-01-21,CUST1113,Product5200,Multivitamin Tablets,Supplements & Vitamins,5,564.2,2821.0,1791.73,1029.27,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Saturday,3,36.49,564.2,True,False
+INV00230,2023-01-29,CUST1058,Product9123,Amoxicillin 500Mg,Prescription Drugs,1,609.86,609.86,493.98,115.88,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Sunday,4,19.0,609.86,True,False
+INV00231,2023-08-02,CUST1087,Product8340,Pulse Oximeter,Medical Devices,3,1885.45,5656.35,4370.83,1285.52,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,31,22.73,1885.45,False,True
+INV00232,2023-11-29,CUST1129,Product8788,Protein Powder,Supplements & Vitamins,4,687.83,2751.32,1595.61,1155.71,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,48,42.01,687.83,False,False
+INV00233,2023-11-10,CUST1143,Product6330,Calcium + D3,Supplements & Vitamins,1,1154.33,1154.33,652.92,501.41,West Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Friday,45,43.44,1154.33,False,False
+INV00234,2023-09-18,CUST1081,Product2246,Giloy Juice,Herbal & Ayurvedic,4,264.52,1058.08,725.01,333.07,South Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Monday,38,31.48,264.52,False,False
+INV00235,2023-10-19,CUST1122,Product5285,Amoxicillin 500Mg,Prescription Drugs,2,593.86,1187.72,1043.21,144.51,West Branch,Cash,2023,10,Oct,Oct-2023,Q4,Thursday,42,12.17,593.86,False,False
+INV00236,2023-09-15,CUST1095,Product4983,Triphala Churna,Herbal & Ayurvedic,2,495.33,990.66,705.99,284.67,Central Branch,Upi,2023,9,Sep,Sep-2023,Q3,Friday,37,28.74,495.33,False,False
+INV00237,2023-07-02,CUST1059,Product5941,Moisturizer Cream,Cosmetics & Skincare,3,82.8,248.4,167.0,81.4,North Branch,Cash,2023,7,Jul,Jul-2023,Q3,Sunday,26,32.77,82.8,True,False
+INV00238,2023-08-01,CUST1113,Product8031,Moisturizer Cream,Cosmetics & Skincare,1,172.76,172.76,109.11,63.65,West Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Tuesday,31,36.84,172.76,False,False
+INV00239,2023-09-25,CUST1149,Product8165,Glucometer,Medical Devices,2,2911.03,5822.06,3945.76,1876.3,North Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Monday,39,32.23,2911.03,False,True
+INV00240,2023-08-24,CUST1089,Product8003,Heating Pad,Medical Devices,6,2631.17,15787.02,10967.41,4819.61,East Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Thursday,34,30.53,2631.17,False,True
+INV00241,2023-10-10,CUST1088,Product9652,Nebulizer,Medical Devices,2,645.42,1290.84,920.29,370.55,South Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Tuesday,41,28.71,645.42,False,False
+INV00242,2023-07-10,CUST1030,Product6926,Baby Powder,Baby & Mother Care,5,934.68,4673.4,3357.03,1316.37,East Branch,Upi,2023,7,Jul,Jul-2023,Q3,Monday,28,28.17,934.68,False,True
+INV00243,2023-12-28,CUST1108,Product1514,Hair Oil,Cosmetics & Skincare,1,620.84,620.84,409.74,211.1,South Branch,Cash,2023,12,Dec,Dec-2023,Q4,Thursday,52,34.0,620.84,False,False
+INV00244,2023-01-10,CUST1066,Product3159,Amlodipine 5Mg,Prescription Drugs,3,389.15,1167.45,877.91,289.54,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Tuesday,2,24.8,389.15,False,False
+INV00245,2023-11-10,CUST1014,Product4489,Digital Thermometer,Medical Devices,4,1977.31,7909.24,5381.37,2527.87,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Friday,45,31.96,1977.31,False,True
+INV00246,2023-03-11,CUST1132,Product6251,Digital Thermometer,Medical Devices,4,1346.18,5384.72,4416.67,968.05,East Branch,Upi,2023,3,Mar,Mar-2023,Q1,Saturday,10,17.98,1346.18,True,True
+INV00247,2023-11-06,CUST1038,Product6891,Moisturizer Cream,Cosmetics & Skincare,6,494.78,2968.68,1787.5,1181.18,Central Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Monday,45,39.79,494.78,False,False
+INV00248,2023-01-04,CUST1080,Product7841,Sunscreen Spf50,Cosmetics & Skincare,5,119.74,598.7,331.05,267.65,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,1,44.71,119.74,False,False
+INV00249,2023-06-07,CUST1060,Product4390,Neem Capsules,Herbal & Ayurvedic,4,107.46,429.84,287.17,142.67,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,23,33.19,107.46,False,False
+INV00250,2023-11-10,CUST1019,Product9623,Baby Powder,Baby & Mother Care,6,1079.67,6478.02,4345.55,2132.47,Central Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Friday,45,32.92,1079.67,False,True
+INV00251,2023-05-26,CUST1047,Product2019,Pulse Oximeter,Medical Devices,6,1350.22,8101.32,6182.9,1918.42,West Branch,Cash,2023,5,May,May-2023,Q2,Friday,21,23.68,1350.22,False,True
+INV00252,2023-08-28,CUST1075,Product4471,Baby Food 200G,Baby & Mother Care,1,701.32,701.32,485.85,215.47,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Monday,35,30.72,701.32,False,False
+INV00253,2023-04-17,CUST1081,Product9186,Digital Thermometer,Medical Devices,4,1459.15,5836.6,4570.63,1265.97,North Branch,Upi,2023,4,Apr,Apr-2023,Q2,Monday,16,21.69,1459.15,False,True
+INV00254,2023-03-10,CUST1049,Product9895,Glucometer,Medical Devices,5,479.64,2398.2,1629.47,768.73,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Friday,10,32.05,479.64,False,False
+INV00255,2023-10-22,CUST1129,Product3839,Pulse Oximeter,Medical Devices,6,2319.75,13918.5,11691.98,2226.52,South Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Sunday,42,16.0,2319.75,True,True
+INV00256,2023-12-30,CUST1031,Product2619,Amlodipine 5Mg,Prescription Drugs,6,124.11,744.66,628.47,116.19,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Saturday,52,15.6,124.11,True,False
+INV00257,2023-12-08,CUST1014,Product1631,Amlodipine 5Mg,Prescription Drugs,5,133.1,665.5,579.56,85.94,West Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Friday,49,12.91,133.1,False,False
+INV00258,2023-02-13,CUST1107,Product3643,Ors Sachets,Otc Medicines,7,168.41,1178.87,759.97,418.9,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,7,35.53,168.41,False,False
+INV00259,2023-01-07,CUST1148,Product6591,Ibuprofen 400Mg,Otc Medicines,3,65.95,197.85,137.21,60.64,South Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Saturday,1,30.65,65.95,True,False
+INV00260,2023-05-22,CUST1058,Product7164,Turmeric Capsules,Herbal & Ayurvedic,5,107.17,535.85,366.35,169.5,North Branch,Upi,2023,5,May,May-2023,Q2,Monday,21,31.63,107.17,False,False
+INV00261,2023-11-01,CUST1089,Product7588,Cough Syrup,Otc Medicines,3,259.3,777.9,592.57,185.33,East Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,44,23.82,259.3,False,False
+INV00262,2023-11-23,CUST1061,Product1572,Amoxicillin 500Mg,Prescription Drugs,2,634.41,1268.82,1031.7,237.12,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Thursday,47,18.69,634.41,False,False
+INV00263,2023-06-26,CUST1098,Product4648,Antacid Syrup,Otc Medicines,2,199.04,398.08,255.43,142.65,North Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Monday,26,35.83,199.04,False,False
+INV00264,2023-03-07,CUST1144,Product4750,Cough Syrup,Otc Medicines,5,332.08,1660.4,1046.06,614.34,South Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Tuesday,10,37.0,332.08,False,False
+INV00265,2023-05-18,CUST1063,Product6055,Breast Pump,Baby & Mother Care,7,827.25,5790.75,3814.48,1976.27,East Branch,Debit Card,2023,5,May,May-2023,Q2,Thursday,20,34.13,827.25,False,True
+INV00266,2023-08-02,CUST1092,Product1781,Tulsi Drops,Herbal & Ayurvedic,4,363.32,1453.28,880.05,573.23,Central Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Wednesday,31,39.44,363.32,False,False
+INV00267,2023-03-07,CUST1044,Product8264,Protein Powder,Supplements & Vitamins,1,738.19,738.19,415.1,323.09,North Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Tuesday,10,43.77,738.19,False,False
+INV00268,2023-03-30,CUST1147,Product7852,Antacid Syrup,Otc Medicines,3,54.81,164.43,109.95,54.48,East Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Thursday,13,33.13,54.81,False,False
+INV00269,2023-10-24,CUST1085,Product8239,Calcium + D3,Supplements & Vitamins,4,699.5,2798.0,1897.65,900.35,West Branch,Upi,2023,10,Oct,Oct-2023,Q4,Tuesday,43,32.18,699.5,False,False
+INV00270,2023-07-29,CUST1012,Product3822,Ashwagandha Tablets,Herbal & Ayurvedic,7,181.84,1272.88,730.25,542.63,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Saturday,30,42.63,181.84,True,False
+INV00271,2023-08-08,CUST1124,Product1687,Protein Powder,Supplements & Vitamins,3,1092.05,3276.15,2318.81,957.34,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Tuesday,32,29.22,1092.05,False,True
+INV00272,2023-10-02,CUST1139,Product8183,Protein Powder,Supplements & Vitamins,4,988.52,3954.08,2008.91,1945.17,North Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Monday,40,49.19,988.52,False,True
+INV00273,2023-09-26,CUST1102,Product2529,Ciprofloxacin 500Mg,Prescription Drugs,5,837.76,4188.8,3238.5,950.3,South Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Tuesday,39,22.69,837.76,False,True
+INV00274,2023-05-11,CUST1025,Product8833,Giloy Juice,Herbal & Ayurvedic,7,147.51,1032.57,642.28,390.29,North Branch,Insurance,2023,5,May,May-2023,Q2,Thursday,19,37.8,147.51,False,False
+INV00275,2023-09-22,CUST1134,Product8544,Teething Gel,Baby & Mother Care,5,1463.37,7316.85,5506.89,1809.96,West Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Friday,38,24.74,1463.37,False,True
+INV00276,2023-08-04,CUST1076,Product5079,Omega-3 Capsules,Supplements & Vitamins,7,834.25,5839.75,3921.3,1918.45,South Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Friday,31,32.85,834.25,False,True
+INV00277,2023-06-29,CUST1051,Product6433,Pulse Oximeter,Medical Devices,2,622.04,1244.08,997.78,246.3,South Branch,Cash,2023,6,Jun,Jun-2023,Q2,Thursday,26,19.8,622.04,False,False
+INV00278,2023-11-21,CUST1094,Product8950,Multivitamin Tablets,Supplements & Vitamins,7,801.97,5613.79,3715.8,1897.99,West Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Tuesday,47,33.81,801.97,False,True
+INV00279,2023-03-07,CUST1047,Product2958,Calcium + D3,Supplements & Vitamins,1,282.58,282.58,164.17,118.41,East Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Tuesday,10,41.9,282.58,False,False
+INV00280,2023-12-09,CUST1047,Product6925,Baby Diaper Pack,Baby & Mother Care,4,433.51,1734.04,1131.62,602.42,East Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Saturday,49,34.74,433.51,True,False
+INV00281,2023-10-29,CUST1145,Product5646,Turmeric Capsules,Herbal & Ayurvedic,5,97.26,486.3,345.32,140.98,West Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,43,28.99,97.26,True,False
+INV00282,2023-08-13,CUST1091,Product2377,Atorvastatin 20Mg,Prescription Drugs,4,592.04,2368.16,1985.36,382.8,East Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Sunday,32,16.16,592.04,True,False
+INV00283,2023-02-04,CUST1084,Product9472,Teething Gel,Baby & Mother Care,6,1313.1,7878.6,5599.09,2279.51,East Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Saturday,5,28.93,1313.1,True,True
+INV00284,2023-03-24,CUST1019,Product8880,Baby Lotion,Baby & Mother Care,6,506.45,3038.7,1970.09,1068.61,East Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,12,35.17,506.45,False,False
+INV00285,2023-09-08,CUST1019,Product3990,Hand Sanitizer,Cosmetics & Skincare,5,772.11,3860.55,2001.05,1859.5,West Branch,Cash,2023,9,Sep,Sep-2023,Q3,Friday,36,48.17,772.11,False,True
+INV00286,2023-10-13,CUST1120,Product2762,Aloe Vera Gel,Cosmetics & Skincare,6,140.19,841.14,574.43,266.71,North Branch,Cash,2023,10,Oct,Oct-2023,Q4,Friday,41,31.71,140.19,False,False
+INV00287,2023-03-09,CUST1105,Product8804,Atorvastatin 20Mg,Prescription Drugs,6,652.26,3913.56,3413.79,499.77,West Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Thursday,10,12.77,652.26,False,True
+INV00288,2023-01-16,CUST1012,Product6154,Teething Gel,Baby & Mother Care,1,1484.86,1484.86,1031.63,453.23,Central Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,3,30.52,1484.86,False,False
+INV00289,2023-10-31,CUST1137,Product5577,B-Complex,Supplements & Vitamins,2,752.02,1504.04,880.31,623.73,West Branch,Upi,2023,10,Oct,Oct-2023,Q4,Tuesday,44,41.47,752.02,False,False
+INV00290,2023-03-17,CUST1026,Product7748,Omeprazole 20Mg,Prescription Drugs,7,411.43,2880.01,2388.36,491.65,North Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,11,17.07,411.43,False,False
+INV00291,2023-06-28,CUST1028,Product1771,Baby Food 200G,Baby & Mother Care,3,734.44,2203.32,1459.13,744.19,West Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Wednesday,26,33.78,734.44,False,False
+INV00292,2023-06-11,CUST1001,Product5005,Breast Pump,Baby & Mother Care,5,1459.66,7298.3,5601.19,1697.11,East Branch,Cash,2023,6,Jun,Jun-2023,Q2,Sunday,23,23.25,1459.66,True,True
+INV00293,2023-09-19,CUST1136,Product4451,Teething Gel,Baby & Mother Care,1,124.03,124.03,100.72,23.31,South Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Tuesday,38,18.79,124.03,False,False
+INV00294,2023-05-22,CUST1084,Product6808,Paracetamol 500Mg,Otc Medicines,1,129.34,129.34,91.0,38.34,East Branch,Upi,2023,5,May,May-2023,Q2,Monday,21,29.64,129.34,False,False
+INV00295,2023-05-16,CUST1124,Product5697,Nebulizer,Medical Devices,6,3033.24,18199.44,15289.36,2910.08,East Branch,Insurance,2023,5,May,May-2023,Q2,Tuesday,20,15.99,3033.24,False,True
+INV00296,2023-12-29,CUST1088,Product5912,Tulsi Drops,Herbal & Ayurvedic,5,377.47,1887.35,1249.59,637.76,North Branch,Cash,2023,12,Dec,Dec-2023,Q4,Friday,52,33.79,377.47,False,False
+INV00297,2023-02-10,CUST1147,Product6002,Amoxicillin 500Mg,Prescription Drugs,5,345.82,1729.1,1381.23,347.87,Central Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Friday,6,20.12,345.82,False,False
+INV00298,2023-01-19,CUST1109,Product7588,Knee Support,Medical Devices,6,828.65,4971.9,3838.43,1133.47,West Branch,Upi,2023,1,Jan,Jan-2023,Q1,Thursday,3,22.8,828.65,False,True
+INV00299,2023-01-08,CUST1087,Product4741,Omeprazole 20Mg,Prescription Drugs,2,815.4,1630.8,1220.83,409.97,North Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Sunday,1,25.14,815.4,True,False
+INV00300,2023-05-26,CUST1127,Product9611,Knee Support,Medical Devices,7,429.79,3008.53,2032.8,975.73,South Branch,Insurance,2023,5,May,May-2023,Q2,Friday,21,32.43,429.79,False,False
+INV00301,2023-04-23,CUST1122,Product8922,Cough Syrup,Otc Medicines,3,216.79,650.37,448.81,201.56,North Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Sunday,16,30.99,216.79,True,False
+INV00302,2023-07-21,CUST1075,Product5658,Ashwagandha Tablets,Herbal & Ayurvedic,7,294.59,2062.13,1302.02,760.11,South Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Friday,29,36.86,294.59,False,False
+INV00303,2023-06-04,CUST1093,Product1386,Baby Diaper Pack,Baby & Mother Care,1,332.96,332.96,261.58,71.38,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Sunday,22,21.44,332.96,True,False
+INV00304,2023-08-23,CUST1101,Product5669,Baby Lotion,Baby & Mother Care,1,1078.94,1078.94,769.83,309.11,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Wednesday,34,28.65,1078.94,False,False
+INV00305,2023-10-21,CUST1107,Product7563,Ciprofloxacin 500Mg,Prescription Drugs,7,439.29,3075.03,2304.19,770.84,West Branch,Upi,2023,10,Oct,Oct-2023,Q4,Saturday,42,25.07,439.29,True,False
+INV00306,2023-01-30,CUST1098,Product2823,Protein Powder,Supplements & Vitamins,7,719.66,5037.62,2692.93,2344.69,West Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Monday,5,46.54,719.66,False,True
+INV00307,2023-01-23,CUST1057,Product2141,Calcium + D3,Supplements & Vitamins,4,758.23,3032.92,1698.93,1333.99,East Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Monday,4,43.98,758.23,False,False
+INV00308,2023-06-05,CUST1056,Product5928,Hand Sanitizer,Cosmetics & Skincare,1,444.36,444.36,254.21,190.15,Central Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Monday,23,42.79,444.36,False,False
+INV00309,2023-05-06,CUST1113,Product2829,Ciprofloxacin 500Mg,Prescription Drugs,4,341.62,1366.48,1089.41,277.07,East Branch,Cash,2023,5,May,May-2023,Q2,Saturday,18,20.28,341.62,True,False
+INV00310,2023-01-31,CUST1109,Product7980,Bp Monitor,Medical Devices,4,2156.71,8626.84,6367.15,2259.69,West Branch,Cash,2023,1,Jan,Jan-2023,Q1,Tuesday,5,26.19,2156.71,False,True
+INV00311,2023-06-04,CUST1051,Product3309,Baby Powder,Baby & Mother Care,3,1450.34,4351.02,3233.5,1117.52,East Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Sunday,22,25.68,1450.34,True,True
+INV00312,2023-05-02,CUST1124,Product9036,Protein Powder,Supplements & Vitamins,7,662.24,4635.68,3326.05,1309.63,Central Branch,Upi,2023,5,May,May-2023,Q2,Tuesday,18,28.25,662.24,False,True
+INV00313,2023-10-12,CUST1126,Product6619,Zinc Tablets,Supplements & Vitamins,6,783.09,4698.54,2552.83,2145.71,Central Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Thursday,41,45.67,783.09,False,True
+INV00314,2023-11-01,CUST1109,Product5916,Omeprazole 20Mg,Prescription Drugs,6,496.88,2981.28,2550.0,431.28,Central Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,44,14.47,496.88,False,False
+INV00315,2023-04-19,CUST1085,Product1382,Zinc Tablets,Supplements & Vitamins,3,523.99,1571.97,854.05,717.92,East Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Wednesday,16,45.67,523.99,False,False
+INV00316,2023-04-02,CUST1141,Product7652,Antiseptic Cream,Cosmetics & Skincare,4,673.02,2692.08,1517.78,1174.3,Central Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Sunday,13,43.62,673.02,True,False
+INV00317,2023-06-01,CUST1085,Product3567,Atorvastatin 20Mg,Prescription Drugs,4,311.38,1245.52,1031.13,214.39,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Thursday,22,17.21,311.38,False,False
+INV00318,2023-03-05,CUST1098,Product9458,Antiseptic Cream,Cosmetics & Skincare,1,583.16,583.16,275.99,307.17,East Branch,Upi,2023,3,Mar,Mar-2023,Q1,Sunday,9,52.67,583.16,True,False
+INV00319,2023-01-05,CUST1046,Product1882,Baby Food 200G,Baby & Mother Care,7,1320.56,9243.92,7338.47,1905.45,North Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Thursday,1,20.61,1320.56,False,True
+INV00320,2023-07-02,CUST1102,Product9125,Omega-3 Capsules,Supplements & Vitamins,4,657.58,2630.32,1404.89,1225.43,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Sunday,26,46.59,657.58,True,False
+INV00321,2023-08-30,CUST1082,Product5699,Turmeric Capsules,Herbal & Ayurvedic,3,345.86,1037.58,691.82,345.76,North Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Wednesday,35,33.32,345.86,False,False
+INV00322,2023-06-12,CUST1081,Product3384,Zinc Tablets,Supplements & Vitamins,7,770.98,5396.86,2959.38,2437.48,North Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Monday,24,45.16,770.98,False,True
+INV00323,2023-11-21,CUST1031,Product9182,Amoxicillin 500Mg,Prescription Drugs,3,320.16,960.48,805.87,154.61,Central Branch,Upi,2023,11,Nov,Nov-2023,Q4,Tuesday,47,16.1,320.16,False,False
+INV00324,2023-10-25,CUST1035,Product1695,Ors Sachets,Otc Medicines,5,30.08,150.4,94.09,56.31,Central Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Wednesday,43,37.44,30.08,False,False
+INV00325,2023-09-21,CUST1071,Product9733,Baby Diaper Pack,Baby & Mother Care,6,132.23,793.38,492.24,301.14,South Branch,Cash,2023,9,Sep,Sep-2023,Q3,Thursday,38,37.96,132.23,False,False
+INV00326,2023-02-06,CUST1128,Product9392,Giloy Juice,Herbal & Ayurvedic,1,257.73,257.73,163.51,94.22,Central Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,6,36.56,257.73,False,False
+INV00327,2023-01-23,CUST1128,Product8427,Ashwagandha Tablets,Herbal & Ayurvedic,4,444.02,1776.08,1342.69,433.39,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Monday,4,24.4,444.02,False,False
+INV00328,2023-07-07,CUST1034,Product3092,Maternity Pads,Baby & Mother Care,6,542.47,3254.82,2311.49,943.33,Central Branch,Upi,2023,7,Jul,Jul-2023,Q3,Friday,27,28.98,542.47,False,True
+INV00329,2023-05-25,CUST1124,Product8823,Glucometer,Medical Devices,3,3080.62,9241.86,6595.46,2646.4,South Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,21,28.63,3080.62,False,True
+INV00330,2023-04-21,CUST1039,Product3951,Breast Pump,Baby & Mother Care,2,220.6,441.2,326.23,114.97,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Friday,16,26.06,220.6,False,False
+INV00331,2023-08-19,CUST1145,Product6789,Chyawanprash 500G,Herbal & Ayurvedic,6,218.41,1310.46,1015.52,294.94,Central Branch,Cash,2023,8,Aug,Aug-2023,Q3,Saturday,33,22.51,218.41,True,False
+INV00332,2023-10-08,CUST1010,Product8651,Nebulizer,Medical Devices,5,986.81,4934.05,3783.31,1150.74,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Sunday,40,23.32,986.81,True,True
+INV00333,2023-02-22,CUST1059,Product6590,Breast Pump,Baby & Mother Care,4,1062.01,4248.04,3277.85,970.19,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Wednesday,8,22.84,1062.01,False,True
+INV00334,2023-09-05,CUST1105,Product8758,Antacid Syrup,Otc Medicines,7,72.35,506.45,315.82,190.63,South Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Tuesday,36,37.64,72.35,False,False
+INV00335,2023-04-06,CUST1008,Product7056,Ciprofloxacin 500Mg,Prescription Drugs,1,473.57,473.57,413.19,60.38,North Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Thursday,14,12.75,473.57,False,False
+INV00336,2023-05-19,CUST1107,Product5232,Baby Food 200G,Baby & Mother Care,4,1142.45,4569.8,3458.18,1111.62,North Branch,Cash,2023,5,May,May-2023,Q2,Friday,20,24.33,1142.45,False,True
+INV00337,2023-11-03,CUST1112,Product7091,Omega-3 Capsules,Supplements & Vitamins,4,750.4,3001.6,1570.44,1431.16,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Friday,44,47.68,750.4,False,False
+INV00338,2023-11-12,CUST1120,Product8094,Protein Powder,Supplements & Vitamins,1,871.37,871.37,545.95,325.42,East Branch,Cash,2023,11,Nov,Nov-2023,Q4,Sunday,45,37.35,871.37,True,False
+INV00339,2023-04-11,CUST1011,Product6904,Vitamin C 500Mg,Otc Medicines,7,103.9,727.3,454.49,272.81,North Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,15,37.51,103.9,False,False
+INV00340,2023-07-30,CUST1042,Product2124,Hair Oil,Cosmetics & Skincare,1,273.54,273.54,184.27,89.27,West Branch,Upi,2023,7,Jul,Jul-2023,Q3,Sunday,30,32.64,273.54,True,False
+INV00341,2023-05-26,CUST1105,Product6574,Maternity Pads,Baby & Mother Care,4,1314.83,5259.32,3811.99,1447.33,East Branch,Insurance,2023,5,May,May-2023,Q2,Friday,21,27.52,1314.83,False,True
+INV00342,2023-01-16,CUST1054,Product3005,Omeprazole 20Mg,Prescription Drugs,2,505.09,1010.18,821.75,188.43,North Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,3,18.65,505.09,False,False
+INV00343,2023-08-04,CUST1003,Product7469,Amlodipine 5Mg,Prescription Drugs,5,660.6,3303.0,2887.65,415.35,West Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Friday,31,12.57,660.6,False,True
+INV00344,2023-03-06,CUST1013,Product8480,Hand Sanitizer,Cosmetics & Skincare,5,561.65,2808.25,1637.1,1171.15,West Branch,Upi,2023,3,Mar,Mar-2023,Q1,Monday,10,41.7,561.65,False,False
+INV00345,2023-02-22,CUST1102,Product2815,Azithromycin 500Mg,Prescription Drugs,6,477.21,2863.26,2397.08,466.18,South Branch,Upi,2023,2,Feb,Feb-2023,Q1,Wednesday,8,16.28,477.21,False,False
+INV00346,2023-04-21,CUST1116,Product8703,Ors Sachets,Otc Medicines,1,61.04,61.04,43.78,17.26,North Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Friday,16,28.28,61.04,False,False
+INV00347,2023-08-18,CUST1119,Product4227,Glucometer,Medical Devices,1,3383.2,3383.2,2524.52,858.68,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Friday,33,25.38,3383.2,False,True
+INV00348,2023-06-30,CUST1134,Product5063,Ashwagandha Tablets,Herbal & Ayurvedic,4,587.53,2350.12,1765.23,584.89,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Friday,26,24.89,587.53,False,False
+INV00349,2023-11-09,CUST1117,Product5579,Digital Thermometer,Medical Devices,1,2664.88,2664.88,2146.15,518.73,West Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Thursday,45,19.47,2664.88,False,False
+INV00350,2023-11-27,CUST1045,Product9835,Knee Support,Medical Devices,4,3010.59,12042.36,10179.18,1863.18,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Monday,48,15.47,3010.59,False,True
+INV00351,2023-07-24,CUST1004,Product6223,Protein Powder,Supplements & Vitamins,1,1134.25,1134.25,679.62,454.63,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,30,40.08,1134.25,False,False
+INV00352,2023-11-27,CUST1017,Product6690,Ciprofloxacin 500Mg,Prescription Drugs,5,488.67,2443.35,1895.67,547.68,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Monday,48,22.42,488.67,False,False
+INV00353,2023-10-28,CUST1104,Product6102,Antacid Syrup,Otc Medicines,7,66.46,465.22,314.26,150.96,East Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Saturday,43,32.45,66.46,True,False
+INV00354,2023-02-21,CUST1047,Product9350,Neem Capsules,Herbal & Ayurvedic,3,215.15,645.45,452.21,193.24,West Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,8,29.94,215.15,False,False
+INV00355,2023-03-25,CUST1054,Product2696,Azithromycin 500Mg,Prescription Drugs,2,611.37,1222.74,893.95,328.79,West Branch,Cash,2023,3,Mar,Mar-2023,Q1,Saturday,12,26.89,611.37,True,False
+INV00356,2023-05-02,CUST1134,Product3645,Ors Sachets,Otc Medicines,3,271.16,813.48,593.15,220.33,Central Branch,Upi,2023,5,May,May-2023,Q2,Tuesday,18,27.08,271.16,False,False
+INV00357,2023-08-10,CUST1008,Product1492,Baby Lotion,Baby & Mother Care,6,874.28,5245.68,3847.37,1398.31,East Branch,Upi,2023,8,Aug,Aug-2023,Q3,Thursday,32,26.66,874.28,False,True
+INV00358,2023-02-19,CUST1070,Product3743,Iron Supplement,Supplements & Vitamins,1,293.85,293.85,147.29,146.56,East Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Sunday,7,49.88,293.85,True,False
+INV00359,2023-03-30,CUST1055,Product1619,Omega-3 Capsules,Supplements & Vitamins,6,748.02,4488.12,3074.88,1413.24,South Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Thursday,13,31.49,748.02,False,True
+INV00360,2023-10-26,CUST1008,Product4212,Protein Powder,Supplements & Vitamins,3,522.79,1568.37,902.47,665.9,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Thursday,43,42.46,522.79,False,False
+INV00361,2023-02-08,CUST1084,Product6973,Ors Sachets,Otc Medicines,4,101.62,406.48,273.1,133.38,North Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Wednesday,6,32.81,101.62,False,False
+INV00362,2023-04-11,CUST1104,Product3369,Heating Pad,Medical Devices,4,338.73,1354.92,1149.23,205.69,West Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,15,15.18,338.73,False,False
+INV00363,2023-12-30,CUST1010,Product3787,Giloy Juice,Herbal & Ayurvedic,6,302.93,1817.58,1405.52,412.06,Central Branch,Upi,2023,12,Dec,Dec-2023,Q4,Saturday,52,22.67,302.93,True,False
+INV00364,2023-06-09,CUST1071,Product4824,Azithromycin 500Mg,Prescription Drugs,7,788.04,5516.28,3977.67,1538.61,North Branch,Upi,2023,6,Jun,Jun-2023,Q2,Friday,23,27.89,788.04,False,True
+INV00365,2023-04-23,CUST1017,Product5369,Iron Supplement,Supplements & Vitamins,4,941.98,3767.92,1960.8,1807.12,East Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Sunday,16,47.96,941.98,True,True
+INV00366,2023-11-20,CUST1001,Product9345,Pulse Oximeter,Medical Devices,5,2105.04,10525.2,8191.6,2333.6,North Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Monday,47,22.17,2105.04,False,True
+INV00367,2023-02-10,CUST1122,Product6520,Pulse Oximeter,Medical Devices,4,388.06,1552.24,1058.68,493.56,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Friday,6,31.8,388.06,False,False
+INV00368,2023-09-13,CUST1149,Product7242,Baby Lotion,Baby & Mother Care,5,430.35,2151.75,1578.79,572.96,East Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Wednesday,37,26.63,430.35,False,False
+INV00369,2023-10-30,CUST1149,Product5557,Moisturizer Cream,Cosmetics & Skincare,3,261.87,785.61,480.59,305.02,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Monday,44,38.83,261.87,False,False
+INV00370,2023-04-19,CUST1112,Product1614,Hair Oil,Cosmetics & Skincare,2,716.67,1433.34,808.22,625.12,Central Branch,Cash,2023,4,Apr,Apr-2023,Q2,Wednesday,16,43.61,716.67,False,False
+INV00371,2023-09-28,CUST1129,Product4607,Breast Pump,Baby & Mother Care,6,218.2,1309.2,1055.48,253.72,East Branch,Upi,2023,9,Sep,Sep-2023,Q3,Thursday,39,19.38,218.2,False,False
+INV00372,2023-06-30,CUST1069,Product5958,Antacid Syrup,Otc Medicines,3,190.17,570.51,403.55,166.96,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Friday,26,29.27,190.17,False,False
+INV00373,2023-07-07,CUST1138,Product7534,Baby Food 200G,Baby & Mother Care,6,854.19,5125.14,3597.41,1527.73,Central Branch,Cash,2023,7,Jul,Jul-2023,Q3,Friday,27,29.81,854.19,False,True
+INV00374,2023-06-28,CUST1076,Product4109,Chyawanprash 500G,Herbal & Ayurvedic,5,238.05,1190.25,865.32,324.93,West Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Wednesday,26,27.3,238.05,False,False
+INV00375,2023-12-09,CUST1030,Product3749,Zinc Tablets,Supplements & Vitamins,4,928.99,3715.96,1998.79,1717.17,South Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Saturday,49,46.21,928.99,True,True
+INV00376,2023-02-16,CUST1054,Product3708,Digital Thermometer,Medical Devices,3,1168.6,3505.8,2892.04,613.76,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Thursday,7,17.51,1168.6,False,True
+INV00377,2023-06-11,CUST1139,Product4551,Atorvastatin 20Mg,Prescription Drugs,7,499.26,3494.82,2678.81,816.01,North Branch,Cash,2023,6,Jun,Jun-2023,Q2,Sunday,23,23.35,499.26,True,True
+INV00378,2023-04-21,CUST1149,Product3800,Ors Sachets,Otc Medicines,1,139.36,139.36,85.03,54.33,North Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Friday,16,38.99,139.36,False,False
+INV00379,2023-03-29,CUST1001,Product1406,Ciprofloxacin 500Mg,Prescription Drugs,1,212.51,212.51,153.94,58.57,South Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Wednesday,13,27.56,212.51,False,False
+INV00380,2023-09-08,CUST1073,Product6260,Vitamin C 500Mg,Otc Medicines,5,304.36,1521.8,1134.02,387.78,North Branch,Upi,2023,9,Sep,Sep-2023,Q3,Friday,36,25.48,304.36,False,False
+INV00381,2023-03-04,CUST1112,Product1174,Teething Gel,Baby & Mother Care,4,1470.37,5881.48,3815.27,2066.21,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Saturday,9,35.13,1470.37,True,True
+INV00382,2023-04-10,CUST1113,Product5946,Knee Support,Medical Devices,1,1298.35,1298.35,978.31,320.04,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Monday,15,24.65,1298.35,False,False
+INV00383,2023-09-27,CUST1132,Product7871,Iron Supplement,Supplements & Vitamins,3,161.99,485.97,278.98,206.99,South Branch,Upi,2023,9,Sep,Sep-2023,Q3,Wednesday,39,42.59,161.99,False,False
+INV00384,2023-06-17,CUST1027,Product1389,Protein Powder,Supplements & Vitamins,3,891.5,2674.5,1648.63,1025.87,East Branch,Upi,2023,6,Jun,Jun-2023,Q2,Saturday,24,38.36,891.5,True,False
+INV00385,2023-02-12,CUST1148,Product8262,Heating Pad,Medical Devices,3,3347.89,10043.67,8081.68,1961.99,South Branch,Cash,2023,2,Feb,Feb-2023,Q1,Sunday,6,19.53,3347.89,True,True
+INV00386,2023-11-09,CUST1114,Product8951,Hand Sanitizer,Cosmetics & Skincare,7,287.41,2011.87,997.68,1014.19,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Thursday,45,50.41,287.41,False,False
+INV00387,2023-05-04,CUST1012,Product4197,Giloy Juice,Herbal & Ayurvedic,3,86.32,258.96,161.84,97.12,North Branch,Cash,2023,5,May,May-2023,Q2,Thursday,18,37.5,86.32,False,False
+INV00388,2023-04-07,CUST1078,Product8236,Glucometer,Medical Devices,5,1429.47,7147.35,5187.13,1960.22,Central Branch,Cash,2023,4,Apr,Apr-2023,Q2,Friday,14,27.43,1429.47,False,True
+INV00389,2023-01-19,CUST1047,Product8846,Baby Powder,Baby & Mother Care,1,514.35,514.35,377.25,137.1,Central Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Thursday,3,26.66,514.35,False,False
+INV00390,2023-08-03,CUST1148,Product8196,Sunscreen Spf50,Cosmetics & Skincare,5,638.65,3193.25,1649.72,1543.53,East Branch,Upi,2023,8,Aug,Aug-2023,Q3,Thursday,31,48.34,638.65,False,False
+INV00391,2023-03-03,CUST1017,Product1517,Vitamin C 500Mg,Otc Medicines,2,321.86,643.72,513.5,130.22,Central Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Friday,9,20.23,321.86,False,False
+INV00392,2023-08-07,CUST1071,Product8162,Cough Syrup,Otc Medicines,4,153.19,612.76,399.78,212.98,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Monday,32,34.76,153.19,False,False
+INV00393,2023-05-04,CUST1039,Product2518,Omega-3 Capsules,Supplements & Vitamins,2,657.19,1314.38,897.55,416.83,South Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,18,31.71,657.19,False,False
+INV00394,2023-03-25,CUST1053,Product3849,Breast Pump,Baby & Mother Care,3,713.92,2141.76,1458.2,683.56,East Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Saturday,12,31.92,713.92,True,False
+INV00395,2023-12-18,CUST1100,Product6178,Baby Powder,Baby & Mother Care,6,466.23,2797.38,1915.63,881.75,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Monday,51,31.52,466.23,False,False
+INV00396,2023-09-23,CUST1150,Product3994,Moisturizer Cream,Cosmetics & Skincare,5,180.56,902.8,605.54,297.26,Central Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Saturday,38,32.93,180.56,True,False
+INV00397,2023-10-11,CUST1045,Product1816,Glucometer,Medical Devices,6,2300.66,13803.96,10702.06,3101.9,North Branch,Cash,2023,10,Oct,Oct-2023,Q4,Wednesday,41,22.47,2300.66,False,True
+INV00398,2023-08-25,CUST1074,Product1369,Amlodipine 5Mg,Prescription Drugs,3,817.34,2452.02,2001.23,450.79,South Branch,Cash,2023,8,Aug,Aug-2023,Q3,Friday,34,18.38,817.34,False,False
+INV00399,2023-05-07,CUST1111,Product4676,B-Complex,Supplements & Vitamins,2,247.26,494.52,278.37,216.15,North Branch,Insurance,2023,5,May,May-2023,Q2,Sunday,18,43.71,247.26,True,False
+INV00400,2023-09-30,CUST1041,Product5017,Multivitamin Tablets,Supplements & Vitamins,3,159.51,478.53,288.38,190.15,East Branch,Cash,2023,9,Sep,Sep-2023,Q3,Saturday,39,39.74,159.51,True,False
+INV00401,2023-02-16,CUST1110,Product5164,Antiseptic Cream,Cosmetics & Skincare,7,199.45,1396.15,671.04,725.11,North Branch,Cash,2023,2,Feb,Feb-2023,Q1,Thursday,7,51.94,199.45,False,False
+INV00402,2023-11-10,CUST1016,Product2629,Omega-3 Capsules,Supplements & Vitamins,3,631.89,1895.67,1074.5,821.17,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Friday,45,43.32,631.89,False,False
+INV00403,2023-11-15,CUST1102,Product2014,Triphala Churna,Herbal & Ayurvedic,2,498.65,997.3,589.12,408.18,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,46,40.93,498.65,False,False
+INV00404,2023-04-17,CUST1028,Product3912,B-Complex,Supplements & Vitamins,3,959.28,2877.84,1850.81,1027.03,North Branch,Cash,2023,4,Apr,Apr-2023,Q2,Monday,16,35.69,959.28,False,False
+INV00405,2023-09-15,CUST1107,Product6307,Baby Food 200G,Baby & Mother Care,1,168.31,168.31,111.51,56.8,Central Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Friday,37,33.75,168.31,False,False
+INV00406,2023-12-01,CUST1098,Product1062,Baby Lotion,Baby & Mother Care,4,858.34,3433.36,2716.21,717.15,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Friday,48,20.89,858.34,False,True
+INV00407,2023-09-13,CUST1054,Product9003,Baby Powder,Baby & Mother Care,2,150.24,300.48,228.3,72.18,Central Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Wednesday,37,24.02,150.24,False,False
+INV00408,2023-08-30,CUST1102,Product6103,Hair Oil,Cosmetics & Skincare,1,623.33,623.33,372.49,250.84,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,35,40.24,623.33,False,False
+INV00409,2023-04-19,CUST1035,Product6059,Nebulizer,Medical Devices,1,894.07,894.07,641.19,252.88,West Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Wednesday,16,28.28,894.07,False,False
+INV00410,2023-08-22,CUST1061,Product4927,Digital Thermometer,Medical Devices,4,3258.6,13034.4,9923.59,3110.81,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Tuesday,34,23.87,3258.6,False,True
+INV00411,2023-02-05,CUST1106,Product3854,Omeprazole 20Mg,Prescription Drugs,7,246.37,1724.59,1294.32,430.27,South Branch,Cash,2023,2,Feb,Feb-2023,Q1,Sunday,5,24.95,246.37,True,False
+INV00412,2023-04-19,CUST1118,Product1086,Amoxicillin 500Mg,Prescription Drugs,5,775.74,3878.7,3365.07,513.63,East Branch,Cash,2023,4,Apr,Apr-2023,Q2,Wednesday,16,13.24,775.74,False,True
+INV00413,2023-08-02,CUST1087,Product3700,Amlodipine 5Mg,Prescription Drugs,7,435.62,3049.34,2481.18,568.16,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Wednesday,31,18.63,435.62,False,False
+INV00414,2023-09-04,CUST1134,Product5757,Breast Pump,Baby & Mother Care,7,795.34,5567.38,4086.89,1480.49,Central Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Monday,36,26.59,795.34,False,True
+INV00415,2023-05-02,CUST1115,Product8178,Baby Diaper Pack,Baby & Mother Care,6,146.4,878.4,691.17,187.23,South Branch,Insurance,2023,5,May,May-2023,Q2,Tuesday,18,21.31,146.4,False,False
+INV00416,2023-04-28,CUST1137,Product4360,Maternity Pads,Baby & Mother Care,7,456.35,3194.45,2448.48,745.97,West Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Friday,17,23.35,456.35,False,False
+INV00417,2023-12-20,CUST1129,Product5188,Baby Diaper Pack,Baby & Mother Care,3,1056.99,3170.97,2338.99,831.98,East Branch,Upi,2023,12,Dec,Dec-2023,Q4,Wednesday,51,26.24,1056.99,False,False
+INV00418,2023-10-22,CUST1071,Product6388,Tulsi Drops,Herbal & Ayurvedic,1,337.77,337.77,190.97,146.8,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Sunday,42,43.46,337.77,True,False
+INV00419,2023-04-13,CUST1062,Product7314,Bp Monitor,Medical Devices,1,2472.47,2472.47,1719.36,753.11,Central Branch,Cash,2023,4,Apr,Apr-2023,Q2,Thursday,15,30.46,2472.47,False,False
+INV00420,2023-10-09,CUST1054,Product7811,Atorvastatin 20Mg,Prescription Drugs,5,394.25,1971.25,1455.38,515.87,West Branch,Cash,2023,10,Oct,Oct-2023,Q4,Monday,41,26.17,394.25,False,False
+INV00421,2023-12-30,CUST1083,Product1658,Amoxicillin 500Mg,Prescription Drugs,5,712.47,3562.35,2654.19,908.16,East Branch,Cash,2023,12,Dec,Dec-2023,Q4,Saturday,52,25.49,712.47,True,True
+INV00422,2023-01-30,CUST1128,Product3607,Paracetamol 500Mg,Otc Medicines,5,179.83,899.15,716.92,182.23,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Monday,5,20.27,179.83,False,False
+INV00423,2023-10-19,CUST1057,Product5780,Ors Sachets,Otc Medicines,6,148.5,891.0,616.26,274.74,West Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Thursday,42,30.84,148.5,False,False
+INV00424,2023-08-09,CUST1067,Product1002,Ibuprofen 400Mg,Otc Medicines,5,285.26,1426.3,1017.39,408.91,East Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Wednesday,32,28.67,285.26,False,False
+INV00425,2023-03-01,CUST1122,Product7239,Teething Gel,Baby & Mother Care,3,1095.16,3285.48,2448.02,837.46,West Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Wednesday,9,25.49,1095.16,False,True
+INV00426,2023-12-14,CUST1061,Product6167,B-Complex,Supplements & Vitamins,3,1022.94,3068.82,1655.38,1413.44,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Thursday,50,46.06,1022.94,False,False
+INV00427,2023-11-14,CUST1099,Product6330,Amlodipine 5Mg,Prescription Drugs,1,529.46,529.46,399.68,129.78,South Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Tuesday,46,24.51,529.46,False,False
+INV00428,2023-08-08,CUST1145,Product1990,Antiseptic Cream,Cosmetics & Skincare,3,177.41,532.23,346.62,185.61,Central Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Tuesday,32,34.87,177.41,False,False
+INV00429,2023-03-03,CUST1013,Product7410,Protein Powder,Supplements & Vitamins,2,1083.58,2167.16,1311.78,855.38,South Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,9,39.47,1083.58,False,False
+INV00430,2023-04-04,CUST1044,Product4278,Baby Powder,Baby & Mother Care,1,453.27,453.27,352.2,101.07,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Tuesday,14,22.3,453.27,False,False
+INV00431,2023-10-06,CUST1128,Product5334,Metformin 850Mg,Prescription Drugs,2,182.91,365.82,295.94,69.88,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Friday,40,19.1,182.91,False,False
+INV00432,2023-06-22,CUST1122,Product1922,B-Complex,Supplements & Vitamins,3,818.19,2454.57,1641.79,812.78,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Thursday,25,33.11,818.19,False,False
+INV00433,2023-07-26,CUST1101,Product7483,Hair Oil,Cosmetics & Skincare,6,97.36,584.16,295.47,288.69,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Wednesday,30,49.42,97.36,False,False
+INV00434,2023-01-22,CUST1096,Product6710,Sunscreen Spf50,Cosmetics & Skincare,4,212.92,851.68,497.38,354.3,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Sunday,3,41.6,212.92,True,False
+INV00435,2023-02-25,CUST1104,Product5172,Pulse Oximeter,Medical Devices,6,2433.91,14603.46,11469.48,3133.98,East Branch,Upi,2023,2,Feb,Feb-2023,Q1,Saturday,8,21.46,2433.91,True,True
+INV00436,2023-09-13,CUST1140,Product9490,Baby Lotion,Baby & Mother Care,2,1152.25,2304.5,1515.11,789.39,East Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Wednesday,37,34.25,1152.25,False,False
+INV00437,2023-12-31,CUST1095,Product7396,Knee Support,Medical Devices,3,2881.33,8643.99,5864.04,2779.95,East Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,52,32.16,2881.33,True,True
+INV00438,2023-10-31,CUST1086,Product1165,Digital Thermometer,Medical Devices,3,371.76,1115.28,867.59,247.69,Central Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Tuesday,44,22.21,371.76,False,False
+INV00439,2023-07-02,CUST1099,Product9706,Chyawanprash 500G,Herbal & Ayurvedic,2,447.2,894.4,634.08,260.32,East Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Sunday,26,29.11,447.2,True,False
+INV00440,2023-03-02,CUST1074,Product1572,Nebulizer,Medical Devices,5,2178.2,10891.0,7991.92,2899.08,Central Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Thursday,9,26.62,2178.2,False,True
+INV00441,2023-05-19,CUST1059,Product5996,Multivitamin Tablets,Supplements & Vitamins,4,747.96,2991.84,1594.34,1397.5,South Branch,Insurance,2023,5,May,May-2023,Q2,Friday,20,46.71,747.96,False,False
+INV00442,2023-06-19,CUST1014,Product5383,Protein Powder,Supplements & Vitamins,4,668.86,2675.44,1430.66,1244.78,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Monday,25,46.53,668.86,False,False
+INV00443,2023-03-16,CUST1133,Product4414,Protein Powder,Supplements & Vitamins,2,530.55,1061.1,566.72,494.38,Central Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Thursday,11,46.59,530.55,False,False
+INV00444,2023-12-05,CUST1143,Product1615,Atorvastatin 20Mg,Prescription Drugs,7,830.17,5811.19,5048.95,762.24,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Tuesday,49,13.12,830.17,False,True
+INV00445,2023-05-22,CUST1112,Product9566,Aloe Vera Gel,Cosmetics & Skincare,6,484.79,2908.74,1706.77,1201.97,South Branch,Insurance,2023,5,May,May-2023,Q2,Monday,21,41.32,484.79,False,False
+INV00446,2023-08-10,CUST1090,Product6213,Calcium + D3,Supplements & Vitamins,7,1030.06,7210.42,3960.66,3249.76,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Thursday,32,45.07,1030.06,False,True
+INV00447,2023-10-19,CUST1108,Product7055,Nebulizer,Medical Devices,2,2132.34,4264.68,3388.7,875.98,South Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Thursday,42,20.54,2132.34,False,True
+INV00448,2023-07-28,CUST1144,Product6866,B-Complex,Supplements & Vitamins,4,183.33,733.32,472.38,260.94,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Friday,30,35.58,183.33,False,False
+INV00449,2023-06-30,CUST1037,Product2257,Tulsi Drops,Herbal & Ayurvedic,3,540.77,1622.31,1192.02,430.29,North Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Friday,26,26.52,540.77,False,False
+INV00450,2023-04-05,CUST1124,Product6750,Ciprofloxacin 500Mg,Prescription Drugs,7,829.5,5806.5,4677.71,1128.79,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Wednesday,14,19.44,829.5,False,True
+INV00451,2023-01-11,CUST1071,Product3411,Sunscreen Spf50,Cosmetics & Skincare,1,689.41,689.41,320.93,368.48,South Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,2,53.45,689.41,False,False
+INV00452,2023-02-21,CUST1131,Product8972,Ibuprofen 400Mg,Otc Medicines,3,174.81,524.43,391.38,133.05,Central Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Tuesday,8,25.37,174.81,False,False
+INV00453,2023-04-20,CUST1138,Product5134,Baby Diaper Pack,Baby & Mother Care,4,504.15,2016.6,1331.64,684.96,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Thursday,16,33.97,504.15,False,False
+INV00454,2023-04-11,CUST1082,Product7079,Sunscreen Spf50,Cosmetics & Skincare,4,555.5,2222.0,1520.65,701.35,South Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,15,31.56,555.5,False,False
+INV00455,2023-01-31,CUST1046,Product8357,Maternity Pads,Baby & Mother Care,7,494.49,3461.43,2770.13,691.3,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Tuesday,5,19.97,494.49,False,True
+INV00456,2023-12-21,CUST1087,Product4216,Heating Pad,Medical Devices,2,1917.63,3835.26,3149.46,685.8,West Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Thursday,51,17.88,1917.63,False,True
+INV00457,2023-04-16,CUST1009,Product6208,Ciprofloxacin 500Mg,Prescription Drugs,7,315.98,2211.86,1655.4,556.46,Central Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Sunday,15,25.16,315.98,True,False
+INV00458,2023-09-28,CUST1032,Product3440,Cetirizine 10Mg,Otc Medicines,4,276.43,1105.72,693.9,411.82,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Thursday,39,37.24,276.43,False,False
+INV00459,2023-07-20,CUST1038,Product2234,Moisturizer Cream,Cosmetics & Skincare,3,442.07,1326.21,772.23,553.98,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Thursday,29,41.77,442.07,False,False
+INV00460,2023-10-22,CUST1089,Product3535,Hair Oil,Cosmetics & Skincare,1,694.85,694.85,415.73,279.12,West Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Sunday,42,40.17,694.85,True,False
+INV00461,2023-03-18,CUST1090,Product1269,Nebulizer,Medical Devices,1,2917.14,2917.14,2181.93,735.21,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Saturday,11,25.2,2917.14,True,False
+INV00462,2023-11-29,CUST1053,Product6570,Chyawanprash 500G,Herbal & Ayurvedic,4,584.52,2338.08,1322.34,1015.74,East Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Wednesday,48,43.44,584.52,False,False
+INV00463,2023-04-06,CUST1006,Product5482,Lip Balm,Cosmetics & Skincare,5,354.92,1774.6,841.52,933.08,Central Branch,Cash,2023,4,Apr,Apr-2023,Q2,Thursday,14,52.58,354.92,False,False
+INV00464,2023-11-21,CUST1127,Product5820,Iron Supplement,Supplements & Vitamins,1,915.94,915.94,555.7,360.24,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Tuesday,47,39.33,915.94,False,False
+INV00465,2023-02-14,CUST1020,Product3547,Antacid Syrup,Otc Medicines,7,214.35,1500.45,974.79,525.66,South Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,7,35.03,214.35,False,False
+INV00466,2023-09-30,CUST1109,Product8446,Digital Thermometer,Medical Devices,6,1149.18,6895.08,5096.38,1798.7,South Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,26.09,1149.18,True,True
+INV00467,2023-08-17,CUST1016,Product1886,Baby Powder,Baby & Mother Care,2,1204.42,2408.84,1691.03,717.81,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Thursday,33,29.8,1204.42,False,False
+INV00468,2023-01-13,CUST1094,Product3828,Ors Sachets,Otc Medicines,2,189.26,378.52,249.51,129.01,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Friday,2,34.08,189.26,False,False
+INV00469,2023-04-26,CUST1108,Product7622,Protein Powder,Supplements & Vitamins,6,364.67,2188.02,1454.81,733.21,North Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Wednesday,17,33.51,364.67,False,False
+INV00470,2023-05-17,CUST1075,Product4791,Knee Support,Medical Devices,4,1191.11,4764.44,3236.98,1527.46,North Branch,Insurance,2023,5,May,May-2023,Q2,Wednesday,20,32.06,1191.11,False,True
+INV00471,2023-03-13,CUST1065,Product4303,Ciprofloxacin 500Mg,Prescription Drugs,4,637.94,2551.76,2199.99,351.77,East Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Monday,11,13.79,637.94,False,False
+INV00472,2023-09-30,CUST1085,Product9615,Ors Sachets,Otc Medicines,3,267.75,803.25,622.44,180.81,North Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,22.51,267.75,True,False
+INV00473,2023-07-11,CUST1115,Product7999,Chyawanprash 500G,Herbal & Ayurvedic,6,114.41,686.46,532.41,154.05,East Branch,Cash,2023,7,Jul,Jul-2023,Q3,Tuesday,28,22.44,114.41,False,False
+INV00474,2023-12-25,CUST1017,Product2051,Omeprazole 20Mg,Prescription Drugs,3,306.21,918.63,802.29,116.34,West Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Monday,52,12.66,306.21,False,False
+INV00475,2023-08-02,CUST1043,Product3105,Ors Sachets,Otc Medicines,7,217.88,1525.16,1065.68,459.48,South Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,31,30.13,217.88,False,False
+INV00476,2023-09-04,CUST1099,Product6869,Pulse Oximeter,Medical Devices,2,2591.36,5182.72,3673.26,1509.46,West Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Monday,36,29.12,2591.36,False,True
+INV00477,2023-04-07,CUST1132,Product5005,Iron Supplement,Supplements & Vitamins,1,243.44,243.44,122.23,121.21,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Friday,14,49.79,243.44,False,False
+INV00478,2023-10-14,CUST1034,Product6698,Lip Balm,Cosmetics & Skincare,1,229.99,229.99,120.16,109.83,Central Branch,Cash,2023,10,Oct,Oct-2023,Q4,Saturday,41,47.75,229.99,True,False
+INV00479,2023-12-26,CUST1067,Product5247,Ors Sachets,Otc Medicines,6,238.43,1430.58,929.54,501.04,South Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Tuesday,52,35.02,238.43,False,False
+INV00480,2023-06-12,CUST1044,Product7305,Glucometer,Medical Devices,2,3312.91,6625.82,4592.75,2033.07,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Monday,24,30.68,3312.91,False,True
+INV00481,2023-03-28,CUST1066,Product5765,Turmeric Capsules,Herbal & Ayurvedic,2,545.69,1091.38,623.06,468.32,North Branch,Cash,2023,3,Mar,Mar-2023,Q1,Tuesday,13,42.91,545.69,False,False
+INV00482,2023-08-02,CUST1116,Product3341,Omega-3 Capsules,Supplements & Vitamins,5,601.46,3007.3,1630.75,1376.55,Central Branch,Upi,2023,8,Aug,Aug-2023,Q3,Wednesday,31,45.77,601.46,False,False
+INV00483,2023-10-29,CUST1121,Product3672,Knee Support,Medical Devices,2,1259.81,2519.62,1841.3,678.32,North Branch,Upi,2023,10,Oct,Oct-2023,Q4,Sunday,43,26.92,1259.81,True,False
+INV00484,2023-05-29,CUST1104,Product9383,Iron Supplement,Supplements & Vitamins,7,165.94,1161.58,702.34,459.24,West Branch,Debit Card,2023,5,May,May-2023,Q2,Monday,22,39.54,165.94,False,False
+INV00485,2023-07-22,CUST1122,Product2716,Omega-3 Capsules,Supplements & Vitamins,2,493.13,986.26,737.03,249.23,Central Branch,Upi,2023,7,Jul,Jul-2023,Q3,Saturday,29,25.27,493.13,True,False
+INV00486,2023-03-14,CUST1104,Product3866,Tulsi Drops,Herbal & Ayurvedic,3,589.9,1769.7,1292.98,476.72,East Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Tuesday,11,26.94,589.9,False,False
+INV00487,2023-07-24,CUST1125,Product9923,Baby Powder,Baby & Mother Care,4,427.83,1711.32,1104.45,606.87,East Branch,Upi,2023,7,Jul,Jul-2023,Q3,Monday,30,35.46,427.83,False,False
+INV00488,2023-07-03,CUST1089,Product1896,Ors Sachets,Otc Medicines,1,30.49,30.49,19.62,10.87,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,27,35.65,30.49,False,False
+INV00489,2023-07-10,CUST1149,Product6454,Chyawanprash 500G,Herbal & Ayurvedic,5,399.26,1996.3,1441.01,555.29,South Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Monday,28,27.82,399.26,False,False
+INV00490,2023-07-09,CUST1090,Product9848,Azithromycin 500Mg,Prescription Drugs,6,769.83,4618.98,3477.96,1141.02,North Branch,Cash,2023,7,Jul,Jul-2023,Q3,Sunday,27,24.7,769.83,True,True
+INV00491,2023-01-14,CUST1027,Product1268,Baby Diaper Pack,Baby & Mother Care,6,1379.79,8278.74,5851.93,2426.81,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Saturday,2,29.31,1379.79,True,True
+INV00492,2023-07-16,CUST1026,Product8982,Ciprofloxacin 500Mg,Prescription Drugs,5,237.27,1186.35,1040.81,145.54,South Branch,Cash,2023,7,Jul,Jul-2023,Q3,Sunday,28,12.27,237.27,True,False
+INV00493,2023-08-30,CUST1017,Product6368,Bp Monitor,Medical Devices,4,1099.27,4397.08,3162.24,1234.84,South Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Wednesday,35,28.08,1099.27,False,True
+INV00494,2023-01-19,CUST1081,Product3466,Teething Gel,Baby & Mother Care,5,429.1,2145.5,1656.69,488.81,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Thursday,3,22.78,429.1,False,False
+INV00495,2023-02-13,CUST1145,Product2073,Iron Supplement,Supplements & Vitamins,4,865.42,3461.68,1782.61,1679.07,Central Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,7,48.5,865.42,False,True
+INV00496,2023-08-27,CUST1144,Product5524,Atorvastatin 20Mg,Prescription Drugs,4,398.14,1592.56,1229.25,363.31,West Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Sunday,34,22.81,398.14,True,False
+INV00497,2023-05-16,CUST1045,Product1961,Antacid Syrup,Otc Medicines,5,254.34,1271.7,993.01,278.69,East Branch,Cash,2023,5,May,May-2023,Q2,Tuesday,20,21.91,254.34,False,False
+INV00498,2023-10-13,CUST1114,Product6316,Neem Capsules,Herbal & Ayurvedic,3,277.4,832.2,588.52,243.68,South Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Friday,41,29.28,277.4,False,False
+INV00499,2023-06-22,CUST1108,Product4075,Nebulizer,Medical Devices,7,2640.79,18485.53,12664.54,5820.99,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Thursday,25,31.49,2640.79,False,True
+INV00500,2023-04-06,CUST1006,Product3671,Knee Support,Medical Devices,6,1103.74,6622.44,4510.92,2111.52,North Branch,Upi,2023,4,Apr,Apr-2023,Q2,Thursday,14,31.88,1103.74,False,True
+INV00501,2023-04-06,CUST1081,Product1808,Zinc Tablets,Supplements & Vitamins,3,1019.91,3059.73,1749.52,1310.21,West Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Thursday,14,42.82,1019.91,False,False
+INV00502,2023-07-12,CUST1003,Product8483,Protein Powder,Supplements & Vitamins,6,1011.45,6068.7,3883.1,2185.6,West Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Wednesday,28,36.01,1011.45,False,True
+INV00503,2023-08-21,CUST1083,Product1124,Hair Oil,Cosmetics & Skincare,6,566.03,3396.18,2275.11,1121.07,North Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Monday,34,33.01,566.03,False,True
+INV00504,2023-10-08,CUST1112,Product4096,Tulsi Drops,Herbal & Ayurvedic,7,338.39,2368.73,1348.05,1020.68,West Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Sunday,40,43.09,338.39,True,False
+INV00505,2023-05-07,CUST1078,Product9307,Ors Sachets,Otc Medicines,2,47.76,95.52,68.91,26.61,North Branch,Cash,2023,5,May,May-2023,Q2,Sunday,18,27.86,47.76,True,False
+INV00506,2023-08-02,CUST1126,Product6695,Ibuprofen 400Mg,Otc Medicines,3,97.55,292.65,185.53,107.12,Central Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,31,36.6,97.55,False,False
+INV00507,2023-11-27,CUST1018,Product2012,Antacid Syrup,Otc Medicines,1,158.48,158.48,125.18,33.3,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Monday,48,21.01,158.48,False,False
+INV00508,2023-08-27,CUST1077,Product6877,Omega-3 Capsules,Supplements & Vitamins,6,970.7,5824.2,3911.38,1912.82,South Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Sunday,34,32.84,970.7,True,True
+INV00509,2023-03-13,CUST1141,Product2789,Ibuprofen 400Mg,Otc Medicines,3,196.67,590.01,405.21,184.8,West Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Monday,11,31.32,196.67,False,False
+INV00510,2023-01-08,CUST1036,Product3843,Multivitamin Tablets,Supplements & Vitamins,7,385.53,2698.71,1871.5,827.21,Central Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Sunday,1,30.65,385.53,True,False
+INV00511,2023-09-27,CUST1124,Product2404,Baby Food 200G,Baby & Mother Care,7,1321.55,9250.85,7431.16,1819.69,South Branch,Upi,2023,9,Sep,Sep-2023,Q3,Wednesday,39,19.67,1321.55,False,True
+INV00512,2023-10-02,CUST1021,Product5159,Nebulizer,Medical Devices,3,1850.05,5550.15,3947.48,1602.67,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,40,28.88,1850.05,False,True
+INV00513,2023-11-22,CUST1150,Product5319,Glucometer,Medical Devices,7,792.48,5547.36,4549.67,997.69,West Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,47,17.98,792.48,False,True
+INV00514,2023-02-03,CUST1062,Product2909,Cough Syrup,Otc Medicines,6,31.44,188.64,136.13,52.51,Central Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Friday,5,27.84,31.44,False,False
+INV00515,2023-11-25,CUST1038,Product7382,Pulse Oximeter,Medical Devices,6,1379.4,8276.4,6518.64,1757.76,East Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Saturday,47,21.24,1379.4,True,True
+INV00516,2023-12-04,CUST1087,Product7781,Ashwagandha Tablets,Herbal & Ayurvedic,4,430.01,1720.04,1015.51,704.53,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Monday,49,40.96,430.01,False,False
+INV00517,2023-10-17,CUST1137,Product5713,Protein Powder,Supplements & Vitamins,6,854.83,5128.98,3499.7,1629.28,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Tuesday,42,31.77,854.83,False,True
+INV00518,2023-06-12,CUST1083,Product1287,Turmeric Capsules,Herbal & Ayurvedic,4,588.19,2352.76,1405.59,947.17,North Branch,Upi,2023,6,Jun,Jun-2023,Q2,Monday,24,40.26,588.19,False,False
+INV00519,2023-09-30,CUST1088,Product3176,Cetirizine 10Mg,Otc Medicines,4,167.33,669.32,452.62,216.7,Central Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,32.38,167.33,True,False
+INV00520,2023-11-02,CUST1092,Product8135,Zinc Tablets,Supplements & Vitamins,5,968.49,4842.45,3612.23,1230.22,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Thursday,44,25.4,968.49,False,True
+INV00521,2023-04-16,CUST1019,Product7553,Ciprofloxacin 500Mg,Prescription Drugs,4,681.31,2725.24,2053.1,672.14,West Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Sunday,15,24.66,681.31,True,False
+INV00522,2023-07-14,CUST1113,Product3229,Omega-3 Capsules,Supplements & Vitamins,3,1162.01,3486.03,2496.8,989.23,South Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Friday,28,28.38,1162.01,False,True
+INV00523,2023-06-15,CUST1096,Product5873,Paracetamol 500Mg,Otc Medicines,2,209.87,419.74,299.77,119.97,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Thursday,24,28.58,209.87,False,False
+INV00524,2023-02-11,CUST1022,Product9376,Moisturizer Cream,Cosmetics & Skincare,1,519.0,519.0,266.37,252.63,Central Branch,Upi,2023,2,Feb,Feb-2023,Q1,Saturday,6,48.68,519.0,True,False
+INV00525,2023-06-09,CUST1066,Product7155,Moisturizer Cream,Cosmetics & Skincare,3,135.08,405.24,182.67,222.57,South Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,23,54.92,135.08,False,False
+INV00526,2023-08-14,CUST1066,Product2409,Amlodipine 5Mg,Prescription Drugs,2,90.54,181.08,156.99,24.09,West Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Monday,33,13.3,90.54,False,False
+INV00527,2023-04-11,CUST1125,Product1279,Ashwagandha Tablets,Herbal & Ayurvedic,6,286.9,1721.4,1023.59,697.81,West Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,15,40.54,286.9,False,False
+INV00528,2023-06-11,CUST1150,Product7135,Bp Monitor,Medical Devices,6,587.61,3525.66,2573.09,952.57,South Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Sunday,23,27.02,587.61,True,True
+INV00529,2023-12-02,CUST1096,Product8697,Breast Pump,Baby & Mother Care,5,524.83,2624.15,1876.02,748.13,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Saturday,48,28.51,524.83,True,False
+INV00530,2023-07-06,CUST1149,Product6874,Baby Powder,Baby & Mother Care,7,121.53,850.71,651.31,199.4,Central Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Thursday,27,23.44,121.53,False,False
+INV00531,2023-12-03,CUST1046,Product6919,Maternity Pads,Baby & Mother Care,7,178.61,1250.27,854.03,396.24,Central Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,48,31.69,178.61,True,False
+INV00532,2023-04-08,CUST1027,Product1371,Neem Capsules,Herbal & Ayurvedic,1,512.39,512.39,291.43,220.96,Central Branch,Upi,2023,4,Apr,Apr-2023,Q2,Saturday,14,43.12,512.39,True,False
+INV00533,2023-10-14,CUST1083,Product6229,Giloy Juice,Herbal & Ayurvedic,6,141.47,848.82,662.07,186.75,East Branch,Cash,2023,10,Oct,Oct-2023,Q4,Saturday,41,22.0,141.47,True,False
+INV00534,2023-07-31,CUST1029,Product1325,Teething Gel,Baby & Mother Care,7,1245.08,8715.56,5587.71,3127.85,East Branch,Upi,2023,7,Jul,Jul-2023,Q3,Monday,31,35.89,1245.08,False,True
+INV00535,2023-08-07,CUST1087,Product8754,Ashwagandha Tablets,Herbal & Ayurvedic,7,277.59,1943.13,1244.3,698.83,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Monday,32,35.96,277.59,False,False
+INV00536,2023-08-06,CUST1046,Product2986,Turmeric Capsules,Herbal & Ayurvedic,6,310.93,1865.58,1226.94,638.64,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Sunday,31,34.23,310.93,True,False
+INV00537,2023-07-13,CUST1070,Product5103,Ciprofloxacin 500Mg,Prescription Drugs,2,446.88,893.76,740.99,152.77,Central Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Thursday,28,17.09,446.88,False,False
+INV00538,2023-12-30,CUST1109,Product4144,Glucometer,Medical Devices,1,2323.67,2323.67,1915.48,408.19,West Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Saturday,52,17.57,2323.67,True,False
+INV00539,2023-06-22,CUST1141,Product7331,Neem Capsules,Herbal & Ayurvedic,3,339.98,1019.94,624.25,395.69,East Branch,Upi,2023,6,Jun,Jun-2023,Q2,Thursday,25,38.8,339.98,False,False
+INV00540,2023-12-08,CUST1042,Product1857,Azithromycin 500Mg,Prescription Drugs,4,421.14,1684.56,1316.08,368.48,East Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Friday,49,21.87,421.14,False,False
+INV00541,2023-01-20,CUST1012,Product6326,Omega-3 Capsules,Supplements & Vitamins,7,764.84,5353.88,3290.8,2063.08,East Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Friday,3,38.53,764.84,False,True
+INV00542,2023-01-11,CUST1019,Product3949,Turmeric Capsules,Herbal & Ayurvedic,6,105.01,630.06,448.6,181.46,South Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,2,28.8,105.01,False,False
+INV00543,2023-12-21,CUST1118,Product2966,Breast Pump,Baby & Mother Care,6,1021.07,6126.42,4835.07,1291.35,East Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Thursday,51,21.08,1021.07,False,True
+INV00544,2023-06-03,CUST1051,Product2652,Giloy Juice,Herbal & Ayurvedic,7,322.41,2256.87,1661.77,595.1,West Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Saturday,22,26.37,322.41,True,False
+INV00545,2023-03-30,CUST1116,Product6599,Heating Pad,Medical Devices,5,1310.47,6552.35,5494.96,1057.39,Central Branch,Cash,2023,3,Mar,Mar-2023,Q1,Thursday,13,16.14,1310.47,False,True
+INV00546,2023-08-03,CUST1028,Product1746,Ciprofloxacin 500Mg,Prescription Drugs,6,316.57,1899.42,1559.04,340.38,Central Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Thursday,31,17.92,316.57,False,False
+INV00547,2023-12-19,CUST1030,Product5443,Ashwagandha Tablets,Herbal & Ayurvedic,2,504.2,1008.4,678.3,330.1,West Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Tuesday,51,32.74,504.2,False,False
+INV00548,2023-03-20,CUST1102,Product1506,Atorvastatin 20Mg,Prescription Drugs,6,353.14,2118.84,1728.73,390.11,North Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Monday,12,18.41,353.14,False,False
+INV00549,2023-03-28,CUST1007,Product2192,Tulsi Drops,Herbal & Ayurvedic,6,417.08,2502.48,1916.57,585.91,North Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Tuesday,13,23.41,417.08,False,False
+INV00550,2023-08-18,CUST1001,Product6867,Ibuprofen 400Mg,Otc Medicines,1,218.6,218.6,149.45,69.15,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Friday,33,31.63,218.6,False,False
+INV00551,2023-08-06,CUST1071,Product8345,Pulse Oximeter,Medical Devices,2,421.88,843.76,612.58,231.18,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Sunday,31,27.4,421.88,True,False
+INV00552,2023-10-19,CUST1123,Product6930,Omeprazole 20Mg,Prescription Drugs,3,169.69,509.07,427.27,81.8,South Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Thursday,42,16.07,169.69,False,False
+INV00553,2023-01-16,CUST1031,Product5516,B-Complex,Supplements & Vitamins,1,566.13,566.13,382.66,183.47,East Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Monday,3,32.41,566.13,False,False
+INV00554,2023-05-12,CUST1108,Product7411,Ciprofloxacin 500Mg,Prescription Drugs,6,661.45,3968.7,3119.95,848.75,East Branch,Credit Card,2023,5,May,May-2023,Q2,Friday,19,21.39,661.45,False,True
+INV00555,2023-09-10,CUST1090,Product3646,Breast Pump,Baby & Mother Care,2,543.62,1087.24,849.09,238.15,North Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Sunday,36,21.9,543.62,True,False
+INV00556,2023-03-27,CUST1146,Product8933,Cough Syrup,Otc Medicines,6,258.28,1549.68,1227.26,322.42,East Branch,Upi,2023,3,Mar,Mar-2023,Q1,Monday,13,20.81,258.28,False,False
+INV00557,2023-01-12,CUST1149,Product2184,Heating Pad,Medical Devices,1,3164.21,3164.21,2595.2,569.01,East Branch,Cash,2023,1,Jan,Jan-2023,Q1,Thursday,2,17.98,3164.21,False,False
+INV00558,2023-06-21,CUST1135,Product1421,B-Complex,Supplements & Vitamins,5,611.85,3059.25,1801.93,1257.32,South Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,25,41.1,611.85,False,False
+INV00559,2023-01-11,CUST1113,Product7748,Bp Monitor,Medical Devices,1,2973.19,2973.19,2410.13,563.06,West Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Wednesday,2,18.94,2973.19,False,False
+INV00560,2023-07-04,CUST1144,Product6982,Baby Lotion,Baby & Mother Care,4,1410.82,5643.28,4101.4,1541.88,Central Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Tuesday,27,27.32,1410.82,False,True
+INV00561,2023-09-22,CUST1150,Product7559,Maternity Pads,Baby & Mother Care,4,692.87,2771.48,2264.67,506.81,South Branch,Upi,2023,9,Sep,Sep-2023,Q3,Friday,38,18.29,692.87,False,False
+INV00562,2023-11-26,CUST1015,Product9134,Knee Support,Medical Devices,5,2743.82,13719.1,10225.12,3493.98,East Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Sunday,47,25.47,2743.82,True,True
+INV00563,2023-01-29,CUST1111,Product4365,Glucometer,Medical Devices,7,757.47,5302.29,3719.78,1582.51,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Sunday,4,29.85,757.47,True,True
+INV00564,2023-05-02,CUST1085,Product1556,Nebulizer,Medical Devices,3,3127.41,9382.23,7467.09,1915.14,West Branch,Insurance,2023,5,May,May-2023,Q2,Tuesday,18,20.41,3127.41,False,True
+INV00565,2023-11-29,CUST1071,Product3062,Tulsi Drops,Herbal & Ayurvedic,3,536.58,1609.74,1049.05,560.69,Central Branch,Cash,2023,11,Nov,Nov-2023,Q4,Wednesday,48,34.83,536.58,False,False
+INV00566,2023-01-01,CUST1110,Product6831,Chyawanprash 500G,Herbal & Ayurvedic,2,176.34,352.68,231.18,121.5,South Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Sunday,52,34.45,176.34,True,False
+INV00567,2023-06-03,CUST1121,Product4862,Amoxicillin 500Mg,Prescription Drugs,2,210.81,421.62,362.46,59.16,North Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Saturday,22,14.03,210.81,True,False
+INV00568,2023-07-09,CUST1078,Product2819,B-Complex,Supplements & Vitamins,7,915.23,6406.61,4729.72,1676.89,Central Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Sunday,27,26.17,915.23,True,True
+INV00569,2023-02-25,CUST1068,Product1813,Cetirizine 10Mg,Otc Medicines,4,76.06,304.24,240.02,64.22,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Saturday,8,21.11,76.06,True,False
+INV00570,2023-10-07,CUST1025,Product2141,Metformin 850Mg,Prescription Drugs,3,825.21,2475.63,1960.75,514.88,Central Branch,Upi,2023,10,Oct,Oct-2023,Q4,Saturday,40,20.8,825.21,True,False
+INV00571,2023-06-24,CUST1114,Product2784,Vitamin C 500Mg,Otc Medicines,2,243.59,487.18,336.45,150.73,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Saturday,25,30.94,243.59,True,False
+INV00572,2023-08-26,CUST1051,Product8082,Giloy Juice,Herbal & Ayurvedic,3,596.11,1788.33,1295.91,492.42,Central Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Saturday,34,27.54,596.11,True,False
+INV00573,2023-03-17,CUST1033,Product3962,Chyawanprash 500G,Herbal & Ayurvedic,7,88.67,620.69,456.33,164.36,West Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,11,26.48,88.67,False,False
+INV00574,2023-04-09,CUST1080,Product2366,Lip Balm,Cosmetics & Skincare,4,699.82,2799.28,1917.77,881.51,South Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Sunday,14,31.49,699.82,True,False
+INV00575,2023-06-22,CUST1026,Product7040,Aloe Vera Gel,Cosmetics & Skincare,6,151.41,908.46,482.52,425.94,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Thursday,25,46.89,151.41,False,False
+INV00576,2023-12-29,CUST1146,Product6974,Amoxicillin 500Mg,Prescription Drugs,6,353.69,2122.14,1640.25,481.89,Central Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Friday,52,22.71,353.69,False,False
+INV00577,2023-10-28,CUST1088,Product5530,Ashwagandha Tablets,Herbal & Ayurvedic,5,325.3,1626.5,1061.62,564.88,West Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Saturday,43,34.73,325.3,True,False
+INV00578,2023-12-13,CUST1109,Product8966,Vitamin C 500Mg,Otc Medicines,2,34.29,68.58,45.27,23.31,North Branch,Upi,2023,12,Dec,Dec-2023,Q4,Wednesday,50,33.99,34.29,False,False
+INV00579,2023-04-11,CUST1145,Product9219,Bp Monitor,Medical Devices,5,1862.17,9310.85,7666.21,1644.64,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,15,17.66,1862.17,False,True
+INV00580,2023-11-27,CUST1038,Product1901,Metformin 850Mg,Prescription Drugs,1,325.66,325.66,264.93,60.73,North Branch,Upi,2023,11,Nov,Nov-2023,Q4,Monday,48,18.65,325.66,False,False
+INV00581,2023-12-21,CUST1146,Product7079,Glucometer,Medical Devices,6,634.96,3809.76,3140.31,669.45,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Thursday,51,17.57,634.96,False,True
+INV00582,2023-01-01,CUST1126,Product4553,Amlodipine 5Mg,Prescription Drugs,5,176.54,882.7,740.96,141.74,West Branch,Cash,2023,1,Jan,Jan-2023,Q1,Sunday,52,16.06,176.54,True,False
+INV00583,2023-01-16,CUST1129,Product8209,Metformin 850Mg,Prescription Drugs,5,703.82,3519.1,2854.88,664.22,East Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,3,18.87,703.82,False,True
+INV00584,2023-02-03,CUST1045,Product8813,Multivitamin Tablets,Supplements & Vitamins,2,340.23,680.46,375.84,304.62,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Friday,5,44.77,340.23,False,False
+INV00585,2023-02-08,CUST1030,Product7899,Bp Monitor,Medical Devices,6,2269.35,13616.1,11351.54,2264.56,South Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Wednesday,6,16.63,2269.35,False,True
+INV00586,2023-01-04,CUST1137,Product7297,Antacid Syrup,Otc Medicines,4,138.92,555.68,377.32,178.36,North Branch,Upi,2023,1,Jan,Jan-2023,Q1,Wednesday,1,32.1,138.92,False,False
+INV00587,2023-09-04,CUST1079,Product1622,Sunscreen Spf50,Cosmetics & Skincare,7,165.34,1157.38,553.76,603.62,Central Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Monday,36,52.15,165.34,False,False
+INV00588,2023-07-08,CUST1110,Product5616,Cough Syrup,Otc Medicines,5,26.25,131.25,85.68,45.57,North Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Saturday,27,34.72,26.25,True,False
+INV00589,2023-06-13,CUST1037,Product8675,Baby Food 200G,Baby & Mother Care,3,424.5,1273.5,1009.09,264.41,Central Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Tuesday,24,20.76,424.5,False,False
+INV00590,2023-10-06,CUST1089,Product1798,Amlodipine 5Mg,Prescription Drugs,7,320.7,2244.9,1828.0,416.9,Central Branch,Upi,2023,10,Oct,Oct-2023,Q4,Friday,40,18.57,320.7,False,False
+INV00591,2023-06-02,CUST1103,Product1731,Antacid Syrup,Otc Medicines,4,37.97,151.88,115.96,35.92,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Friday,22,23.65,37.97,False,False
+INV00592,2023-03-16,CUST1059,Product8099,Vitamin C 500Mg,Otc Medicines,6,141.1,846.6,652.35,194.25,West Branch,Upi,2023,3,Mar,Mar-2023,Q1,Thursday,11,22.94,141.1,False,False
+INV00593,2023-12-27,CUST1035,Product7326,B-Complex,Supplements & Vitamins,7,1117.59,7823.13,4279.1,3544.03,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Wednesday,52,45.3,1117.59,False,True
+INV00594,2023-11-01,CUST1072,Product4793,Baby Diaper Pack,Baby & Mother Care,3,1439.68,4319.04,3216.24,1102.8,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,44,25.53,1439.68,False,True
+INV00595,2023-01-07,CUST1034,Product7691,Hand Sanitizer,Cosmetics & Skincare,3,706.62,2119.86,1323.61,796.25,East Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Saturday,1,37.56,706.62,True,False
+INV00596,2023-12-03,CUST1127,Product8037,Azithromycin 500Mg,Prescription Drugs,2,807.67,1615.34,1245.09,370.25,East Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Sunday,48,22.92,807.67,True,False
+INV00597,2023-03-31,CUST1072,Product7322,Antacid Syrup,Otc Medicines,3,78.45,235.35,188.04,47.31,Central Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Friday,13,20.1,78.45,False,False
+INV00598,2023-06-06,CUST1123,Product4829,Aloe Vera Gel,Cosmetics & Skincare,3,652.43,1957.29,887.36,1069.93,West Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,23,54.66,652.43,False,False
+INV00599,2023-06-21,CUST1075,Product6417,Knee Support,Medical Devices,3,3370.31,10110.93,8154.04,1956.89,North Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,25,19.35,3370.31,False,True
+INV00600,2023-07-06,CUST1133,Product7146,Digital Thermometer,Medical Devices,2,1585.74,3171.48,2329.24,842.24,North Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Thursday,27,26.56,1585.74,False,False
+INV00601,2023-09-10,CUST1124,Product6969,Hair Oil,Cosmetics & Skincare,6,351.67,2110.02,1229.72,880.3,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Sunday,36,41.72,351.67,True,False
+INV00602,2023-01-27,CUST1008,Product4662,Ors Sachets,Otc Medicines,6,127.62,765.72,601.72,164.0,South Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Friday,4,21.42,127.62,False,False
+INV00603,2023-12-18,CUST1013,Product9737,B-Complex,Supplements & Vitamins,7,1056.66,7396.62,5302.84,2093.78,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Monday,51,28.31,1056.66,False,True
+INV00604,2023-03-23,CUST1038,Product3061,Maternity Pads,Baby & Mother Care,4,848.04,3392.16,2665.15,727.01,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Thursday,12,21.43,848.04,False,True
+INV00605,2023-02-25,CUST1085,Product2045,B-Complex,Supplements & Vitamins,2,227.03,454.06,265.27,188.79,Central Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Saturday,8,41.58,227.03,True,False
+INV00606,2023-09-30,CUST1132,Product1596,Protein Powder,Supplements & Vitamins,2,831.18,1662.36,1072.65,589.71,South Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,35.47,831.18,True,False
+INV00607,2023-11-21,CUST1016,Product7852,Triphala Churna,Herbal & Ayurvedic,6,389.95,2339.7,1289.13,1050.57,Central Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Tuesday,47,44.9,389.95,False,False
+INV00608,2023-11-16,CUST1110,Product8104,Paracetamol 500Mg,Otc Medicines,2,20.07,40.14,24.77,15.37,South Branch,Upi,2023,11,Nov,Nov-2023,Q4,Thursday,46,38.29,20.07,False,False
+INV00609,2023-03-23,CUST1059,Product2567,Ashwagandha Tablets,Herbal & Ayurvedic,1,141.95,141.95,93.99,47.96,East Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Thursday,12,33.79,141.95,False,False
+INV00610,2023-03-11,CUST1106,Product5567,Amlodipine 5Mg,Prescription Drugs,2,165.16,330.32,288.8,41.52,South Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Saturday,10,12.57,165.16,True,False
+INV00611,2023-06-20,CUST1079,Product7801,Omeprazole 20Mg,Prescription Drugs,2,428.2,856.4,652.36,204.04,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,25,23.83,428.2,False,False
+INV00612,2023-07-15,CUST1106,Product8942,Chyawanprash 500G,Herbal & Ayurvedic,3,96.5,289.5,190.19,99.31,East Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,28,34.3,96.5,True,False
+INV00613,2023-02-21,CUST1029,Product3964,Teething Gel,Baby & Mother Care,2,862.99,1725.98,1072.82,653.16,South Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,8,37.84,862.99,False,False
+INV00614,2023-07-03,CUST1072,Product1240,Ors Sachets,Otc Medicines,1,22.3,22.3,16.04,6.26,East Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,27,28.07,22.3,False,False
+INV00615,2023-11-12,CUST1022,Product3173,Ciprofloxacin 500Mg,Prescription Drugs,7,224.09,1568.63,1240.96,327.67,East Branch,Upi,2023,11,Nov,Nov-2023,Q4,Sunday,45,20.89,224.09,True,False
+INV00616,2023-06-07,CUST1017,Product2317,Glucometer,Medical Devices,1,2018.53,2018.53,1376.64,641.89,South Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,23,31.8,2018.53,False,False
+INV00617,2023-02-25,CUST1035,Product2916,Maternity Pads,Baby & Mother Care,1,1285.15,1285.15,818.43,466.72,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Saturday,8,36.32,1285.15,True,False
+INV00618,2023-06-28,CUST1021,Product9683,Amlodipine 5Mg,Prescription Drugs,5,499.37,2496.85,2166.12,330.73,North Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Wednesday,26,13.25,499.37,False,False
+INV00619,2023-03-06,CUST1017,Product1534,Protein Powder,Supplements & Vitamins,6,163.89,983.34,611.69,371.65,West Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Monday,10,37.79,163.89,False,False
+INV00620,2023-10-29,CUST1078,Product9518,Neem Capsules,Herbal & Ayurvedic,5,227.78,1138.9,812.65,326.25,Central Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,43,28.65,227.78,True,False
+INV00621,2023-05-20,CUST1129,Product1437,Omega-3 Capsules,Supplements & Vitamins,2,353.99,707.98,451.83,256.15,North Branch,Insurance,2023,5,May,May-2023,Q2,Saturday,20,36.18,353.99,True,False
+INV00622,2023-02-14,CUST1135,Product4918,Tulsi Drops,Herbal & Ayurvedic,2,125.47,250.94,173.95,76.99,North Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,7,30.68,125.47,False,False
+INV00623,2023-02-24,CUST1069,Product8996,Lip Balm,Cosmetics & Skincare,2,601.03,1202.06,631.2,570.86,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Friday,8,47.49,601.03,False,False
+INV00624,2023-04-29,CUST1035,Product3460,Vitamin C 500Mg,Otc Medicines,2,55.87,111.74,67.46,44.28,Central Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Saturday,17,39.63,55.87,True,False
+INV00625,2023-11-10,CUST1135,Product1616,Paracetamol 500Mg,Otc Medicines,1,195.27,195.27,127.09,68.18,South Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Friday,45,34.92,195.27,False,False
+INV00626,2023-01-10,CUST1149,Product7269,Omeprazole 20Mg,Prescription Drugs,6,596.98,3581.88,2621.19,960.69,South Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Tuesday,2,26.82,596.98,False,True
+INV00627,2023-06-19,CUST1056,Product9911,Sunscreen Spf50,Cosmetics & Skincare,1,197.52,197.52,126.54,70.98,East Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Monday,25,35.94,197.52,False,False
+INV00628,2023-07-06,CUST1130,Product5734,Ciprofloxacin 500Mg,Prescription Drugs,6,714.48,4286.88,3632.47,654.41,South Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Thursday,27,15.27,714.48,False,True
+INV00629,2023-10-05,CUST1074,Product3223,Moisturizer Cream,Cosmetics & Skincare,7,359.83,2518.81,1637.64,881.17,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Thursday,40,34.98,359.83,False,False
+INV00630,2023-04-30,CUST1057,Product4201,Protein Powder,Supplements & Vitamins,6,362.26,2173.56,1333.76,839.8,North Branch,Cash,2023,4,Apr,Apr-2023,Q2,Sunday,17,38.64,362.26,True,False
+INV00631,2023-09-30,CUST1112,Product4001,Amlodipine 5Mg,Prescription Drugs,6,705.49,4232.94,3492.79,740.15,Central Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,17.49,705.49,True,True
+INV00632,2023-03-15,CUST1018,Product1495,Protein Powder,Supplements & Vitamins,5,615.96,3079.8,2092.44,987.36,Central Branch,Cash,2023,3,Mar,Mar-2023,Q1,Wednesday,11,32.06,615.96,False,False
+INV00633,2023-06-06,CUST1148,Product8543,Antiseptic Cream,Cosmetics & Skincare,5,295.88,1479.4,897.97,581.43,West Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,23,39.3,295.88,False,False
+INV00634,2023-09-28,CUST1019,Product3905,Giloy Juice,Herbal & Ayurvedic,4,105.8,423.2,305.07,118.13,West Branch,Upi,2023,9,Sep,Sep-2023,Q3,Thursday,39,27.91,105.8,False,False
+INV00635,2023-12-04,CUST1042,Product1786,Moisturizer Cream,Cosmetics & Skincare,1,568.56,568.56,360.79,207.77,Central Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Monday,49,36.54,568.56,False,False
+INV00636,2023-05-11,CUST1055,Product9857,Amlodipine 5Mg,Prescription Drugs,1,411.76,411.76,341.78,69.98,East Branch,Cash,2023,5,May,May-2023,Q2,Thursday,19,17.0,411.76,False,False
+INV00637,2023-10-29,CUST1054,Product7704,Iron Supplement,Supplements & Vitamins,4,1138.04,4552.16,2704.88,1847.28,West Branch,Upi,2023,10,Oct,Oct-2023,Q4,Sunday,43,40.58,1138.04,True,True
+INV00638,2023-06-06,CUST1080,Product3713,Metformin 850Mg,Prescription Drugs,6,598.79,3592.74,2902.73,690.01,West Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Tuesday,23,19.21,598.79,False,True
+INV00639,2023-07-31,CUST1068,Product3506,Ors Sachets,Otc Medicines,7,179.95,1259.65,1000.95,258.7,East Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,31,20.54,179.95,False,False
+INV00640,2023-02-13,CUST1078,Product3941,Ors Sachets,Otc Medicines,4,176.78,707.12,438.7,268.42,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,7,37.96,176.78,False,False
+INV00641,2023-03-07,CUST1087,Product4276,Antacid Syrup,Otc Medicines,2,188.62,377.24,269.44,107.8,South Branch,Cash,2023,3,Mar,Mar-2023,Q1,Tuesday,10,28.58,188.62,False,False
+INV00642,2023-10-03,CUST1012,Product8489,Ashwagandha Tablets,Herbal & Ayurvedic,6,151.95,911.7,556.34,355.36,East Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Tuesday,40,38.98,151.95,False,False
+INV00643,2023-05-14,CUST1022,Product4089,Aloe Vera Gel,Cosmetics & Skincare,3,306.23,918.69,494.15,424.54,Central Branch,Insurance,2023,5,May,May-2023,Q2,Sunday,19,46.21,306.23,True,False
+INV00644,2023-03-12,CUST1053,Product7500,Hand Sanitizer,Cosmetics & Skincare,3,510.6,1531.8,947.49,584.31,East Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Sunday,10,38.15,510.6,True,False
+INV00645,2023-03-10,CUST1009,Product4342,Giloy Juice,Herbal & Ayurvedic,5,174.55,872.75,594.36,278.39,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Friday,10,31.9,174.55,False,False
+INV00646,2023-05-29,CUST1072,Product2641,Protein Powder,Supplements & Vitamins,6,372.33,2233.98,1652.31,581.67,North Branch,Debit Card,2023,5,May,May-2023,Q2,Monday,22,26.04,372.33,False,False
+INV00647,2023-05-20,CUST1010,Product2936,Glucometer,Medical Devices,7,3349.98,23449.86,16559.14,6890.72,West Branch,Credit Card,2023,5,May,May-2023,Q2,Saturday,20,29.38,3349.98,True,True
+INV00648,2023-12-25,CUST1141,Product6204,Atorvastatin 20Mg,Prescription Drugs,6,704.91,4229.46,3395.56,833.9,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Monday,52,19.72,704.91,False,True
+INV00649,2023-01-12,CUST1098,Product1773,Baby Diaper Pack,Baby & Mother Care,4,924.11,3696.44,2939.33,757.11,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Thursday,2,20.48,924.11,False,True
+INV00650,2023-11-25,CUST1139,Product1739,Glucometer,Medical Devices,3,2294.81,6884.43,5022.23,1862.2,South Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Saturday,47,27.05,2294.81,True,True
+INV00651,2023-12-28,CUST1014,Product9943,Cough Syrup,Otc Medicines,4,104.97,419.88,270.87,149.01,West Branch,Upi,2023,12,Dec,Dec-2023,Q4,Thursday,52,35.49,104.97,False,False
+INV00652,2023-06-16,CUST1129,Product6413,Baby Lotion,Baby & Mother Care,5,1231.06,6155.3,4878.88,1276.42,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,24,20.74,1231.06,False,True
+INV00653,2023-05-25,CUST1038,Product6682,Baby Food 200G,Baby & Mother Care,4,556.08,2224.32,1444.82,779.5,East Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,21,35.04,556.08,False,False
+INV00654,2023-10-16,CUST1057,Product1755,Cough Syrup,Otc Medicines,6,222.68,1336.08,1005.64,330.44,East Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,42,24.73,222.68,False,False
+INV00655,2023-02-01,CUST1025,Product5938,Moisturizer Cream,Cosmetics & Skincare,3,241.52,724.56,357.21,367.35,South Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Wednesday,5,50.7,241.52,False,False
+INV00656,2023-10-14,CUST1002,Product8072,Triphala Churna,Herbal & Ayurvedic,1,107.43,107.43,63.18,44.25,North Branch,Upi,2023,10,Oct,Oct-2023,Q4,Saturday,41,41.19,107.43,True,False
+INV00657,2023-09-03,CUST1030,Product1308,Bp Monitor,Medical Devices,4,1737.05,6948.2,5103.3,1844.9,South Branch,Upi,2023,9,Sep,Sep-2023,Q3,Sunday,35,26.55,1737.05,True,True
+INV00658,2023-08-06,CUST1013,Product6720,Vitamin C 500Mg,Otc Medicines,4,347.78,1391.12,871.24,519.88,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Sunday,31,37.37,347.78,True,False
+INV00659,2023-10-06,CUST1140,Product5887,Moisturizer Cream,Cosmetics & Skincare,3,563.88,1691.64,1061.49,630.15,East Branch,Cash,2023,10,Oct,Oct-2023,Q4,Friday,40,37.25,563.88,False,False
+INV00660,2023-01-05,CUST1083,Product6378,Cough Syrup,Otc Medicines,1,180.26,180.26,111.3,68.96,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Thursday,1,38.26,180.26,False,False
+INV00661,2023-04-18,CUST1077,Product6092,Cetirizine 10Mg,Otc Medicines,2,189.86,379.72,296.21,83.51,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Tuesday,16,21.99,189.86,False,False
+INV00662,2023-09-11,CUST1032,Product4044,Triphala Churna,Herbal & Ayurvedic,2,379.35,758.7,569.78,188.92,West Branch,Cash,2023,9,Sep,Sep-2023,Q3,Monday,37,24.9,379.35,False,False
+INV00663,2023-06-30,CUST1127,Product2798,Nebulizer,Medical Devices,3,3177.6,9532.8,6914.13,2618.67,South Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Friday,26,27.47,3177.6,False,True
+INV00664,2023-07-17,CUST1011,Product8787,Lip Balm,Cosmetics & Skincare,7,519.11,3633.77,2402.96,1230.81,North Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Monday,29,33.87,519.11,False,True
+INV00665,2023-08-25,CUST1123,Product8311,Cough Syrup,Otc Medicines,5,348.52,1742.6,1237.15,505.45,Central Branch,Cash,2023,8,Aug,Aug-2023,Q3,Friday,34,29.01,348.52,False,False
+INV00666,2023-11-05,CUST1044,Product9075,Baby Food 200G,Baby & Mother Care,7,707.2,4950.4,3499.52,1450.88,South Branch,Cash,2023,11,Nov,Nov-2023,Q4,Sunday,44,29.31,707.2,True,True
+INV00667,2023-09-01,CUST1110,Product2868,Cough Syrup,Otc Medicines,1,48.61,48.61,33.65,14.96,West Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Friday,35,30.78,48.61,False,False
+INV00668,2023-02-11,CUST1033,Product2223,Triphala Churna,Herbal & Ayurvedic,5,431.84,2159.2,1503.7,655.5,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Saturday,6,30.36,431.84,True,False
+INV00669,2023-09-18,CUST1051,Product3569,Glucometer,Medical Devices,2,403.84,807.68,648.47,159.21,Central Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Monday,38,19.71,403.84,False,False
+INV00670,2023-10-19,CUST1098,Product5196,Aloe Vera Gel,Cosmetics & Skincare,4,738.89,2955.56,2034.17,921.39,North Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Thursday,42,31.17,738.89,False,False
+INV00671,2023-03-04,CUST1105,Product2997,Multivitamin Tablets,Supplements & Vitamins,5,1043.03,5215.15,2945.43,2269.72,North Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Saturday,9,43.52,1043.03,True,True
+INV00672,2023-01-28,CUST1116,Product3793,Antiseptic Cream,Cosmetics & Skincare,1,150.01,150.01,95.91,54.1,South Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Saturday,4,36.06,150.01,True,False
+INV00673,2023-12-10,CUST1090,Product6565,Ciprofloxacin 500Mg,Prescription Drugs,2,171.04,342.08,248.82,93.26,East Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Sunday,49,27.26,171.04,True,False
+INV00674,2023-11-20,CUST1126,Product6287,Maternity Pads,Baby & Mother Care,6,226.93,1361.58,1039.62,321.96,South Branch,Cash,2023,11,Nov,Nov-2023,Q4,Monday,47,23.65,226.93,False,False
+INV00675,2023-03-21,CUST1143,Product8706,Calcium + D3,Supplements & Vitamins,2,1049.68,2099.36,1329.48,769.88,North Branch,Upi,2023,3,Mar,Mar-2023,Q1,Tuesday,12,36.67,1049.68,False,False
+INV00676,2023-12-08,CUST1124,Product7960,Aloe Vera Gel,Cosmetics & Skincare,4,406.6,1626.4,830.71,795.69,South Branch,Cash,2023,12,Dec,Dec-2023,Q4,Friday,49,48.92,406.6,False,False
+INV00677,2023-07-05,CUST1016,Product1164,Hair Oil,Cosmetics & Skincare,5,362.87,1814.35,871.91,942.44,Central Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Wednesday,27,51.94,362.87,False,False
+INV00678,2023-02-14,CUST1100,Product9210,Knee Support,Medical Devices,1,1802.1,1802.1,1222.6,579.5,South Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Tuesday,7,32.16,1802.1,False,False
+INV00679,2023-02-03,CUST1055,Product4039,Pulse Oximeter,Medical Devices,7,330.54,2313.78,1931.87,381.91,South Branch,Upi,2023,2,Feb,Feb-2023,Q1,Friday,5,16.51,330.54,False,False
+INV00680,2023-01-10,CUST1128,Product3738,Paracetamol 500Mg,Otc Medicines,5,37.32,186.6,132.48,54.12,East Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Tuesday,2,29.0,37.32,False,False
+INV00681,2023-01-30,CUST1009,Product2168,Digital Thermometer,Medical Devices,4,3376.53,13506.12,9762.46,3743.66,Central Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,5,27.72,3376.53,False,True
+INV00682,2023-10-23,CUST1050,Product6111,Bp Monitor,Medical Devices,1,904.14,904.14,693.58,210.56,East Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Monday,43,23.29,904.14,False,False
+INV00683,2023-04-18,CUST1129,Product5025,Azithromycin 500Mg,Prescription Drugs,5,689.83,3449.15,2490.73,958.42,South Branch,Cash,2023,4,Apr,Apr-2023,Q2,Tuesday,16,27.79,689.83,False,True
+INV00684,2023-07-01,CUST1005,Product2812,Protein Powder,Supplements & Vitamins,4,1123.25,4493.0,2289.12,2203.88,North Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Saturday,26,49.05,1123.25,True,True
+INV00685,2023-12-19,CUST1131,Product4497,Vitamin C 500Mg,Otc Medicines,6,334.21,2005.26,1273.88,731.38,North Branch,Upi,2023,12,Dec,Dec-2023,Q4,Tuesday,51,36.47,334.21,False,False
+INV00686,2023-08-25,CUST1109,Product5052,Glucometer,Medical Devices,1,1732.17,1732.17,1219.45,512.72,Central Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Friday,34,29.6,1732.17,False,False
+INV00687,2023-03-28,CUST1066,Product7354,Turmeric Capsules,Herbal & Ayurvedic,6,254.14,1524.84,989.17,535.67,North Branch,Cash,2023,3,Mar,Mar-2023,Q1,Tuesday,13,35.13,254.14,False,False
+INV00688,2023-11-25,CUST1002,Product1574,Chyawanprash 500G,Herbal & Ayurvedic,7,397.3,2781.1,1566.47,1214.63,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Saturday,47,43.67,397.3,True,False
+INV00689,2023-09-03,CUST1039,Product8715,Breast Pump,Baby & Mother Care,3,1131.76,3395.28,2108.18,1287.1,East Branch,Cash,2023,9,Sep,Sep-2023,Q3,Sunday,35,37.91,1131.76,True,True
+INV00690,2023-07-15,CUST1051,Product2687,Pulse Oximeter,Medical Devices,6,713.52,4281.12,3589.51,691.61,Central Branch,Cash,2023,7,Jul,Jul-2023,Q3,Saturday,28,16.15,713.52,True,True
+INV00691,2023-07-29,CUST1099,Product6398,Baby Food 200G,Baby & Mother Care,2,244.97,489.94,336.29,153.65,North Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Saturday,30,31.36,244.97,True,False
+INV00692,2023-07-07,CUST1027,Product8378,Amoxicillin 500Mg,Prescription Drugs,7,102.29,716.03,602.65,113.38,Central Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Friday,27,15.83,102.29,False,False
+INV00693,2023-05-09,CUST1059,Product6053,Pulse Oximeter,Medical Devices,4,1062.53,4250.12,3421.87,828.25,South Branch,Debit Card,2023,5,May,May-2023,Q2,Tuesday,19,19.49,1062.53,False,True
+INV00694,2023-01-27,CUST1082,Product2502,Neem Capsules,Herbal & Ayurvedic,6,311.67,1870.02,1042.72,827.3,West Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Friday,4,44.24,311.67,False,False
+INV00695,2023-07-20,CUST1082,Product3436,Baby Lotion,Baby & Mother Care,7,656.5,4595.5,3647.53,947.97,East Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Thursday,29,20.63,656.5,False,True
+INV00696,2023-07-23,CUST1150,Product5911,Breast Pump,Baby & Mother Care,6,1355.87,8135.22,5098.14,3037.08,South Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Sunday,29,37.33,1355.87,True,True
+INV00697,2023-08-05,CUST1095,Product7276,Antiseptic Cream,Cosmetics & Skincare,6,129.81,778.86,385.19,393.67,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Saturday,31,50.54,129.81,True,False
+INV00698,2023-05-26,CUST1108,Product3064,Moisturizer Cream,Cosmetics & Skincare,2,282.1,564.2,257.43,306.77,South Branch,Credit Card,2023,5,May,May-2023,Q2,Friday,21,54.37,282.1,False,False
+INV00699,2023-04-29,CUST1045,Product4250,Hair Oil,Cosmetics & Skincare,6,52.03,312.18,152.19,159.99,South Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Saturday,17,51.25,52.03,True,False
+INV00700,2023-12-23,CUST1003,Product3261,Baby Lotion,Baby & Mother Care,4,1068.32,4273.28,2807.72,1465.56,South Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Saturday,51,34.3,1068.32,True,True
+INV00701,2023-06-25,CUST1120,Product4209,Baby Lotion,Baby & Mother Care,3,220.28,660.84,515.58,145.26,North Branch,Upi,2023,6,Jun,Jun-2023,Q2,Sunday,25,21.98,220.28,True,False
+INV00702,2023-08-07,CUST1021,Product4557,Ashwagandha Tablets,Herbal & Ayurvedic,4,191.04,764.16,523.78,240.38,Central Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Monday,32,31.46,191.04,False,False
+INV00703,2023-06-17,CUST1040,Product4395,Lip Balm,Cosmetics & Skincare,3,650.1,1950.3,1247.38,702.92,East Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Saturday,24,36.04,650.1,True,False
+INV00704,2023-08-20,CUST1081,Product3024,Teething Gel,Baby & Mother Care,5,616.35,3081.75,2103.46,978.29,North Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Sunday,33,31.74,616.35,True,False
+INV00705,2023-06-20,CUST1022,Product3486,Paracetamol 500Mg,Otc Medicines,5,155.03,775.15,569.06,206.09,East Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,25,26.59,155.03,False,False
+INV00706,2023-03-25,CUST1057,Product9684,Calcium + D3,Supplements & Vitamins,4,618.64,2474.56,1406.16,1068.4,Central Branch,Cash,2023,3,Mar,Mar-2023,Q1,Saturday,12,43.18,618.64,True,False
+INV00707,2023-12-02,CUST1003,Product4959,Antiseptic Cream,Cosmetics & Skincare,2,167.27,334.54,171.3,163.24,Central Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Saturday,48,48.8,167.27,True,False
+INV00708,2023-12-28,CUST1067,Product3590,Bp Monitor,Medical Devices,3,2611.09,7833.27,6385.44,1447.83,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Thursday,52,18.48,2611.09,False,True
+INV00709,2023-01-20,CUST1140,Product2574,Protein Powder,Supplements & Vitamins,7,461.27,3228.89,1671.23,1557.66,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Friday,3,48.24,461.27,False,False
+INV00710,2023-08-26,CUST1089,Product4406,Omeprazole 20Mg,Prescription Drugs,3,205.94,617.82,513.62,104.2,South Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Saturday,34,16.87,205.94,True,False
+INV00711,2023-10-16,CUST1018,Product6285,Sunscreen Spf50,Cosmetics & Skincare,5,424.66,2123.3,1080.35,1042.95,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Monday,42,49.12,424.66,False,False
+INV00712,2023-05-18,CUST1044,Product9273,Baby Food 200G,Baby & Mother Care,5,720.32,3601.6,2742.51,859.09,South Branch,Debit Card,2023,5,May,May-2023,Q2,Thursday,20,23.85,720.32,False,True
+INV00713,2023-01-02,CUST1059,Product6956,Ashwagandha Tablets,Herbal & Ayurvedic,6,384.22,2305.32,1539.11,766.21,Central Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,1,33.24,384.22,False,False
+INV00714,2023-07-08,CUST1128,Product1564,Neem Capsules,Herbal & Ayurvedic,5,147.12,735.6,448.18,287.42,East Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,27,39.07,147.12,True,False
+INV00715,2023-08-12,CUST1137,Product8743,B-Complex,Supplements & Vitamins,5,1140.13,5700.65,3405.6,2295.05,South Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Saturday,32,40.26,1140.13,True,True
+INV00716,2023-01-03,CUST1011,Product7240,Heating Pad,Medical Devices,5,845.92,4229.6,3225.7,1003.9,Central Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Tuesday,1,23.74,845.92,False,True
+INV00717,2023-08-11,CUST1111,Product5433,Baby Lotion,Baby & Mother Care,3,1120.95,3362.85,2195.01,1167.84,South Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Friday,32,34.73,1120.95,False,True
+INV00718,2023-04-13,CUST1043,Product8653,Multivitamin Tablets,Supplements & Vitamins,7,284.77,1993.39,1171.02,822.37,North Branch,Cash,2023,4,Apr,Apr-2023,Q2,Thursday,15,41.25,284.77,False,False
+INV00719,2023-03-10,CUST1010,Product4185,Lip Balm,Cosmetics & Skincare,7,321.72,2252.04,1111.16,1140.88,North Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Friday,10,50.66,321.72,False,False
+INV00720,2023-06-26,CUST1133,Product6820,Hand Sanitizer,Cosmetics & Skincare,6,748.61,4491.66,2764.36,1727.3,East Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Monday,26,38.46,748.61,False,True
+INV00721,2023-03-13,CUST1144,Product4727,Nebulizer,Medical Devices,2,2589.03,5178.06,4123.66,1054.4,Central Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Monday,11,20.36,2589.03,False,True
+INV00722,2023-07-27,CUST1066,Product1437,Glucometer,Medical Devices,4,2590.35,10361.4,6791.29,3570.11,East Branch,Upi,2023,7,Jul,Jul-2023,Q3,Thursday,30,34.46,2590.35,False,True
+INV00723,2023-06-23,CUST1008,Product6728,B-Complex,Supplements & Vitamins,2,406.89,813.78,524.62,289.16,North Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Friday,25,35.53,406.89,False,False
+INV00724,2023-12-07,CUST1046,Product1604,Knee Support,Medical Devices,6,626.01,3756.06,2508.21,1247.85,West Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Thursday,49,33.22,626.01,False,True
+INV00725,2023-03-21,CUST1109,Product9740,Ciprofloxacin 500Mg,Prescription Drugs,6,662.62,3975.72,3128.14,847.58,West Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Tuesday,12,21.32,662.62,False,True
+INV00726,2023-04-12,CUST1073,Product4320,Maternity Pads,Baby & Mother Care,7,667.29,4671.03,3713.59,957.44,West Branch,Upi,2023,4,Apr,Apr-2023,Q2,Wednesday,15,20.5,667.29,False,True
+INV00727,2023-08-08,CUST1042,Product1282,Giloy Juice,Herbal & Ayurvedic,5,93.84,469.2,286.63,182.57,Central Branch,Upi,2023,8,Aug,Aug-2023,Q3,Tuesday,32,38.91,93.84,False,False
+INV00728,2023-05-09,CUST1125,Product1066,Ors Sachets,Otc Medicines,2,243.14,486.28,305.52,180.76,South Branch,Credit Card,2023,5,May,May-2023,Q2,Tuesday,19,37.17,243.14,False,False
+INV00729,2023-03-23,CUST1150,Product1804,Baby Food 200G,Baby & Mother Care,2,973.23,1946.46,1291.88,654.58,South Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Thursday,12,33.63,973.23,False,False
+INV00730,2023-04-27,CUST1105,Product8938,Hair Oil,Cosmetics & Skincare,4,530.34,2121.36,1318.34,803.02,West Branch,Upi,2023,4,Apr,Apr-2023,Q2,Thursday,17,37.85,530.34,False,False
+INV00731,2023-10-28,CUST1024,Product6577,Maternity Pads,Baby & Mother Care,3,420.47,1261.41,877.63,383.78,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Saturday,43,30.42,420.47,True,False
+INV00732,2023-08-31,CUST1011,Product9014,Iron Supplement,Supplements & Vitamins,4,1107.37,4429.48,3159.75,1269.73,North Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Thursday,35,28.67,1107.37,False,True
+INV00733,2023-03-16,CUST1103,Product9488,Cetirizine 10Mg,Otc Medicines,4,167.83,671.32,482.62,188.7,South Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Thursday,11,28.11,167.83,False,False
+INV00734,2023-07-23,CUST1101,Product1175,Ibuprofen 400Mg,Otc Medicines,7,294.9,2064.3,1462.43,601.87,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Sunday,29,29.16,294.9,True,False
+INV00735,2023-10-03,CUST1032,Product6147,Triphala Churna,Herbal & Ayurvedic,1,399.12,399.12,290.83,108.29,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Tuesday,40,27.13,399.12,False,False
+INV00736,2023-11-06,CUST1080,Product2849,Digital Thermometer,Medical Devices,4,902.57,3610.28,2849.42,760.86,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Monday,45,21.07,902.57,False,True
+INV00737,2023-04-17,CUST1101,Product6795,Multivitamin Tablets,Supplements & Vitamins,5,298.45,1492.25,1070.57,421.68,Central Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Monday,16,28.26,298.45,False,False
+INV00738,2023-06-18,CUST1021,Product3431,Hand Sanitizer,Cosmetics & Skincare,4,666.1,2664.4,1629.24,1035.16,South Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Sunday,24,38.85,666.1,True,False
+INV00739,2023-03-26,CUST1073,Product7622,Hair Oil,Cosmetics & Skincare,7,249.58,1747.06,1205.91,541.15,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Sunday,12,30.97,249.58,True,False
+INV00740,2023-02-28,CUST1103,Product7073,Baby Diaper Pack,Baby & Mother Care,5,373.12,1865.6,1527.24,338.36,North Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,9,18.14,373.12,False,False
+INV00741,2023-05-03,CUST1144,Product6507,Giloy Juice,Herbal & Ayurvedic,4,223.01,892.04,649.91,242.13,Central Branch,Credit Card,2023,5,May,May-2023,Q2,Wednesday,18,27.14,223.01,False,False
+INV00742,2023-12-03,CUST1032,Product4145,Antiseptic Cream,Cosmetics & Skincare,7,213.31,1493.17,1015.99,477.18,South Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Sunday,48,31.96,213.31,True,False
+INV00743,2023-04-10,CUST1062,Product8281,Multivitamin Tablets,Supplements & Vitamins,5,1068.48,5342.4,3021.89,2320.51,South Branch,Cash,2023,4,Apr,Apr-2023,Q2,Monday,15,43.44,1068.48,False,True
+INV00744,2023-12-01,CUST1082,Product6560,Baby Diaper Pack,Baby & Mother Care,7,555.7,3889.9,2574.05,1315.85,Central Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Friday,48,33.83,555.7,False,True
+INV00745,2023-04-24,CUST1106,Product7713,Amlodipine 5Mg,Prescription Drugs,7,260.97,1826.79,1416.92,409.87,South Branch,Upi,2023,4,Apr,Apr-2023,Q2,Monday,17,22.44,260.97,False,False
+INV00746,2023-12-19,CUST1037,Product5615,Amoxicillin 500Mg,Prescription Drugs,6,139.13,834.78,679.35,155.43,West Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Tuesday,51,18.62,139.13,False,False
+INV00747,2023-02-14,CUST1032,Product8456,Moisturizer Cream,Cosmetics & Skincare,4,522.63,2090.52,946.75,1143.77,North Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,7,54.71,522.63,False,False
+INV00748,2023-07-04,CUST1130,Product5675,Baby Powder,Baby & Mother Care,6,414.22,2485.32,1649.39,835.93,Central Branch,Cash,2023,7,Jul,Jul-2023,Q3,Tuesday,27,33.63,414.22,False,False
+INV00749,2023-05-10,CUST1064,Product6073,Atorvastatin 20Mg,Prescription Drugs,5,777.7,3888.5,3336.19,552.31,Central Branch,Cash,2023,5,May,May-2023,Q2,Wednesday,19,14.2,777.7,False,True
+INV00750,2023-09-13,CUST1030,Product2790,Heating Pad,Medical Devices,5,1726.84,8634.2,6115.46,2518.74,East Branch,Cash,2023,9,Sep,Sep-2023,Q3,Wednesday,37,29.17,1726.84,False,True
+INV00751,2023-11-09,CUST1049,Product3032,Teething Gel,Baby & Mother Care,7,533.83,3736.81,3038.47,698.34,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Thursday,45,18.69,533.83,False,True
+INV00752,2023-03-26,CUST1046,Product5651,Moisturizer Cream,Cosmetics & Skincare,3,522.51,1567.53,933.71,633.82,West Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Sunday,12,40.43,522.51,True,False
+INV00753,2023-01-30,CUST1111,Product8282,Baby Food 200G,Baby & Mother Care,3,740.55,2221.65,1668.34,553.31,South Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,5,24.91,740.55,False,False
+INV00754,2023-11-24,CUST1040,Product9159,Sunscreen Spf50,Cosmetics & Skincare,3,355.08,1065.24,542.64,522.6,East Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Friday,47,49.06,355.08,False,False
+INV00755,2023-06-16,CUST1033,Product9146,Cetirizine 10Mg,Otc Medicines,6,193.3,1159.8,881.53,278.27,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,24,23.99,193.3,False,False
+INV00756,2023-01-26,CUST1106,Product7875,Glucometer,Medical Devices,1,1045.66,1045.66,718.76,326.9,West Branch,Upi,2023,1,Jan,Jan-2023,Q1,Thursday,4,31.26,1045.66,False,False
+INV00757,2023-09-26,CUST1107,Product6984,Nebulizer,Medical Devices,1,1630.01,1630.01,1301.3,328.71,West Branch,Cash,2023,9,Sep,Sep-2023,Q3,Tuesday,39,20.17,1630.01,False,False
+INV00758,2023-07-24,CUST1130,Product2392,Omega-3 Capsules,Supplements & Vitamins,2,208.51,417.02,217.71,199.31,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Monday,30,47.79,208.51,False,False
+INV00759,2023-03-13,CUST1017,Product2782,Teething Gel,Baby & Mother Care,2,742.56,1485.12,1004.33,480.79,West Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Monday,11,32.37,742.56,False,False
+INV00760,2023-09-19,CUST1099,Product4981,Baby Food 200G,Baby & Mother Care,2,1382.48,2764.96,2081.79,683.17,South Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Tuesday,38,24.71,1382.48,False,False
+INV00761,2023-03-30,CUST1138,Product2524,Baby Powder,Baby & Mother Care,7,749.98,5249.86,4147.98,1101.88,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Thursday,13,20.99,749.98,False,True
+INV00762,2023-09-26,CUST1034,Product5898,Giloy Juice,Herbal & Ayurvedic,1,165.57,165.57,113.67,51.9,South Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Tuesday,39,31.35,165.57,False,False
+INV00763,2023-09-04,CUST1067,Product4281,Baby Powder,Baby & Mother Care,7,158.96,1112.72,722.12,390.6,North Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Monday,36,35.1,158.96,False,False
+INV00764,2023-05-01,CUST1129,Product4675,Ashwagandha Tablets,Herbal & Ayurvedic,4,580.35,2321.4,1295.73,1025.67,West Branch,Upi,2023,5,May,May-2023,Q2,Monday,18,44.18,580.35,False,False
+INV00765,2023-10-20,CUST1150,Product1355,Tulsi Drops,Herbal & Ayurvedic,2,132.24,264.48,175.32,89.16,Central Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Friday,42,33.71,132.24,False,False
+INV00766,2023-05-23,CUST1043,Product6839,Zinc Tablets,Supplements & Vitamins,2,372.69,745.38,514.5,230.88,West Branch,Credit Card,2023,5,May,May-2023,Q2,Tuesday,21,30.97,372.69,False,False
+INV00767,2023-06-15,CUST1029,Product5601,Paracetamol 500Mg,Otc Medicines,3,131.71,395.13,315.54,79.59,East Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Thursday,24,20.14,131.71,False,False
+INV00768,2023-10-21,CUST1065,Product2428,Baby Diaper Pack,Baby & Mother Care,1,287.82,287.82,199.57,88.25,Central Branch,Cash,2023,10,Oct,Oct-2023,Q4,Saturday,42,30.66,287.82,True,False
+INV00769,2023-12-22,CUST1017,Product3686,Omega-3 Capsules,Supplements & Vitamins,3,576.79,1730.37,963.89,766.48,West Branch,Upi,2023,12,Dec,Dec-2023,Q4,Friday,51,44.3,576.79,False,False
+INV00770,2023-09-05,CUST1085,Product5362,Omega-3 Capsules,Supplements & Vitamins,4,376.39,1505.56,822.9,682.66,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Tuesday,36,45.34,376.39,False,False
+INV00771,2023-06-10,CUST1031,Product8690,Glucometer,Medical Devices,3,779.71,2339.13,1736.77,602.36,Central Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Saturday,23,25.75,779.71,True,False
+INV00772,2023-01-02,CUST1058,Product3739,Ashwagandha Tablets,Herbal & Ayurvedic,2,444.71,889.42,690.81,198.61,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Monday,1,22.33,444.71,False,False
+INV00773,2023-05-28,CUST1130,Product3975,Nebulizer,Medical Devices,5,2583.86,12919.3,8867.43,4051.87,South Branch,Cash,2023,5,May,May-2023,Q2,Sunday,21,31.36,2583.86,True,True
+INV00774,2023-11-03,CUST1147,Product8727,Ors Sachets,Otc Medicines,1,69.3,69.3,46.46,22.84,Central Branch,Upi,2023,11,Nov,Nov-2023,Q4,Friday,44,32.96,69.3,False,False
+INV00775,2023-10-05,CUST1131,Product3868,Amoxicillin 500Mg,Prescription Drugs,3,575.16,1725.48,1307.9,417.58,Central Branch,Cash,2023,10,Oct,Oct-2023,Q4,Thursday,40,24.2,575.16,False,False
+INV00776,2023-07-19,CUST1016,Product8027,Hair Oil,Cosmetics & Skincare,5,391.22,1956.1,1000.8,955.3,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Wednesday,29,48.84,391.22,False,False
+INV00777,2023-09-13,CUST1128,Product8135,Antiseptic Cream,Cosmetics & Skincare,5,50.47,252.35,115.89,136.46,West Branch,Cash,2023,9,Sep,Sep-2023,Q3,Wednesday,37,54.08,50.47,False,False
+INV00778,2023-07-27,CUST1024,Product6424,Vitamin C 500Mg,Otc Medicines,4,51.89,207.56,154.67,52.89,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Thursday,30,25.48,51.89,False,False
+INV00779,2023-01-16,CUST1029,Product9624,Vitamin C 500Mg,Otc Medicines,4,215.88,863.52,668.86,194.66,East Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Monday,3,22.54,215.88,False,False
+INV00780,2023-07-05,CUST1019,Product8860,Amoxicillin 500Mg,Prescription Drugs,5,800.85,4004.25,3194.74,809.51,Central Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Wednesday,27,20.22,800.85,False,True
+INV00781,2023-08-19,CUST1017,Product8799,Tulsi Drops,Herbal & Ayurvedic,2,334.96,669.92,392.06,277.86,South Branch,Cash,2023,8,Aug,Aug-2023,Q3,Saturday,33,41.48,334.96,True,False
+INV00782,2023-12-10,CUST1091,Product6519,Bp Monitor,Medical Devices,4,2083.81,8335.24,5454.03,2881.21,Central Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,49,34.57,2083.81,True,True
+INV00783,2023-01-07,CUST1016,Product2447,Cough Syrup,Otc Medicines,5,167.63,838.15,635.24,202.91,East Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Saturday,1,24.21,167.63,True,False
+INV00784,2023-08-16,CUST1134,Product5055,Breast Pump,Baby & Mother Care,3,737.28,2211.84,1386.59,825.25,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,33,37.31,737.28,False,False
+INV00785,2023-11-13,CUST1103,Product8734,Iron Supplement,Supplements & Vitamins,1,366.29,366.29,209.77,156.52,East Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Monday,46,42.73,366.29,False,False
+INV00786,2023-08-25,CUST1142,Product4253,Omeprazole 20Mg,Prescription Drugs,6,786.15,4716.9,3710.56,1006.34,South Branch,Cash,2023,8,Aug,Aug-2023,Q3,Friday,34,21.33,786.15,False,True
+INV00787,2023-10-12,CUST1142,Product4513,Chyawanprash 500G,Herbal & Ayurvedic,7,455.8,3190.6,2254.41,936.19,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Thursday,41,29.34,455.8,False,False
+INV00788,2023-04-26,CUST1037,Product9328,Knee Support,Medical Devices,6,2651.23,15907.38,12498.32,3409.06,South Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Wednesday,17,21.43,2651.23,False,True
+INV00789,2023-02-22,CUST1011,Product4870,Lip Balm,Cosmetics & Skincare,4,596.48,2385.92,1355.16,1030.76,West Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Wednesday,8,43.2,596.48,False,False
+INV00790,2023-01-15,CUST1029,Product2649,Ciprofloxacin 500Mg,Prescription Drugs,4,640.2,2560.8,2206.32,354.48,East Branch,Upi,2023,1,Jan,Jan-2023,Q1,Sunday,2,13.84,640.2,True,False
+INV00791,2023-08-02,CUST1090,Product5938,Omega-3 Capsules,Supplements & Vitamins,4,168.93,675.72,489.5,186.22,South Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Wednesday,31,27.56,168.93,False,False
+INV00792,2023-10-01,CUST1137,Product4554,Moisturizer Cream,Cosmetics & Skincare,3,605.28,1815.84,1217.52,598.32,South Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Sunday,39,32.95,605.28,True,False
+INV00793,2023-03-19,CUST1039,Product9212,Zinc Tablets,Supplements & Vitamins,4,717.23,2868.92,2115.6,753.32,West Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Sunday,11,26.26,717.23,True,False
+INV00794,2023-07-07,CUST1050,Product2174,Cetirizine 10Mg,Otc Medicines,7,64.9,454.3,287.47,166.83,West Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Friday,27,36.72,64.9,False,False
+INV00795,2023-05-01,CUST1101,Product8111,Nebulizer,Medical Devices,4,497.36,1989.44,1511.95,477.49,East Branch,Debit Card,2023,5,May,May-2023,Q2,Monday,18,24.0,497.36,False,False
+INV00796,2023-08-02,CUST1100,Product4083,Multivitamin Tablets,Supplements & Vitamins,1,1028.26,1028.26,639.59,388.67,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Wednesday,31,37.8,1028.26,False,False
+INV00797,2023-05-15,CUST1070,Product6463,Bp Monitor,Medical Devices,2,2613.78,5227.56,3912.57,1314.99,West Branch,Insurance,2023,5,May,May-2023,Q2,Monday,20,25.15,2613.78,False,True
+INV00798,2023-12-24,CUST1024,Product1320,Baby Powder,Baby & Mother Care,2,247.67,495.34,396.18,99.16,South Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,51,20.02,247.67,True,False
+INV00799,2023-07-18,CUST1139,Product8637,Antacid Syrup,Otc Medicines,4,89.07,356.28,279.86,76.42,Central Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Tuesday,29,21.45,89.07,False,False
+INV00800,2023-07-29,CUST1024,Product9809,Cetirizine 10Mg,Otc Medicines,4,332.79,1331.16,996.09,335.07,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Saturday,30,25.17,332.79,True,False
+INV00801,2023-09-18,CUST1098,Product5381,Baby Food 200G,Baby & Mother Care,5,673.34,3366.7,2524.55,842.15,North Branch,Cash,2023,9,Sep,Sep-2023,Q3,Monday,38,25.01,673.34,False,True
+INV00802,2023-01-07,CUST1053,Product5581,Turmeric Capsules,Herbal & Ayurvedic,7,87.96,615.72,369.72,246.0,West Branch,Insurance,2023,1,Jan,Jan-2023,Q1,Saturday,1,39.95,87.96,True,False
+INV00803,2023-08-18,CUST1067,Product7035,Moisturizer Cream,Cosmetics & Skincare,2,316.2,632.4,363.13,269.27,West Branch,Upi,2023,8,Aug,Aug-2023,Q3,Friday,33,42.58,316.2,False,False
+INV00804,2023-07-08,CUST1147,Product3105,Iron Supplement,Supplements & Vitamins,3,590.46,1771.38,1155.52,615.86,South Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,27,34.77,590.46,True,False
+INV00805,2023-10-08,CUST1025,Product4110,Atorvastatin 20Mg,Prescription Drugs,2,210.29,420.58,357.49,63.09,West Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,40,15.0,210.29,True,False
+INV00806,2023-05-27,CUST1123,Product6024,Turmeric Capsules,Herbal & Ayurvedic,3,89.4,268.2,184.5,83.7,West Branch,Upi,2023,5,May,May-2023,Q2,Saturday,21,31.21,89.4,True,False
+INV00807,2023-09-15,CUST1123,Product4293,Cetirizine 10Mg,Otc Medicines,6,191.5,1149.0,875.41,273.59,West Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Friday,37,23.81,191.5,False,False
+INV00808,2023-08-14,CUST1097,Product8173,Paracetamol 500Mg,Otc Medicines,7,41.66,291.62,201.25,90.37,West Branch,Upi,2023,8,Aug,Aug-2023,Q3,Monday,33,30.99,41.66,False,False
+INV00809,2023-08-23,CUST1040,Product2823,Hair Oil,Cosmetics & Skincare,5,471.99,2359.95,1202.28,1157.67,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Wednesday,34,49.05,471.99,False,False
+INV00810,2023-05-17,CUST1054,Product2777,Digital Thermometer,Medical Devices,6,2013.49,12080.94,10063.08,2017.86,East Branch,Credit Card,2023,5,May,May-2023,Q2,Wednesday,20,16.7,2013.49,False,True
+INV00811,2023-10-29,CUST1049,Product2325,Atorvastatin 20Mg,Prescription Drugs,4,597.48,2389.92,1834.63,555.29,East Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Sunday,43,23.23,597.48,True,False
+INV00812,2023-12-18,CUST1110,Product3355,Teething Gel,Baby & Mother Care,5,639.14,3195.7,2385.69,810.01,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Monday,51,25.35,639.14,False,False
+INV00813,2023-07-24,CUST1085,Product6316,Baby Food 200G,Baby & Mother Care,1,592.22,592.22,462.59,129.63,Central Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Monday,30,21.89,592.22,False,False
+INV00814,2023-11-09,CUST1113,Product9424,Ors Sachets,Otc Medicines,3,188.14,564.42,389.93,174.49,South Branch,Cash,2023,11,Nov,Nov-2023,Q4,Thursday,45,30.91,188.14,False,False
+INV00815,2023-08-05,CUST1039,Product1823,Calcium + D3,Supplements & Vitamins,4,1065.06,4260.24,2942.24,1318.0,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Saturday,31,30.94,1065.06,True,True
+INV00816,2023-10-18,CUST1102,Product4306,Azithromycin 500Mg,Prescription Drugs,4,773.24,3092.96,2392.8,700.16,Central Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Wednesday,42,22.64,773.24,False,False
+INV00817,2023-11-27,CUST1093,Product1191,Neem Capsules,Herbal & Ayurvedic,4,118.0,472.0,338.45,133.55,North Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Monday,48,28.29,118.0,False,False
+INV00818,2023-08-19,CUST1098,Product6494,Zinc Tablets,Supplements & Vitamins,4,160.62,642.48,457.96,184.52,South Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Saturday,33,28.72,160.62,True,False
+INV00819,2023-04-03,CUST1143,Product9414,Sunscreen Spf50,Cosmetics & Skincare,4,230.18,920.72,536.36,384.36,South Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Monday,14,41.75,230.18,False,False
+INV00820,2023-01-23,CUST1077,Product2014,Ashwagandha Tablets,Herbal & Ayurvedic,4,556.29,2225.16,1420.64,804.52,East Branch,Cash,2023,1,Jan,Jan-2023,Q1,Monday,4,36.16,556.29,False,False
+INV00821,2023-11-06,CUST1043,Product6976,Nebulizer,Medical Devices,7,3332.86,23330.02,19579.97,3750.05,Central Branch,Upi,2023,11,Nov,Nov-2023,Q4,Monday,45,16.07,3332.86,False,True
+INV00822,2023-03-08,CUST1119,Product9789,Calcium + D3,Supplements & Vitamins,7,632.6,4428.2,2625.36,1802.84,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Wednesday,10,40.71,632.6,False,True
+INV00823,2023-10-25,CUST1136,Product8574,Baby Diaper Pack,Baby & Mother Care,4,1155.22,4620.88,3148.3,1472.58,West Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Wednesday,43,31.87,1155.22,False,True
+INV00824,2023-04-24,CUST1019,Product3423,Moisturizer Cream,Cosmetics & Skincare,5,563.16,2815.8,1349.87,1465.93,West Branch,Cash,2023,4,Apr,Apr-2023,Q2,Monday,17,52.06,563.16,False,False
+INV00825,2023-10-27,CUST1145,Product7222,Teething Gel,Baby & Mother Care,5,532.96,2664.8,1786.43,878.37,West Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Friday,43,32.96,532.96,False,False
+INV00826,2023-04-13,CUST1116,Product1225,Ciprofloxacin 500Mg,Prescription Drugs,2,762.16,1524.32,1152.4,371.92,South Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Thursday,15,24.4,762.16,False,False
+INV00827,2023-12-11,CUST1086,Product7558,Teething Gel,Baby & Mother Care,1,336.53,336.53,212.18,124.35,South Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Monday,50,36.95,336.53,False,False
+INV00828,2023-05-13,CUST1046,Product3835,Omega-3 Capsules,Supplements & Vitamins,1,690.95,690.95,384.4,306.55,North Branch,Credit Card,2023,5,May,May-2023,Q2,Saturday,19,44.37,690.95,True,False
+INV00829,2023-04-14,CUST1054,Product2963,B-Complex,Supplements & Vitamins,7,301.2,2108.4,1054.48,1053.92,North Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Friday,15,49.99,301.2,False,False
+INV00830,2023-01-23,CUST1131,Product9101,Ibuprofen 400Mg,Otc Medicines,7,51.24,358.68,284.59,74.09,North Branch,Upi,2023,1,Jan,Jan-2023,Q1,Monday,4,20.66,51.24,False,False
+INV00831,2023-09-30,CUST1099,Product5607,Moisturizer Cream,Cosmetics & Skincare,1,248.92,248.92,131.55,117.37,East Branch,Credit Card,2023,9,Sep,Sep-2023,Q3,Saturday,39,47.15,248.92,True,False
+INV00832,2023-06-26,CUST1011,Product8013,Cough Syrup,Otc Medicines,4,137.68,550.72,411.78,138.94,West Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Monday,26,25.23,137.68,False,False
+INV00833,2023-12-23,CUST1040,Product5418,Baby Powder,Baby & Mother Care,1,1105.26,1105.26,701.92,403.34,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Saturday,51,36.49,1105.26,True,False
+INV00834,2023-09-29,CUST1039,Product5784,Cough Syrup,Otc Medicines,3,153.92,461.76,279.79,181.97,South Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Friday,39,39.41,153.92,False,False
+INV00835,2023-05-09,CUST1021,Product1292,Amlodipine 5Mg,Prescription Drugs,5,310.17,1550.85,1262.81,288.04,North Branch,Insurance,2023,5,May,May-2023,Q2,Tuesday,19,18.57,310.17,False,False
+INV00836,2023-04-03,CUST1024,Product7154,Hair Oil,Cosmetics & Skincare,1,158.92,158.92,90.41,68.51,North Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Monday,14,43.11,158.92,False,False
+INV00837,2023-05-21,CUST1088,Product2103,Amlodipine 5Mg,Prescription Drugs,3,701.87,2105.61,1593.03,512.58,East Branch,Credit Card,2023,5,May,May-2023,Q2,Sunday,20,24.34,701.87,True,False
+INV00838,2023-05-08,CUST1103,Product4384,Amlodipine 5Mg,Prescription Drugs,2,695.29,1390.58,1110.58,280.0,Central Branch,Credit Card,2023,5,May,May-2023,Q2,Monday,19,20.14,695.29,False,False
+INV00839,2023-01-16,CUST1081,Product6755,Omega-3 Capsules,Supplements & Vitamins,7,808.68,5660.76,3578.03,2082.73,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Monday,3,36.79,808.68,False,True
+INV00840,2023-10-24,CUST1026,Product1614,Zinc Tablets,Supplements & Vitamins,6,527.44,3164.64,1694.37,1470.27,East Branch,Upi,2023,10,Oct,Oct-2023,Q4,Tuesday,43,46.46,527.44,False,False
+INV00841,2023-10-02,CUST1070,Product4696,B-Complex,Supplements & Vitamins,3,1082.69,3248.07,2062.57,1185.5,West Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,40,36.5,1082.69,False,False
+INV00842,2023-06-02,CUST1115,Product4845,Omeprazole 20Mg,Prescription Drugs,5,286.82,1434.1,1148.47,285.63,North Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,22,19.92,286.82,False,False
+INV00843,2023-12-23,CUST1052,Product3513,Ibuprofen 400Mg,Otc Medicines,4,267.59,1070.36,788.37,281.99,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Saturday,51,26.35,267.59,True,False
+INV00844,2023-04-03,CUST1053,Product7800,Azithromycin 500Mg,Prescription Drugs,7,362.04,2534.28,2208.7,325.58,West Branch,Upi,2023,4,Apr,Apr-2023,Q2,Monday,14,12.85,362.04,False,False
+INV00845,2023-09-17,CUST1149,Product1716,Baby Food 200G,Baby & Mother Care,1,676.64,676.64,463.3,213.34,West Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Sunday,37,31.53,676.64,True,False
+INV00846,2023-06-10,CUST1149,Product2069,Baby Food 200G,Baby & Mother Care,7,699.94,4899.58,3466.83,1432.75,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Saturday,23,29.24,699.94,True,True
+INV00847,2023-10-02,CUST1079,Product1597,Breast Pump,Baby & Mother Care,5,631.28,3156.4,2229.1,927.3,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,40,29.38,631.28,False,False
+INV00848,2023-05-21,CUST1077,Product7554,Moisturizer Cream,Cosmetics & Skincare,2,378.23,756.46,465.28,291.18,North Branch,Upi,2023,5,May,May-2023,Q2,Sunday,20,38.49,378.23,True,False
+INV00849,2023-04-04,CUST1145,Product3855,Azithromycin 500Mg,Prescription Drugs,3,375.69,1127.07,837.75,289.32,East Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Tuesday,14,25.67,375.69,False,False
+INV00850,2023-07-04,CUST1074,Product5987,Omeprazole 20Mg,Prescription Drugs,1,807.24,807.24,682.95,124.29,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Tuesday,27,15.4,807.24,False,False
+INV00851,2023-07-05,CUST1037,Product9325,Breast Pump,Baby & Mother Care,4,545.53,2182.12,1409.85,772.27,North Branch,Upi,2023,7,Jul,Jul-2023,Q3,Wednesday,27,35.39,545.53,False,False
+INV00852,2023-05-05,CUST1102,Product9444,Azithromycin 500Mg,Prescription Drugs,2,640.94,1281.88,1087.1,194.78,South Branch,Debit Card,2023,5,May,May-2023,Q2,Friday,18,15.19,640.94,False,False
+INV00853,2023-02-05,CUST1011,Product4241,Teething Gel,Baby & Mother Care,3,866.34,2599.02,1705.81,893.21,South Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Sunday,5,34.37,866.34,True,False
+INV00854,2023-10-16,CUST1058,Product6783,Vitamin C 500Mg,Otc Medicines,7,155.97,1091.79,843.21,248.58,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,42,22.77,155.97,False,False
+INV00855,2023-08-18,CUST1067,Product2079,Ciprofloxacin 500Mg,Prescription Drugs,7,277.02,1939.14,1580.14,359.0,East Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Friday,33,18.51,277.02,False,False
+INV00856,2023-10-30,CUST1071,Product6006,Giloy Juice,Herbal & Ayurvedic,7,216.8,1517.6,930.88,586.72,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Monday,44,38.66,216.8,False,False
+INV00857,2023-03-25,CUST1071,Product3653,Ibuprofen 400Mg,Otc Medicines,4,154.89,619.56,442.5,177.06,South Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Saturday,12,28.58,154.89,True,False
+INV00858,2023-08-01,CUST1149,Product1789,Cough Syrup,Otc Medicines,3,204.71,614.13,447.21,166.92,West Branch,Upi,2023,8,Aug,Aug-2023,Q3,Tuesday,31,27.18,204.71,False,False
+INV00859,2023-09-27,CUST1024,Product4003,Moisturizer Cream,Cosmetics & Skincare,1,147.74,147.74,90.65,57.09,West Branch,Upi,2023,9,Sep,Sep-2023,Q3,Wednesday,39,38.64,147.74,False,False
+INV00860,2023-01-26,CUST1075,Product1946,Turmeric Capsules,Herbal & Ayurvedic,5,395.89,1979.45,1305.79,673.66,South Branch,Cash,2023,1,Jan,Jan-2023,Q1,Thursday,4,34.03,395.89,False,False
+INV00861,2023-10-22,CUST1029,Product3986,Calcium + D3,Supplements & Vitamins,5,878.84,4394.2,3277.94,1116.26,South Branch,Insurance,2023,10,Oct,Oct-2023,Q4,Sunday,42,25.4,878.84,True,True
+INV00862,2023-02-11,CUST1115,Product5480,Iron Supplement,Supplements & Vitamins,2,979.64,1959.28,1362.79,596.49,South Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Saturday,6,30.44,979.64,True,False
+INV00863,2023-08-19,CUST1137,Product1109,Bp Monitor,Medical Devices,2,1243.04,2486.08,1829.15,656.93,West Branch,Debit Card,2023,8,Aug,Aug-2023,Q3,Saturday,33,26.42,1243.04,True,False
+INV00864,2023-06-17,CUST1137,Product1104,Amoxicillin 500Mg,Prescription Drugs,1,285.72,285.72,240.25,45.47,Central Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Saturday,24,15.91,285.72,True,False
+INV00865,2023-05-14,CUST1016,Product5992,Baby Lotion,Baby & Mother Care,4,300.02,1200.08,981.05,219.03,East Branch,Upi,2023,5,May,May-2023,Q2,Sunday,19,18.25,300.02,True,False
+INV00866,2023-12-03,CUST1125,Product1238,Protein Powder,Supplements & Vitamins,7,1018.96,7132.72,4586.93,2545.79,South Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,48,35.69,1018.96,True,True
+INV00867,2023-05-12,CUST1077,Product2996,Hand Sanitizer,Cosmetics & Skincare,2,58.26,116.52,69.43,47.09,Central Branch,Insurance,2023,5,May,May-2023,Q2,Friday,19,40.41,58.26,False,False
+INV00868,2023-02-27,CUST1028,Product8714,Cough Syrup,Otc Medicines,3,165.83,497.49,383.78,113.71,East Branch,Cash,2023,2,Feb,Feb-2023,Q1,Monday,9,22.86,165.83,False,False
+INV00869,2023-07-07,CUST1069,Product3367,Ciprofloxacin 500Mg,Prescription Drugs,5,647.78,3238.9,2393.05,845.85,East Branch,Cash,2023,7,Jul,Jul-2023,Q3,Friday,27,26.12,647.78,False,False
+INV00870,2023-04-15,CUST1060,Product8036,Ciprofloxacin 500Mg,Prescription Drugs,7,214.14,1498.98,1088.17,410.81,South Branch,Cash,2023,4,Apr,Apr-2023,Q2,Saturday,15,27.41,214.14,True,False
+INV00871,2023-06-18,CUST1014,Product3211,Amoxicillin 500Mg,Prescription Drugs,3,543.41,1630.23,1417.78,212.45,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Sunday,24,13.03,543.41,True,False
+INV00872,2023-03-26,CUST1051,Product5521,Antiseptic Cream,Cosmetics & Skincare,7,248.22,1737.54,1091.5,646.04,West Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Sunday,12,37.18,248.22,True,False
+INV00873,2023-09-14,CUST1015,Product7331,Nebulizer,Medical Devices,7,3465.7,24259.9,20355.29,3904.61,Central Branch,Cash,2023,9,Sep,Sep-2023,Q3,Thursday,37,16.09,3465.7,False,True
+INV00874,2023-04-20,CUST1061,Product9974,Pulse Oximeter,Medical Devices,2,2790.69,5581.38,3693.52,1887.86,North Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Thursday,16,33.82,2790.69,False,True
+INV00875,2023-05-25,CUST1141,Product9077,Amlodipine 5Mg,Prescription Drugs,7,848.61,5940.27,5048.82,891.45,North Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,21,15.01,848.61,False,True
+INV00876,2023-11-16,CUST1010,Product7458,Iron Supplement,Supplements & Vitamins,2,533.49,1066.98,657.42,409.56,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Thursday,46,38.38,533.49,False,False
+INV00877,2023-01-20,CUST1037,Product4203,Cough Syrup,Otc Medicines,6,37.18,223.08,177.89,45.19,North Branch,Credit Card,2023,1,Jan,Jan-2023,Q1,Friday,3,20.26,37.18,False,False
+INV00878,2023-08-03,CUST1034,Product9234,Aloe Vera Gel,Cosmetics & Skincare,2,694.63,1389.26,725.96,663.3,West Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Thursday,31,47.74,694.63,False,False
+INV00879,2023-07-13,CUST1001,Product1583,Ors Sachets,Otc Medicines,6,91.04,546.24,348.38,197.86,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Thursday,28,36.22,91.04,False,False
+INV00880,2023-02-15,CUST1147,Product6285,Cough Syrup,Otc Medicines,7,188.8,1321.6,814.5,507.1,Central Branch,Credit Card,2023,2,Feb,Feb-2023,Q1,Wednesday,7,38.37,188.8,False,False
+INV00881,2023-12-04,CUST1074,Product6273,Calcium + D3,Supplements & Vitamins,5,453.28,2266.4,1368.0,898.4,North Branch,Credit Card,2023,12,Dec,Dec-2023,Q4,Monday,49,39.64,453.28,False,False
+INV00882,2023-03-09,CUST1070,Product7745,Baby Diaper Pack,Baby & Mother Care,6,387.2,2323.2,1711.6,611.6,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Thursday,10,26.33,387.2,False,False
+INV00883,2023-11-22,CUST1104,Product2098,Turmeric Capsules,Herbal & Ayurvedic,1,438.71,438.71,281.41,157.3,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,47,35.86,438.71,False,False
+INV00884,2023-06-18,CUST1066,Product3191,Triphala Churna,Herbal & Ayurvedic,6,533.87,3203.22,1898.39,1304.83,West Branch,Upi,2023,6,Jun,Jun-2023,Q2,Sunday,24,40.73,533.87,True,False
+INV00885,2023-03-26,CUST1041,Product4183,Amlodipine 5Mg,Prescription Drugs,5,467.37,2336.85,2025.43,311.42,South Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Sunday,12,13.33,467.37,True,False
+INV00886,2023-04-15,CUST1074,Product3486,Ors Sachets,Otc Medicines,6,273.69,1642.14,1226.49,415.65,North Branch,Cash,2023,4,Apr,Apr-2023,Q2,Saturday,15,25.31,273.69,True,False
+INV00887,2023-02-07,CUST1145,Product3511,Lip Balm,Cosmetics & Skincare,6,757.4,4544.4,2122.54,2421.86,West Branch,Upi,2023,2,Feb,Feb-2023,Q1,Tuesday,6,53.29,757.4,False,True
+INV00888,2023-10-01,CUST1054,Product4175,Omega-3 Capsules,Supplements & Vitamins,3,633.61,1900.83,997.57,903.26,West Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Sunday,39,47.52,633.61,True,False
+INV00889,2023-01-19,CUST1086,Product5323,Ibuprofen 400Mg,Otc Medicines,2,159.19,318.38,240.08,78.3,West Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Thursday,3,24.59,159.19,False,False
+INV00890,2023-06-14,CUST1035,Product4758,Azithromycin 500Mg,Prescription Drugs,3,370.43,1111.29,817.32,293.97,East Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Wednesday,24,26.45,370.43,False,False
+INV00891,2023-12-24,CUST1084,Product7651,Baby Powder,Baby & Mother Care,4,643.52,2574.08,1641.83,932.25,West Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Sunday,51,36.22,643.52,True,False
+INV00892,2023-11-25,CUST1102,Product9297,Lip Balm,Cosmetics & Skincare,5,542.13,2710.65,1638.43,1072.22,Central Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Saturday,47,39.56,542.13,True,False
+INV00893,2023-03-18,CUST1028,Product1244,Knee Support,Medical Devices,4,808.56,3234.24,2714.52,519.72,Central Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Saturday,11,16.07,808.56,True,False
+INV00894,2023-08-13,CUST1143,Product3399,Ibuprofen 400Mg,Otc Medicines,6,122.31,733.86,467.91,265.95,Central Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Sunday,32,36.24,122.31,True,False
+INV00895,2023-10-30,CUST1043,Product8923,Amoxicillin 500Mg,Prescription Drugs,6,193.2,1159.2,888.25,270.95,South Branch,Cash,2023,10,Oct,Oct-2023,Q4,Monday,44,23.37,193.2,False,False
+INV00896,2023-02-28,CUST1063,Product1957,Protein Powder,Supplements & Vitamins,4,1081.92,4327.68,2551.96,1775.72,Central Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,9,41.03,1081.92,False,True
+INV00897,2023-11-28,CUST1023,Product5701,Multivitamin Tablets,Supplements & Vitamins,3,485.0,1455.0,738.79,716.21,South Branch,Insurance,2023,11,Nov,Nov-2023,Q4,Tuesday,48,49.22,485.0,False,False
+INV00898,2023-08-22,CUST1075,Product7300,Omeprazole 20Mg,Prescription Drugs,6,399.03,2394.18,2063.83,330.35,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Tuesday,34,13.8,399.03,False,False
+INV00899,2023-12-05,CUST1033,Product6985,Chyawanprash 500G,Herbal & Ayurvedic,1,263.86,263.86,197.77,66.09,South Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Tuesday,49,25.05,263.86,False,False
+INV00900,2023-09-29,CUST1061,Product6902,Ciprofloxacin 500Mg,Prescription Drugs,5,410.67,2053.35,1652.3,401.05,Central Branch,Insurance,2023,9,Sep,Sep-2023,Q3,Friday,39,19.53,410.67,False,False
+INV00901,2023-07-29,CUST1067,Product9201,Azithromycin 500Mg,Prescription Drugs,3,144.2,432.6,316.42,116.18,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,30,26.86,144.2,True,False
+INV00902,2023-04-23,CUST1057,Product5366,Ciprofloxacin 500Mg,Prescription Drugs,7,261.98,1833.86,1419.75,414.11,Central Branch,Debit Card,2023,4,Apr,Apr-2023,Q2,Sunday,16,22.58,261.98,True,False
+INV00903,2023-05-11,CUST1041,Product3689,Zinc Tablets,Supplements & Vitamins,5,256.34,1281.7,744.7,537.0,North Branch,Credit Card,2023,5,May,May-2023,Q2,Thursday,19,41.9,256.34,False,False
+INV00904,2023-11-03,CUST1038,Product4683,Turmeric Capsules,Herbal & Ayurvedic,3,530.14,1590.42,1152.24,438.18,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Friday,44,27.55,530.14,False,False
+INV00905,2023-11-07,CUST1044,Product2645,Metformin 850Mg,Prescription Drugs,7,741.24,5188.68,3984.53,1204.15,Central Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Tuesday,45,23.21,741.24,False,True
+INV00906,2023-12-22,CUST1109,Product7507,Sunscreen Spf50,Cosmetics & Skincare,4,57.06,228.24,113.62,114.62,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Friday,51,50.22,57.06,False,False
+INV00907,2023-08-17,CUST1012,Product6912,Iron Supplement,Supplements & Vitamins,6,428.22,2569.32,1638.82,930.5,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Thursday,33,36.22,428.22,False,False
+INV00908,2023-12-21,CUST1014,Product2232,Multivitamin Tablets,Supplements & Vitamins,6,1129.41,6776.46,4949.65,1826.81,West Branch,Cash,2023,12,Dec,Dec-2023,Q4,Thursday,51,26.96,1129.41,False,True
+INV00909,2023-10-06,CUST1144,Product9480,Atorvastatin 20Mg,Prescription Drugs,5,485.99,2429.95,1776.83,653.12,North Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Friday,40,26.88,485.99,False,False
+INV00910,2023-07-26,CUST1014,Product2244,Ors Sachets,Otc Medicines,6,316.87,1901.22,1174.64,726.58,South Branch,Insurance,2023,7,Jul,Jul-2023,Q3,Wednesday,30,38.22,316.87,False,False
+INV00911,2023-10-10,CUST1072,Product1909,Turmeric Capsules,Herbal & Ayurvedic,7,97.83,684.81,455.78,229.03,South Branch,Debit Card,2023,10,Oct,Oct-2023,Q4,Tuesday,41,33.44,97.83,False,False
+INV00912,2023-03-04,CUST1090,Product2695,Tulsi Drops,Herbal & Ayurvedic,2,498.92,997.84,764.94,232.9,North Branch,Cash,2023,3,Mar,Mar-2023,Q1,Saturday,9,23.34,498.92,True,False
+INV00913,2023-06-01,CUST1015,Product3825,Hair Oil,Cosmetics & Skincare,5,413.14,2065.7,1111.29,954.41,Central Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Thursday,22,46.2,413.14,False,False
+INV00914,2023-03-06,CUST1138,Product2789,Atorvastatin 20Mg,Prescription Drugs,4,451.13,1804.52,1369.7,434.82,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Monday,10,24.1,451.13,False,False
+INV00915,2023-04-14,CUST1119,Product4406,Bp Monitor,Medical Devices,7,1057.23,7400.61,4973.58,2427.03,West Branch,Upi,2023,4,Apr,Apr-2023,Q2,Friday,15,32.79,1057.23,False,True
+INV00916,2023-09-10,CUST1119,Product6873,Turmeric Capsules,Herbal & Ayurvedic,2,425.33,850.66,560.2,290.46,West Branch,Upi,2023,9,Sep,Sep-2023,Q3,Sunday,36,34.15,425.33,True,False
+INV00917,2023-11-20,CUST1125,Product9283,Zinc Tablets,Supplements & Vitamins,5,692.97,3464.85,1812.04,1652.81,North Branch,Credit Card,2023,11,Nov,Nov-2023,Q4,Monday,47,47.7,692.97,False,True
+INV00918,2023-08-06,CUST1057,Product8741,Turmeric Capsules,Herbal & Ayurvedic,5,143.69,718.45,472.15,246.3,North Branch,Cash,2023,8,Aug,Aug-2023,Q3,Sunday,31,34.28,143.69,True,False
+INV00919,2023-11-22,CUST1057,Product1364,Cetirizine 10Mg,Otc Medicines,2,113.28,226.56,160.37,66.19,South Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Wednesday,47,29.22,113.28,False,False
+INV00920,2023-10-18,CUST1064,Product1179,Ciprofloxacin 500Mg,Prescription Drugs,7,646.92,4528.44,3424.04,1104.4,North Branch,Upi,2023,10,Oct,Oct-2023,Q4,Wednesday,42,24.39,646.92,False,True
+INV00921,2023-12-31,CUST1032,Product6202,Paracetamol 500Mg,Otc Medicines,3,226.61,679.83,422.69,257.14,Central Branch,Cash,2023,12,Dec,Dec-2023,Q4,Sunday,52,37.82,226.61,True,False
+INV00922,2023-03-20,CUST1126,Product7533,Amlodipine 5Mg,Prescription Drugs,7,296.01,2072.07,1551.41,520.66,East Branch,Debit Card,2023,3,Mar,Mar-2023,Q1,Monday,12,25.13,296.01,False,False
+INV00923,2023-07-29,CUST1073,Product3015,Sunscreen Spf50,Cosmetics & Skincare,5,602.8,3014.0,2056.98,957.02,West Branch,Upi,2023,7,Jul,Jul-2023,Q3,Saturday,30,31.75,602.8,True,False
+INV00924,2023-12-10,CUST1043,Product9978,Protein Powder,Supplements & Vitamins,3,631.17,1893.51,1295.91,597.6,Central Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,49,31.56,631.17,True,False
+INV00925,2023-06-05,CUST1100,Product6392,Glucometer,Medical Devices,2,609.82,1219.64,920.57,299.07,South Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Monday,23,24.52,609.82,False,False
+INV00926,2023-11-26,CUST1111,Product4160,Hand Sanitizer,Cosmetics & Skincare,5,635.06,3175.3,1610.49,1564.81,North Branch,Debit Card,2023,11,Nov,Nov-2023,Q4,Sunday,47,49.28,635.06,True,False
+INV00927,2023-05-26,CUST1103,Product4574,Azithromycin 500Mg,Prescription Drugs,2,784.19,1568.38,1351.8,216.58,North Branch,Upi,2023,5,May,May-2023,Q2,Friday,21,13.81,784.19,False,False
+INV00928,2023-04-24,CUST1103,Product6769,Sunscreen Spf50,Cosmetics & Skincare,5,624.62,3123.1,1458.14,1664.96,East Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Monday,17,53.31,624.62,False,False
+INV00929,2023-08-11,CUST1023,Product8727,Teething Gel,Baby & Mother Care,1,1408.9,1408.9,1103.57,305.33,East Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Friday,32,21.67,1408.9,False,False
+INV00930,2023-11-21,CUST1071,Product1986,Heating Pad,Medical Devices,6,2801.23,16807.38,13938.32,2869.06,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Tuesday,47,17.07,2801.23,False,True
+INV00931,2023-12-31,CUST1024,Product8939,Ashwagandha Tablets,Herbal & Ayurvedic,7,207.25,1450.75,1087.69,363.06,South Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Sunday,52,25.03,207.25,True,False
+INV00932,2023-04-13,CUST1073,Product4258,Azithromycin 500Mg,Prescription Drugs,2,512.42,1024.84,889.87,134.97,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Thursday,15,13.17,512.42,False,False
+INV00933,2023-09-27,CUST1143,Product2559,Neem Capsules,Herbal & Ayurvedic,4,154.27,617.08,382.56,234.52,South Branch,Cash,2023,9,Sep,Sep-2023,Q3,Wednesday,39,38.0,154.27,False,False
+INV00934,2023-08-10,CUST1065,Product7007,Maternity Pads,Baby & Mother Care,4,854.07,3416.28,2606.96,809.32,East Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Thursday,32,23.69,854.07,False,True
+INV00935,2023-03-15,CUST1056,Product3670,Antiseptic Cream,Cosmetics & Skincare,1,735.76,735.76,466.24,269.52,East Branch,Cash,2023,3,Mar,Mar-2023,Q1,Wednesday,11,36.63,735.76,False,False
+INV00936,2023-04-28,CUST1091,Product7131,Cough Syrup,Otc Medicines,5,279.27,1396.35,1026.1,370.25,Central Branch,Upi,2023,4,Apr,Apr-2023,Q2,Friday,17,26.52,279.27,False,False
+INV00937,2023-08-14,CUST1081,Product4988,Maternity Pads,Baby & Mother Care,2,562.58,1125.16,705.72,419.44,South Branch,Credit Card,2023,8,Aug,Aug-2023,Q3,Monday,33,37.28,562.58,False,False
+INV00938,2023-01-25,CUST1059,Product2832,Antiseptic Cream,Cosmetics & Skincare,1,794.45,794.45,425.22,369.23,South Branch,Upi,2023,1,Jan,Jan-2023,Q1,Wednesday,4,46.48,794.45,False,False
+INV00939,2023-02-25,CUST1069,Product2751,Baby Diaper Pack,Baby & Mother Care,1,1400.19,1400.19,882.17,518.02,North Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Saturday,8,37.0,1400.19,True,False
+INV00940,2023-08-22,CUST1147,Product3460,Baby Diaper Pack,Baby & Mother Care,1,800.04,800.04,630.32,169.72,East Branch,Cash,2023,8,Aug,Aug-2023,Q3,Tuesday,34,21.21,800.04,False,False
+INV00941,2023-03-02,CUST1076,Product6563,Ibuprofen 400Mg,Otc Medicines,1,62.58,62.58,44.68,17.9,North Branch,Cash,2023,3,Mar,Mar-2023,Q1,Thursday,9,28.6,62.58,False,False
+INV00942,2023-06-27,CUST1015,Product5512,Moisturizer Cream,Cosmetics & Skincare,3,585.43,1756.29,1018.64,737.65,Central Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Tuesday,26,42.0,585.43,False,False
+INV00943,2023-03-21,CUST1088,Product1712,Zinc Tablets,Supplements & Vitamins,4,219.73,878.92,441.8,437.12,South Branch,Cash,2023,3,Mar,Mar-2023,Q1,Tuesday,12,49.73,219.73,False,False
+INV00944,2023-09-28,CUST1074,Product3108,Breast Pump,Baby & Mother Care,1,958.62,958.62,708.87,249.75,East Branch,Debit Card,2023,9,Sep,Sep-2023,Q3,Thursday,39,26.05,958.62,False,False
+INV00945,2023-06-09,CUST1061,Product8939,Vitamin C 500Mg,Otc Medicines,3,52.29,156.87,107.42,49.45,North Branch,Debit Card,2023,6,Jun,Jun-2023,Q2,Friday,23,31.52,52.29,False,False
+INV00946,2023-10-19,CUST1075,Product8069,Iron Supplement,Supplements & Vitamins,7,1158.6,8110.2,5793.41,2316.79,North Branch,Upi,2023,10,Oct,Oct-2023,Q4,Thursday,42,28.57,1158.6,False,True
+INV00947,2023-04-25,CUST1046,Product8714,Multivitamin Tablets,Supplements & Vitamins,6,644.32,3865.92,2216.48,1649.44,East Branch,Upi,2023,4,Apr,Apr-2023,Q2,Tuesday,17,42.67,644.32,False,True
+INV00948,2023-03-22,CUST1150,Product3422,Antiseptic Cream,Cosmetics & Skincare,2,107.0,214.0,113.48,100.52,Central Branch,Credit Card,2023,3,Mar,Mar-2023,Q1,Wednesday,12,46.97,107.0,False,False
+INV00949,2023-11-18,CUST1137,Product7604,Vitamin C 500Mg,Otc Medicines,4,169.77,679.08,469.84,209.24,North Branch,Upi,2023,11,Nov,Nov-2023,Q4,Saturday,46,30.81,169.77,True,False
+INV00950,2023-05-06,CUST1057,Product3022,Protein Powder,Supplements & Vitamins,3,857.9,2573.7,1522.81,1050.89,South Branch,Upi,2023,5,May,May-2023,Q2,Saturday,18,40.83,857.9,True,False
+INV00951,2023-02-23,CUST1087,Product5865,B-Complex,Supplements & Vitamins,4,413.54,1654.16,957.99,696.17,South Branch,Upi,2023,2,Feb,Feb-2023,Q1,Thursday,8,42.09,413.54,False,False
+INV00952,2023-01-11,CUST1126,Product3666,Ibuprofen 400Mg,Otc Medicines,3,113.35,340.05,211.18,128.87,North Branch,Upi,2023,1,Jan,Jan-2023,Q1,Wednesday,2,37.9,113.35,False,False
+INV00953,2023-11-25,CUST1095,Product6899,Multivitamin Tablets,Supplements & Vitamins,3,169.3,507.9,293.36,214.54,South Branch,Cash,2023,11,Nov,Nov-2023,Q4,Saturday,47,42.24,169.3,True,False
+INV00954,2023-02-28,CUST1058,Product5311,Chyawanprash 500G,Herbal & Ayurvedic,6,342.3,2053.8,1325.59,728.21,West Branch,Debit Card,2023,2,Feb,Feb-2023,Q1,Tuesday,9,35.46,342.3,False,False
+INV00955,2023-02-14,CUST1021,Product9146,Ashwagandha Tablets,Herbal & Ayurvedic,1,126.55,126.55,86.08,40.47,West Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,7,31.98,126.55,False,False
+INV00956,2023-04-23,CUST1064,Product4022,Pulse Oximeter,Medical Devices,2,3064.66,6129.32,4843.56,1285.76,West Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Sunday,16,20.98,3064.66,True,True
+INV00957,2023-06-30,CUST1108,Product2986,Pulse Oximeter,Medical Devices,2,2390.04,4780.08,3921.12,858.96,West Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,26,17.97,2390.04,False,True
+INV00958,2023-10-18,CUST1059,Product5608,Vitamin C 500Mg,Otc Medicines,2,239.71,479.42,356.09,123.33,Central Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Wednesday,42,25.72,239.71,False,False
+INV00959,2023-04-10,CUST1122,Product5483,Calcium + D3,Supplements & Vitamins,5,1053.85,5269.25,3944.77,1324.48,Central Branch,Upi,2023,4,Apr,Apr-2023,Q2,Monday,15,25.14,1053.85,False,True
+INV00960,2023-12-07,CUST1021,Product8396,Azithromycin 500Mg,Prescription Drugs,2,576.46,1152.92,951.91,201.01,North Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Thursday,49,17.43,576.46,False,False
+INV00961,2023-10-21,CUST1029,Product2782,Zinc Tablets,Supplements & Vitamins,5,1087.24,5436.2,3453.82,1982.38,East Branch,Cash,2023,10,Oct,Oct-2023,Q4,Saturday,42,36.47,1087.24,True,True
+INV00962,2023-06-23,CUST1123,Product8309,Lip Balm,Cosmetics & Skincare,1,770.54,770.54,477.64,292.9,North Branch,Cash,2023,6,Jun,Jun-2023,Q2,Friday,25,38.01,770.54,False,False
+INV00963,2023-11-03,CUST1029,Product7468,Sunscreen Spf50,Cosmetics & Skincare,5,701.36,3506.8,1723.22,1783.58,North Branch,Cash,2023,11,Nov,Nov-2023,Q4,Friday,44,50.86,701.36,False,True
+INV00964,2023-07-24,CUST1074,Product6672,Maternity Pads,Baby & Mother Care,7,827.59,5793.13,4288.94,1504.19,West Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Monday,30,25.97,827.59,False,True
+INV00965,2023-03-28,CUST1069,Product8287,Tulsi Drops,Herbal & Ayurvedic,3,129.45,388.35,298.07,90.28,Central Branch,Upi,2023,3,Mar,Mar-2023,Q1,Tuesday,13,23.25,129.45,False,False
+INV00966,2023-07-08,CUST1096,Product7452,Protein Powder,Supplements & Vitamins,4,1130.0,4520.0,2419.62,2100.38,West Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Saturday,27,46.47,1130.0,True,True
+INV00967,2023-05-12,CUST1121,Product8973,Ashwagandha Tablets,Herbal & Ayurvedic,5,530.88,2654.4,1488.81,1165.59,South Branch,Upi,2023,5,May,May-2023,Q2,Friday,19,43.91,530.88,False,False
+INV00968,2023-06-10,CUST1016,Product1916,Ibuprofen 400Mg,Otc Medicines,2,244.88,489.76,366.97,122.79,North Branch,Insurance,2023,6,Jun,Jun-2023,Q2,Saturday,23,25.07,244.88,True,False
+INV00969,2023-10-14,CUST1012,Product5928,Knee Support,Medical Devices,7,2762.85,19339.95,14550.18,4789.77,West Branch,Credit Card,2023,10,Oct,Oct-2023,Q4,Saturday,41,24.77,2762.85,True,True
+INV00970,2023-04-16,CUST1078,Product1892,Paracetamol 500Mg,Otc Medicines,3,127.12,381.36,250.08,131.28,East Branch,Credit Card,2023,4,Apr,Apr-2023,Q2,Sunday,15,34.42,127.12,True,False
+INV00971,2023-07-18,CUST1089,Product6013,Omega-3 Capsules,Supplements & Vitamins,1,437.74,437.74,235.73,202.01,Central Branch,Debit Card,2023,7,Jul,Jul-2023,Q3,Tuesday,29,46.15,437.74,False,False
+INV00972,2023-10-25,CUST1025,Product7616,Multivitamin Tablets,Supplements & Vitamins,5,978.49,4892.45,3240.05,1652.4,Central Branch,Cash,2023,10,Oct,Oct-2023,Q4,Wednesday,43,33.77,978.49,False,True
+INV00973,2023-08-09,CUST1089,Product9899,Metformin 850Mg,Prescription Drugs,3,535.01,1605.03,1158.39,446.64,North Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Wednesday,32,27.83,535.01,False,False
+INV00974,2023-08-16,CUST1121,Product5268,Breast Pump,Baby & Mother Care,3,265.27,795.81,561.41,234.4,North Branch,Upi,2023,8,Aug,Aug-2023,Q3,Wednesday,33,29.45,265.27,False,False
+INV00975,2023-02-06,CUST1012,Product4082,Aloe Vera Gel,Cosmetics & Skincare,2,666.15,1332.3,923.09,409.21,North Branch,Upi,2023,2,Feb,Feb-2023,Q1,Monday,6,30.71,666.15,False,False
+INV00976,2023-07-03,CUST1080,Product3239,Azithromycin 500Mg,Prescription Drugs,4,109.03,436.12,358.16,77.96,North Branch,Credit Card,2023,7,Jul,Jul-2023,Q3,Monday,27,17.88,109.03,False,False
+INV00977,2023-02-28,CUST1019,Product3708,Breast Pump,Baby & Mother Care,3,1406.9,4220.7,3048.95,1171.75,West Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,9,27.76,1406.9,False,True
+INV00978,2023-10-28,CUST1123,Product6152,Baby Diaper Pack,Baby & Mother Care,1,285.82,285.82,203.82,82.0,South Branch,Upi,2023,10,Oct,Oct-2023,Q4,Saturday,43,28.69,285.82,True,False
+INV00979,2023-03-21,CUST1082,Product2461,Amlodipine 5Mg,Prescription Drugs,6,806.88,4841.28,4223.27,618.01,South Branch,Cash,2023,3,Mar,Mar-2023,Q1,Tuesday,12,12.77,806.88,False,True
+INV00980,2023-06-17,CUST1117,Product8262,Glucometer,Medical Devices,2,3491.75,6983.5,5543.4,1440.1,East Branch,Credit Card,2023,6,Jun,Jun-2023,Q2,Saturday,24,20.62,3491.75,True,True
+INV00981,2023-12-02,CUST1063,Product4231,Ciprofloxacin 500Mg,Prescription Drugs,2,727.29,1454.58,1082.76,371.82,North Branch,Debit Card,2023,12,Dec,Dec-2023,Q4,Saturday,48,25.56,727.29,True,False
+INV00982,2023-03-17,CUST1064,Product7839,Teething Gel,Baby & Mother Care,3,173.93,521.79,361.23,160.56,North Branch,Upi,2023,3,Mar,Mar-2023,Q1,Friday,11,30.77,173.93,False,False
+INV00983,2023-08-02,CUST1137,Product5584,Pulse Oximeter,Medical Devices,1,2634.45,2634.45,2056.3,578.15,South Branch,Insurance,2023,8,Aug,Aug-2023,Q3,Wednesday,31,21.95,2634.45,False,False
+INV00984,2023-01-17,CUST1142,Product4094,Ibuprofen 400Mg,Otc Medicines,5,267.72,1338.6,940.07,398.53,South Branch,Debit Card,2023,1,Jan,Jan-2023,Q1,Tuesday,3,29.77,267.72,False,False
+INV00985,2023-02-23,CUST1077,Product5648,Chyawanprash 500G,Herbal & Ayurvedic,2,404.12,808.24,619.96,188.28,South Branch,Cash,2023,2,Feb,Feb-2023,Q1,Thursday,8,23.3,404.12,False,False
+INV00986,2023-08-03,CUST1002,Product9055,Vitamin C 500Mg,Otc Medicines,5,74.36,371.8,246.2,125.6,West Branch,Cash,2023,8,Aug,Aug-2023,Q3,Thursday,31,33.78,74.36,False,False
+INV00987,2023-02-28,CUST1012,Product7403,Cough Syrup,Otc Medicines,3,44.17,132.51,84.48,48.03,North Branch,Cash,2023,2,Feb,Feb-2023,Q1,Tuesday,9,36.25,44.17,False,False
+INV00988,2023-01-07,CUST1081,Product5637,Nebulizer,Medical Devices,7,1826.37,12784.59,9224.65,3559.94,Central Branch,Upi,2023,1,Jan,Jan-2023,Q1,Saturday,1,27.85,1826.37,True,True
+INV00989,2023-09-23,CUST1077,Product4359,Azithromycin 500Mg,Prescription Drugs,1,104.21,104.21,79.59,24.62,Central Branch,Upi,2023,9,Sep,Sep-2023,Q3,Saturday,38,23.63,104.21,True,False
+INV00990,2023-06-03,CUST1005,Product4148,Knee Support,Medical Devices,6,3417.78,20506.68,13385.41,7121.27,South Branch,Cash,2023,6,Jun,Jun-2023,Q2,Saturday,22,34.73,3417.78,True,True
+INV00991,2023-01-15,CUST1030,Product1358,Ciprofloxacin 500Mg,Prescription Drugs,3,212.78,638.34,502.54,135.8,East Branch,Upi,2023,1,Jan,Jan-2023,Q1,Sunday,2,21.27,212.78,True,False
+INV00992,2023-11-26,CUST1147,Product5354,Cetirizine 10Mg,Otc Medicines,3,122.86,368.58,272.29,96.29,West Branch,Cash,2023,11,Nov,Nov-2023,Q4,Sunday,47,26.12,122.86,True,False
+INV00993,2023-12-31,CUST1084,Product2100,Lip Balm,Cosmetics & Skincare,7,145.13,1015.91,593.82,422.09,South Branch,Insurance,2023,12,Dec,Dec-2023,Q4,Sunday,52,41.55,145.13,True,False
+INV00994,2023-04-14,CUST1083,Product5782,Omeprazole 20Mg,Prescription Drugs,5,105.83,529.15,418.21,110.94,West Branch,Insurance,2023,4,Apr,Apr-2023,Q2,Friday,15,20.97,105.83,False,False
+INV00995,2023-02-22,CUST1046,Product9009,Breast Pump,Baby & Mother Care,6,861.58,5169.48,3369.69,1799.79,Central Branch,Insurance,2023,2,Feb,Feb-2023,Q1,Wednesday,8,34.82,861.58,False,True
+INV00996,2023-12-31,CUST1050,Product5114,Tulsi Drops,Herbal & Ayurvedic,7,196.09,1372.63,779.47,593.16,Central Branch,Upi,2023,12,Dec,Dec-2023,Q4,Sunday,52,43.21,196.09,True,False
+INV00997,2023-07-02,CUST1107,Product2211,Azithromycin 500Mg,Prescription Drugs,5,794.82,3974.1,3462.37,511.73,East Branch,Cash,2023,7,Jul,Jul-2023,Q3,Sunday,26,12.88,794.82,True,True
+INV00998,2023-12-02,CUST1090,Product5635,Breast Pump,Baby & Mother Care,3,121.09,363.27,239.02,124.25,Central Branch,Upi,2023,12,Dec,Dec-2023,Q4,Saturday,48,34.2,121.09,True,False
+INV00999,2023-06-28,CUST1025,Product5979,Breast Pump,Baby & Mother Care,5,304.19,1520.95,1002.05,518.9,South Branch,Cash,2023,6,Jun,Jun-2023,Q2,Wednesday,26,34.12,304.19,False,False
+INV01000,2023-03-17,CUST1038,Product2340,Antiseptic Cream,Cosmetics & Skincare,2,741.06,1482.12,989.82,492.3,North Branch,Insurance,2023,3,Mar,Mar-2023,Q1,Friday,11,33.22,741.06,False,False
